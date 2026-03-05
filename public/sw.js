@@ -1,12 +1,7 @@
-// Service Worker for Kobo Reading Analyzer
 const CACHE_NAME = 'kobo-reader-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/src/main.jsx',
-  '/src/App.jsx',
-  '/src/App.css',
-  '/src/index.css'
+  '.',
+  'index.html'
 ];
 
 // Install event - cache resources
