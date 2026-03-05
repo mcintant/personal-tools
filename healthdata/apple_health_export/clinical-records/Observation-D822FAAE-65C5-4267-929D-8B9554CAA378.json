@@ -1,0 +1,162 @@
+{
+  "id" : "e1dQJexXwqfJnDUKUyYz-Fs7JIrqgNLrs6LMtEUJ5-cS.-nvMvb4BKg7avyz4roE0mAiZb4dVJcLd6ved.S7InA3",
+  "category" : [
+    {
+      "text" : "Laboratory",
+      "coding" : [
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display" : "Laboratory",
+          "code" : "laboratory"
+        }
+      ]
+    },
+    {
+      "text" : "Lab",
+      "coding" : [
+        {
+          "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.10.798268.30",
+          "display" : "Lab",
+          "code" : "Lab"
+        }
+      ]
+    }
+  ],
+  "subject" : {
+    "display" : "Mcintosh, Anthony",
+    "reference" : "Patient/ehf5R1ABzcyANnzyE2yeCq0xDDl1edBXmRV1YNEZj8p83"
+  },
+  "encounter" : {
+    "display" : "Office Visit",
+    "reference" : "Encounter/e0zjsEg7Fd4UG-tmfpb0XJQ3",
+    "identifier" : {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.3.698084.8",
+      "value" : "884356437"
+    }
+  },
+  "effectiveDateTime" : "2022-08-25T11:57:00Z",
+  "resourceType" : "Observation",
+  "basedOn" : [
+    {
+      "display" : "LIPID PANEL",
+      "reference" : "ServiceRequest/e0eZhH9RN6F1flaXHtQQp4vgJHJGFlPQG03M0otpyn-k3"
+    }
+  ],
+  "specimen" : {
+    "display" : "Specimen CZ678938J",
+    "reference" : "Specimen/ebNJm2VThmkAPHALjEAgr2zA77K9n3cVh6mS-PD8Pp0U3"
+  },
+  "code" : {
+    "text" : "TRIGLYCERIDES",
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "display" : "Triglyceride [Mass/volume] in Serum or Plasma",
+        "code" : "2571-8"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.26",
+        "code" : "001172"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "TGL"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "TRGL"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.26",
+        "code" : "001175"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.24",
+        "code" : "30494"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "TRIG"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.26",
+        "code" : "884256"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.26",
+        "code" : "804563"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.24",
+        "code" : "75001430"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.24",
+        "code" : "25002900"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "TG7"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "TGL8"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "TGL6"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.109",
+        "code" : "20"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "TRIGC"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.43",
+        "code" : "TRIG"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.43",
+        "code" : "XVLDL1"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "TRIG5"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.1124",
+        "code" : "25002900"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "TRIG7"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "TRIGP8"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.2.768282",
+        "display" : "TRIGLYCERIDES",
+        "code" : "1552156"
+      }
+    ]
+  },
+  "referenceRange" : [
+    {
+      "text" : "<150"
+    }
+  ],
+  "valueQuantity" : {
+    "code" : "mg/dL",
+    "value" : 41,
+    "system" : "http://unitsofmeasure.org",
+    "unit" : "mg/dL"
+  },
+  "status" : "final",
+  "issued" : "2022-08-26T01:36:41Z"
+}

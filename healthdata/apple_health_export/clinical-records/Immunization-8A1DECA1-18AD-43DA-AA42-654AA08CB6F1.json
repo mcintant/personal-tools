@@ -1,0 +1,43 @@
+{
+  "id" : "enieunp4uvKDxCGjsywtDZeF6zrt4vvwMVwbUH24m5FU3",
+  "primarySource" : false,
+  "encounter" : {
+    "display" : "Office Visit",
+    "reference" : "Encounter/esfyRhSVMLtF9UY.VowqjOg3",
+    "identifier" : {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.3.698084.8",
+      "value" : "948141014"
+    }
+  },
+  "resourceType" : "Immunization",
+  "occurrenceDateTime" : "2024-01-09",
+  "identifier" : [
+    {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.2.768076",
+      "value" : "100572402"
+    }
+  ],
+  "location" : {
+    "display" : "*Walgreens #17772"
+  },
+  "lotNumber" : "HM7006",
+  "manufacturer" : {
+    "display" : "Pfizer"
+  },
+  "vaccineCode" : {
+    "text" : "Covid-19 Vaccine, Pfizer (Annual Formula)",
+    "coding" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/cvx",
+        "code" : "309"
+      }
+    ]
+  },
+  "status" : "completed",
+  "patient" : {
+    "display" : "Mcintosh, Anthony",
+    "reference" : "Patient/ehf5R1ABzcyANnzyE2yeCq0xDDl1edBXmRV1YNEZj8p83"
+  }
+}

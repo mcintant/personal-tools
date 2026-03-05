@@ -1,0 +1,2406 @@
+{
+  "great white way": {
+    "rank": 1,
+    "zipf": 5.27
+  },
+  "matter of fact": {
+    "rank": 2,
+    "zipf": 5.09
+  },
+  "minister": {
+    "rank": 3,
+    "zipf": 5.04
+  },
+  "tony": {
+    "rank": 4,
+    "zipf": 4.64
+  },
+  "henry james": {
+    "rank": 5,
+    "zipf": 4.59
+  },
+  "old nick": {
+    "rank": 6,
+    "zipf": 4.56
+  },
+  "province": {
+    "rank": 7,
+    "zipf": 4.47
+  },
+  "vintage": {
+    "rank": 8,
+    "zipf": 4.18
+  },
+  "jake": {
+    "rank": 9,
+    "zipf": 4.17
+  },
+  "brooks": {
+    "rank": 10,
+    "zipf": 4.04
+  },
+  "cum": {
+    "rank": 11,
+    "zipf": 4.04
+  },
+  "sally": {
+    "rank": 12,
+    "zipf": 3.97
+  },
+  "carriage trade": {
+    "rank": 13,
+    "zipf": 3.83
+  },
+  "surrey": {
+    "rank": 14,
+    "zipf": 3.77
+  },
+  "chi-chi": {
+    "rank": 15,
+    "zipf": 3.65
+  },
+  "intercourse": {
+    "rank": 16,
+    "zipf": 3.6
+  },
+  "din": {
+    "rank": 17,
+    "zipf": 3.56
+  },
+  "lush": {
+    "rank": 18,
+    "zipf": 3.55
+  },
+  "diligence": {
+    "rank": 19,
+    "zipf": 3.51
+  },
+  "graft": {
+    "rank": 20,
+    "zipf": 3.47
+  },
+  "patronage": {
+    "rank": 21,
+    "zipf": 3.45
+  },
+  "duly": {
+    "rank": 22,
+    "zipf": 3.44
+  },
+  "bullock": {
+    "rank": 23,
+    "zipf": 3.41
+  },
+  "melancholy": {
+    "rank": 24,
+    "zipf": 3.39
+  },
+  "demi-": {
+    "rank": 25,
+    "zipf": 3.37
+  },
+  "bourne": {
+    "rank": 26,
+    "zipf": 3.35
+  },
+  "davenport": {
+    "rank": 27,
+    "zipf": 3.35
+  },
+  "anon": {
+    "rank": 28,
+    "zipf": 3.33
+  },
+  "gall": {
+    "rank": 29,
+    "zipf": 3.3
+  },
+  "tempest": {
+    "rank": 30,
+    "zipf": 3.29
+  },
+  "pap.": {
+    "rank": 31,
+    "zipf": 3.28
+  },
+  "deposed": {
+    "rank": 32,
+    "zipf": 3.27
+  },
+  "guineas": {
+    "rank": 33,
+    "zipf": 3.27
+  },
+  "penny-ante": {
+    "rank": 34,
+    "zipf": 3.26
+  },
+  "crucible": {
+    "rank": 35,
+    "zipf": 3.23
+  },
+  "pulpit": {
+    "rank": 36,
+    "zipf": 3.23
+  },
+  "auspices": {
+    "rank": 37,
+    "zipf": 3.22
+  },
+  "gallant": {
+    "rank": 38,
+    "zipf": 3.21
+  },
+  "septic": {
+    "rank": 39,
+    "zipf": 3.21
+  },
+  "calamity jane": {
+    "rank": 40,
+    "zipf": 3.19
+  },
+  "impunity": {
+    "rank": 41,
+    "zipf": 3.18
+  },
+  "norman rockwell": {
+    "rank": 42,
+    "zipf": 3.15
+  },
+  "hitherto": {
+    "rank": 43,
+    "zipf": 3.15
+  },
+  "lark": {
+    "rank": 44,
+    "zipf": 3.14
+  },
+  "devolved": {
+    "rank": 45,
+    "zipf": 3.13
+  },
+  "siam": {
+    "rank": 46,
+    "zipf": 3.09
+  },
+  "auspicious": {
+    "rank": 47,
+    "zipf": 3.09
+  },
+  "nascent": {
+    "rank": 48,
+    "zipf": 3.08
+  },
+  "prudence": {
+    "rank": 49,
+    "zipf": 3.08
+  },
+  "tact": {
+    "rank": 50,
+    "zipf": 3.08
+  },
+  "fink": {
+    "rank": 51,
+    "zipf": 3.07
+  },
+  "revue": {
+    "rank": 52,
+    "zipf": 3.07
+  },
+  "antioch": {
+    "rank": 53,
+    "zipf": 3.06
+  },
+  "slough": {
+    "rank": 54,
+    "zipf": 3.06
+  },
+  "centurion": {
+    "rank": 55,
+    "zipf": 3.05
+  },
+  "contentment": {
+    "rank": 56,
+    "zipf": 3.05
+  },
+  "parochial": {
+    "rank": 57,
+    "zipf": 3.05
+  },
+  "bunting": {
+    "rank": 58,
+    "zipf": 3.04
+  },
+  "gentile": {
+    "rank": 59,
+    "zipf": 3.03
+  },
+  "assent": {
+    "rank": 60,
+    "zipf": 3.03
+  },
+  "scion": {
+    "rank": 61,
+    "zipf": 3.03
+  },
+  "enmity": {
+    "rank": 62,
+    "zipf": 3.01
+  },
+  "pantomime.": {
+    "rank": 63,
+    "zipf": 3.0
+  },
+  "progeny": {
+    "rank": 64,
+    "zipf": 3.0
+  },
+  "livid": {
+    "rank": 65,
+    "zipf": 2.99
+  },
+  "manger": {
+    "rank": 66,
+    "zipf": 2.99
+  },
+  "sordid": {
+    "rank": 67,
+    "zipf": 2.99
+  },
+  "caustic": {
+    "rank": 68,
+    "zipf": 2.97
+  },
+  "clemency": {
+    "rank": 69,
+    "zipf": 2.97
+  },
+  "constables": {
+    "rank": 70,
+    "zipf": 2.97
+  },
+  "dogged": {
+    "rank": 71,
+    "zipf": 2.97
+  },
+  "facsimile": {
+    "rank": 72,
+    "zipf": 2.97
+  },
+  "maw": {
+    "rank": 73,
+    "zipf": 2.96
+  },
+  "filaments": {
+    "rank": 74,
+    "zipf": 2.95
+  },
+  "reproach": {
+    "rank": 75,
+    "zipf": 2.94
+  },
+  "docile;": {
+    "rank": 76,
+    "zipf": 2.93
+  },
+  "farrow": {
+    "rank": 77,
+    "zipf": 2.93
+  },
+  "pique": {
+    "rank": 78,
+    "zipf": 2.93
+  },
+  "countenance": {
+    "rank": 79,
+    "zipf": 2.91
+  },
+  "environs": {
+    "rank": 80,
+    "zipf": 2.91
+  },
+  "replete": {
+    "rank": 81,
+    "zipf": 2.91
+  },
+  "erstwhile": {
+    "rank": 82,
+    "zipf": 2.9
+  },
+  "follies": {
+    "rank": 83,
+    "zipf": 2.9
+  },
+  "acme": {
+    "rank": 84,
+    "zipf": 2.89
+  },
+  "litany": {
+    "rank": 85,
+    "zipf": 2.88
+  },
+  "deft": {
+    "rank": 86,
+    "zipf": 2.87
+  },
+  "gallantry": {
+    "rank": 87,
+    "zipf": 2.87
+  },
+  "pernicious": {
+    "rank": 88,
+    "zipf": 2.87
+  },
+  "caprice": {
+    "rank": 89,
+    "zipf": 2.86
+  },
+  "indignant": {
+    "rank": 90,
+    "zipf": 2.86
+  },
+  "precocious": {
+    "rank": 91,
+    "zipf": 2.86
+  },
+  "wanton": {
+    "rank": 92,
+    "zipf": 2.86
+  },
+  "ambulatory": {
+    "rank": 93,
+    "zipf": 2.85
+  },
+  "deftly": {
+    "rank": 94,
+    "zipf": 2.85
+  },
+  "ferment": {
+    "rank": 95,
+    "zipf": 2.85
+  },
+  "phalanx": {
+    "rank": 96,
+    "zipf": 2.85
+  },
+  "surly": {
+    "rank": 97,
+    "zipf": 2.85
+  },
+  "amiable": {
+    "rank": 98,
+    "zipf": 2.84
+  },
+  "fallow": {
+    "rank": 99,
+    "zipf": 2.83
+  },
+  "flagging": {
+    "rank": 100,
+    "zipf": 2.83
+  },
+  "precepts": {
+    "rank": 101,
+    "zipf": 2.83
+  },
+  "historiography": {
+    "rank": 102,
+    "zipf": 2.82
+  },
+  "indelible": {
+    "rank": 103,
+    "zipf": 2.82
+  },
+  "irreverent": {
+    "rank": 104,
+    "zipf": 2.82
+  },
+  "mercurial": {
+    "rank": 105,
+    "zipf": 2.82
+  },
+  "verity": {
+    "rank": 106,
+    "zipf": 2.82
+  },
+  "antiquarian": {
+    "rank": 107,
+    "zipf": 2.81
+  },
+  "consternation": {
+    "rank": 108,
+    "zipf": 2.81
+  },
+  "daemon": {
+    "rank": 109,
+    "zipf": 2.81
+  },
+  "dissipation": {
+    "rank": 110,
+    "zipf": 2.81
+  },
+  "effigy": {
+    "rank": 111,
+    "zipf": 2.81
+  },
+  "glut": {
+    "rank": 112,
+    "zipf": 2.81
+  },
+  "sala": {
+    "rank": 113,
+    "zipf": 2.81
+  },
+  "plexus": {
+    "rank": 114,
+    "zipf": 2.79
+  },
+  "propriety": {
+    "rank": 115,
+    "zipf": 2.79
+  },
+  "sylvan": {
+    "rank": 116,
+    "zipf": 2.79
+  },
+  "pauper": {
+    "rank": 117,
+    "zipf": 2.78
+  },
+  "solar plexus": {
+    "rank": 118,
+    "zipf": 2.78
+  },
+  "visage": {
+    "rank": 119,
+    "zipf": 2.78
+  },
+  "attaché": {
+    "rank": 120,
+    "zipf": 2.77
+  },
+  "cri": {
+    "rank": 121,
+    "zipf": 2.77
+  },
+  "tawny": {
+    "rank": 122,
+    "zipf": 2.77
+  },
+  "appellation": {
+    "rank": 123,
+    "zipf": 2.76
+  },
+  "fulcrum": {
+    "rank": 124,
+    "zipf": 2.76
+  },
+  "latterly": {
+    "rank": 125,
+    "zipf": 2.76
+  },
+  "mottled": {
+    "rank": 126,
+    "zipf": 2.76
+  },
+  "erudite": {
+    "rank": 127,
+    "zipf": 2.75
+  },
+  "guile": {
+    "rank": 128,
+    "zipf": 2.75
+  },
+  "guile.": {
+    "rank": 129,
+    "zipf": 2.75
+  },
+  "repose": {
+    "rank": 130,
+    "zipf": 2.75
+  },
+  "insolent": {
+    "rank": 131,
+    "zipf": 2.74
+  },
+  "parapet": {
+    "rank": 132,
+    "zipf": 2.74
+  },
+  "woollen": {
+    "rank": 133,
+    "zipf": 2.74
+  },
+  "begotten": {
+    "rank": 134,
+    "zipf": 2.73
+  },
+  "gelding": {
+    "rank": 135,
+    "zipf": 2.73
+  },
+  "mesquite": {
+    "rank": 136,
+    "zipf": 2.73
+  },
+  "vestry": {
+    "rank": 137,
+    "zipf": 2.73
+  },
+  "mettle": {
+    "rank": 138,
+    "zipf": 2.72
+  },
+  "alabaster": {
+    "rank": 139,
+    "zipf": 2.71
+  },
+  "carrion": {
+    "rank": 140,
+    "zipf": 2.71
+  },
+  "modicum": {
+    "rank": 141,
+    "zipf": 2.71
+  },
+  "sullen": {
+    "rank": 142,
+    "zipf": 2.71
+  },
+  "antipathy": {
+    "rank": 143,
+    "zipf": 2.7
+  },
+  "elucidate": {
+    "rank": 144,
+    "zipf": 2.7
+  },
+  "inane": {
+    "rank": 145,
+    "zipf": 2.7
+  },
+  "allay": {
+    "rank": 146,
+    "zipf": 2.69
+  },
+  "anachronistic": {
+    "rank": 147,
+    "zipf": 2.69
+  },
+  "bedlam": {
+    "rank": 148,
+    "zipf": 2.69
+  },
+  "maelstrom": {
+    "rank": 149,
+    "zipf": 2.69
+  },
+  "raison": {
+    "rank": 150,
+    "zipf": 2.69
+  },
+  "busby": {
+    "rank": 151,
+    "zipf": 2.68
+  },
+  "calamities": {
+    "rank": 152,
+    "zipf": 2.68
+  },
+  "haughty": {
+    "rank": 153,
+    "zipf": 2.68
+  },
+  "ostentatious": {
+    "rank": 154,
+    "zipf": 2.68
+  },
+  "sepulchre": {
+    "rank": 155,
+    "zipf": 2.68
+  },
+  "terse": {
+    "rank": 156,
+    "zipf": 2.67
+  },
+  "farcical": {
+    "rank": 157,
+    "zipf": 2.65
+  },
+  "goad": {
+    "rank": 158,
+    "zipf": 2.65
+  },
+  "chautauqua": {
+    "rank": 159,
+    "zipf": 2.64
+  },
+  "chaise": {
+    "rank": 160,
+    "zipf": 2.64
+  },
+  "filial": {
+    "rank": 161,
+    "zipf": 2.64
+  },
+  "genteel": {
+    "rank": 162,
+    "zipf": 2.64
+  },
+  "glib": {
+    "rank": 163,
+    "zipf": 2.64
+  },
+  "corporeal": {
+    "rank": 164,
+    "zipf": 2.63
+  },
+  "retinue": {
+    "rank": 165,
+    "zipf": 2.63
+  },
+  "garlands": {
+    "rank": 166,
+    "zipf": 2.62
+  },
+  "reverie": {
+    "rank": 167,
+    "zipf": 2.62
+  },
+  "reverie.": {
+    "rank": 168,
+    "zipf": 2.62
+  },
+  "rheumatism": {
+    "rank": 169,
+    "zipf": 2.62
+  },
+  "scintillating": {
+    "rank": 170,
+    "zipf": 2.62
+  },
+  "variegated": {
+    "rank": 171,
+    "zipf": 2.62
+  },
+  "facile": {
+    "rank": 172,
+    "zipf": 2.61
+  },
+  "offing": {
+    "rank": 173,
+    "zipf": 2.61
+  },
+  "offing.": {
+    "rank": 174,
+    "zipf": 2.61
+  },
+  "palatial": {
+    "rank": 175,
+    "zipf": 2.61
+  },
+  "pelagic": {
+    "rank": 176,
+    "zipf": 2.61
+  },
+  "impetuous": {
+    "rank": 177,
+    "zipf": 2.6
+  },
+  "plinth": {
+    "rank": 178,
+    "zipf": 2.6
+  },
+  "prosaic": {
+    "rank": 179,
+    "zipf": 2.6
+  },
+  "proscribed": {
+    "rank": 180,
+    "zipf": 2.6
+  },
+  "artifice": {
+    "rank": 181,
+    "zipf": 2.58
+  },
+  "sardonic": {
+    "rank": 182,
+    "zipf": 2.58
+  },
+  "firmament": {
+    "rank": 183,
+    "zipf": 2.57
+  },
+  "furrow": {
+    "rank": 184,
+    "zipf": 2.57
+  },
+  "inexorable": {
+    "rank": 185,
+    "zipf": 2.57
+  },
+  "addled": {
+    "rank": 186,
+    "zipf": 2.56
+  },
+  "ameliorate": {
+    "rank": 187,
+    "zipf": 2.56
+  },
+  "bemused": {
+    "rank": 188,
+    "zipf": 2.56
+  },
+  "burnished": {
+    "rank": 189,
+    "zipf": 2.56
+  },
+  "miser": {
+    "rank": 190,
+    "zipf": 2.56
+  },
+  "dissension": {
+    "rank": 191,
+    "zipf": 2.55
+  },
+  "dour": {
+    "rank": 192,
+    "zipf": 2.55
+  },
+  "hellcat": {
+    "rank": 193,
+    "zipf": 2.55
+  },
+  "indefatigable": {
+    "rank": 194,
+    "zipf": 2.55
+  },
+  "incipient": {
+    "rank": 195,
+    "zipf": 2.54
+  },
+  "intimated": {
+    "rank": 196,
+    "zipf": 2.54
+  },
+  "languid": {
+    "rank": 197,
+    "zipf": 2.54
+  },
+  "unassailable": {
+    "rank": 198,
+    "zipf": 2.54
+  },
+  "disrepute.": {
+    "rank": 199,
+    "zipf": 2.53
+  },
+  "divan": {
+    "rank": 200,
+    "zipf": 2.53
+  },
+  "vestments": {
+    "rank": 201,
+    "zipf": 2.53
+  },
+  "machiavellian": {
+    "rank": 202,
+    "zipf": 2.52
+  },
+  "feint": {
+    "rank": 203,
+    "zipf": 2.52
+  },
+  "uncouth": {
+    "rank": 204,
+    "zipf": 2.52
+  },
+  "unsullied": {
+    "rank": 205,
+    "zipf": 2.52
+  },
+  "whither": {
+    "rank": 206,
+    "zipf": 2.52
+  },
+  "beheld": {
+    "rank": 207,
+    "zipf": 2.51
+  },
+  "rancor": {
+    "rank": 208,
+    "zipf": 2.51
+  },
+  "travail": {
+    "rank": 209,
+    "zipf": 2.51
+  },
+  "avarice": {
+    "rank": 210,
+    "zipf": 2.5
+  },
+  "disquiet": {
+    "rank": 211,
+    "zipf": 2.5
+  },
+  "jaunty": {
+    "rank": 212,
+    "zipf": 2.5
+  },
+  "rime": {
+    "rank": 213,
+    "zipf": 2.5
+  },
+  "supplication": {
+    "rank": 214,
+    "zipf": 2.5
+  },
+  "coterie": {
+    "rank": 215,
+    "zipf": 2.49
+  },
+  "eschewed": {
+    "rank": 216,
+    "zipf": 2.49
+  },
+  "pogroms": {
+    "rank": 217,
+    "zipf": 2.49
+  },
+  "demagogue": {
+    "rank": 218,
+    "zipf": 2.48
+  },
+  "lithe": {
+    "rank": 219,
+    "zipf": 2.48
+  },
+  "saccharine": {
+    "rank": 220,
+    "zipf": 2.48
+  },
+  "cloisters": {
+    "rank": 221,
+    "zipf": 2.47
+  },
+  "bestowing": {
+    "rank": 222,
+    "zipf": 2.46
+  },
+  "callow": {
+    "rank": 223,
+    "zipf": 2.46
+  },
+  "magisterial": {
+    "rank": 224,
+    "zipf": 2.46
+  },
+  "perdition": {
+    "rank": 225,
+    "zipf": 2.46
+  },
+  "urbane": {
+    "rank": 226,
+    "zipf": 2.46
+  },
+  "welter": {
+    "rank": 227,
+    "zipf": 2.46
+  },
+  "perfunctory": {
+    "rank": 228,
+    "zipf": 2.45
+  },
+  "soliloquy": {
+    "rank": 229,
+    "zipf": 2.45
+  },
+  "assiduously": {
+    "rank": 230,
+    "zipf": 2.44
+  },
+  "bucolic": {
+    "rank": 231,
+    "zipf": 2.44
+  },
+  "gossamer": {
+    "rank": 232,
+    "zipf": 2.44
+  },
+  "aught": {
+    "rank": 233,
+    "zipf": 2.43
+  },
+  "threadbare": {
+    "rank": 234,
+    "zipf": 2.43
+  },
+  "goering": {
+    "rank": 235,
+    "zipf": 2.42
+  },
+  "bazaars": {
+    "rank": 236,
+    "zipf": 2.42
+  },
+  "hillock": {
+    "rank": 237,
+    "zipf": 2.42
+  },
+  "supine": {
+    "rank": 238,
+    "zipf": 2.42
+  },
+  "worsted": {
+    "rank": 239,
+    "zipf": 2.42
+  },
+  "hippocratic oath": {
+    "rank": 240,
+    "zipf": 2.41
+  },
+  "cachet": {
+    "rank": 241,
+    "zipf": 2.41
+  },
+  "dowdy": {
+    "rank": 242,
+    "zipf": 2.41
+  },
+  "ennui": {
+    "rank": 243,
+    "zipf": 2.41
+  },
+  "wryly": {
+    "rank": 244,
+    "zipf": 2.41
+  },
+  "befallen": {
+    "rank": 245,
+    "zipf": 2.4
+  },
+  "bleating": {
+    "rank": 246,
+    "zipf": 2.4
+  },
+  "deputation;": {
+    "rank": 247,
+    "zipf": 2.4
+  },
+  "equanimity": {
+    "rank": 248,
+    "zipf": 2.4
+  },
+  "hustings": {
+    "rank": 249,
+    "zipf": 2.4
+  },
+  "tweedy": {
+    "rank": 250,
+    "zipf": 2.4
+  },
+  "usurping": {
+    "rank": 251,
+    "zipf": 2.4
+  },
+  "laconic": {
+    "rank": 252,
+    "zipf": 2.39
+  },
+  "biddy": {
+    "rank": 253,
+    "zipf": 2.39
+  },
+  "creel": {
+    "rank": 254,
+    "zipf": 2.39
+  },
+  "inauspicious": {
+    "rank": 255,
+    "zipf": 2.39
+  },
+  "rapacious": {
+    "rank": 256,
+    "zipf": 2.39
+  },
+  "boughs": {
+    "rank": 257,
+    "zipf": 2.38
+  },
+  "convalescence": {
+    "rank": 258,
+    "zipf": 2.38
+  },
+  "dirge!": {
+    "rank": 259,
+    "zipf": 2.38
+  },
+  "dirge.": {
+    "rank": 260,
+    "zipf": 2.38
+  },
+  "doggedly": {
+    "rank": 261,
+    "zipf": 2.38
+  },
+  "pallid": {
+    "rank": 262,
+    "zipf": 2.38
+  },
+  "personage": {
+    "rank": 263,
+    "zipf": 2.38
+  },
+  "absconded": {
+    "rank": 264,
+    "zipf": 2.37
+  },
+  "restive": {
+    "rank": 265,
+    "zipf": 2.37
+  },
+  "taciturn": {
+    "rank": 266,
+    "zipf": 2.37
+  },
+  "torpor": {
+    "rank": 267,
+    "zipf": 2.37
+  },
+  "abeyance": {
+    "rank": 268,
+    "zipf": 2.36
+  },
+  "cabriolet": {
+    "rank": 269,
+    "zipf": 2.36
+  },
+  "distemper": {
+    "rank": 270,
+    "zipf": 2.36
+  },
+  "strychnine": {
+    "rank": 271,
+    "zipf": 2.36
+  },
+  "flaubert": {
+    "rank": 272,
+    "zipf": 2.35
+  },
+  "quiescent": {
+    "rank": 273,
+    "zipf": 2.35
+  },
+  "besotted": {
+    "rank": 274,
+    "zipf": 2.34
+  },
+  "cantankerous": {
+    "rank": 275,
+    "zipf": 2.34
+  },
+  "ignominious": {
+    "rank": 276,
+    "zipf": 2.34
+  },
+  "lecherous": {
+    "rank": 277,
+    "zipf": 2.34
+  },
+  "venal": {
+    "rank": 278,
+    "zipf": 2.34
+  },
+  "ornery": {
+    "rank": 279,
+    "zipf": 2.33
+  },
+  "ornery.": {
+    "rank": 280,
+    "zipf": 2.33
+  },
+  "quixotic": {
+    "rank": 281,
+    "zipf": 2.33
+  },
+  "courtesans": {
+    "rank": 282,
+    "zipf": 2.32
+  },
+  "dissolute": {
+    "rank": 283,
+    "zipf": 2.32
+  },
+  "distended": {
+    "rank": 284,
+    "zipf": 2.32
+  },
+  "entreat": {
+    "rank": 285,
+    "zipf": 2.32
+  },
+  "lintel": {
+    "rank": 286,
+    "zipf": 2.32
+  },
+  "preening": {
+    "rank": 287,
+    "zipf": 2.32
+  },
+  "ruefully": {
+    "rank": 288,
+    "zipf": 2.32
+  },
+  "exhortations": {
+    "rank": 289,
+    "zipf": 2.31
+  },
+  "gaucho": {
+    "rank": 290,
+    "zipf": 2.31
+  },
+  "mien": {
+    "rank": 291,
+    "zipf": 2.31
+  },
+  "travails": {
+    "rank": 292,
+    "zipf": 2.31
+  },
+  "pernod": {
+    "rank": 293,
+    "zipf": 2.3
+  },
+  "approbation": {
+    "rank": 294,
+    "zipf": 2.3
+  },
+  "demurred": {
+    "rank": 295,
+    "zipf": 2.3
+  },
+  "epistolary": {
+    "rank": 296,
+    "zipf": 2.3
+  },
+  "florins": {
+    "rank": 297,
+    "zipf": 2.3
+  },
+  "ignominy": {
+    "rank": 298,
+    "zipf": 2.3
+  },
+  "succour": {
+    "rank": 299,
+    "zipf": 2.3
+  },
+  "bauble": {
+    "rank": 300,
+    "zipf": 2.29
+  },
+  "brogue": {
+    "rank": 301,
+    "zipf": 2.29
+  },
+  "buffeted": {
+    "rank": 302,
+    "zipf": 2.29
+  },
+  "equivocation": {
+    "rank": 303,
+    "zipf": 2.29
+  },
+  "pedantry": {
+    "rank": 304,
+    "zipf": 2.29
+  },
+  "effacing": {
+    "rank": 305,
+    "zipf": 2.28
+  },
+  "internecine": {
+    "rank": 306,
+    "zipf": 2.28
+  },
+  "unerring": {
+    "rank": 307,
+    "zipf": 2.28
+  },
+  "carillon": {
+    "rank": 308,
+    "zipf": 2.27
+  },
+  "chastened": {
+    "rank": 309,
+    "zipf": 2.27
+  },
+  "festooned": {
+    "rank": 310,
+    "zipf": 2.27
+  },
+  "impelled": {
+    "rank": 311,
+    "zipf": 2.26
+  },
+  "reveille": {
+    "rank": 312,
+    "zipf": 2.26
+  },
+  "vociferously": {
+    "rank": 313,
+    "zipf": 2.26
+  },
+  "ardour": {
+    "rank": 314,
+    "zipf": 2.25
+  },
+  "depredations": {
+    "rank": 315,
+    "zipf": 2.25
+  },
+  "railroaded": {
+    "rank": 316,
+    "zipf": 2.25
+  },
+  "theosophy": {
+    "rank": 317,
+    "zipf": 2.25
+  },
+  "ignoble": {
+    "rank": 318,
+    "zipf": 2.24
+  },
+  "imbibed": {
+    "rank": 319,
+    "zipf": 2.24
+  },
+  "propitious": {
+    "rank": 320,
+    "zipf": 2.24
+  },
+  "parthian": {
+    "rank": 321,
+    "zipf": 2.23
+  },
+  "entreaties": {
+    "rank": 322,
+    "zipf": 2.23
+  },
+  "quotidian": {
+    "rank": 323,
+    "zipf": 2.23
+  },
+  "unremitting": {
+    "rank": 324,
+    "zipf": 2.23
+  },
+  "frisson": {
+    "rank": 325,
+    "zipf": 2.22
+  },
+  "magnanimity": {
+    "rank": 326,
+    "zipf": 2.22
+  },
+  "phraseology": {
+    "rank": 327,
+    "zipf": 2.22
+  },
+  "divining": {
+    "rank": 328,
+    "zipf": 2.21
+  },
+  "commiserate": {
+    "rank": 329,
+    "zipf": 2.21
+  },
+  "erogenous": {
+    "rank": 330,
+    "zipf": 2.21
+  },
+  "fitful": {
+    "rank": 331,
+    "zipf": 2.21
+  },
+  "huffy": {
+    "rank": 332,
+    "zipf": 2.21
+  },
+  "intimation": {
+    "rank": 333,
+    "zipf": 2.21
+  },
+  "inured": {
+    "rank": 334,
+    "zipf": 2.21
+  },
+  "jocular": {
+    "rank": 335,
+    "zipf": 2.21
+  },
+  "tractable": {
+    "rank": 336,
+    "zipf": 2.21
+  },
+  "capacious": {
+    "rank": 337,
+    "zipf": 2.2
+  },
+  "gaily": {
+    "rank": 338,
+    "zipf": 2.2
+  },
+  "rejoinder": {
+    "rank": 339,
+    "zipf": 2.2
+  },
+  "soothsayer": {
+    "rank": 340,
+    "zipf": 2.2
+  },
+  "alighted": {
+    "rank": 341,
+    "zipf": 2.19
+  },
+  "epigraph": {
+    "rank": 342,
+    "zipf": 2.19
+  },
+  "marionettes": {
+    "rank": 343,
+    "zipf": 2.19
+  },
+  "presage": {
+    "rank": 344,
+    "zipf": 2.19
+  },
+  "poultice": {
+    "rank": 345,
+    "zipf": 2.18
+  },
+  "traipsing": {
+    "rank": 346,
+    "zipf": 2.18
+  },
+  "verisimilitude": {
+    "rank": 347,
+    "zipf": 2.18
+  },
+  "reproaches": {
+    "rank": 348,
+    "zipf": 2.17
+  },
+  "ebullient": {
+    "rank": 349,
+    "zipf": 2.17
+  },
+  "inimical": {
+    "rank": 350,
+    "zipf": 2.17
+  },
+  "prurient": {
+    "rank": 351,
+    "zipf": 2.17
+  },
+  "swarthy": {
+    "rank": 352,
+    "zipf": 2.17
+  },
+  "armoire": {
+    "rank": 353,
+    "zipf": 2.16
+  },
+  "crestfallen": {
+    "rank": 354,
+    "zipf": 2.16
+  },
+  "gams": {
+    "rank": 355,
+    "zipf": 2.16
+  },
+  "pallor": {
+    "rank": 356,
+    "zipf": 2.16
+  },
+  "privation": {
+    "rank": 357,
+    "zipf": 2.16
+  },
+  "sallow": {
+    "rank": 358,
+    "zipf": 2.16
+  },
+  "von clausewitz": {
+    "rank": 359,
+    "zipf": 2.16
+  },
+  "baleful": {
+    "rank": 360,
+    "zipf": 2.15
+  },
+  "tule": {
+    "rank": 361,
+    "zipf": 2.15
+  },
+  "augurs": {
+    "rank": 362,
+    "zipf": 2.14
+  },
+  "obsequious": {
+    "rank": 363,
+    "zipf": 2.14
+  },
+  "portentous": {
+    "rank": 364,
+    "zipf": 2.14
+  },
+  "abstruse": {
+    "rank": 365,
+    "zipf": 2.13
+  },
+  "bedraggled": {
+    "rank": 366,
+    "zipf": 2.13
+  },
+  "ostentatiously": {
+    "rank": 367,
+    "zipf": 2.13
+  },
+  "pontificating": {
+    "rank": 368,
+    "zipf": 2.13
+  },
+  "portents": {
+    "rank": 369,
+    "zipf": 2.13
+  },
+  "salubrious": {
+    "rank": 370,
+    "zipf": 2.13
+  },
+  "exigencies": {
+    "rank": 371,
+    "zipf": 2.12
+  },
+  "ostentation": {
+    "rank": 372,
+    "zipf": 2.12
+  },
+  "opprobrium": {
+    "rank": 373,
+    "zipf": 2.11
+  },
+  "plaited": {
+    "rank": 374,
+    "zipf": 2.11
+  },
+  "daguerreotype": {
+    "rank": 375,
+    "zipf": 2.1
+  },
+  "diffident": {
+    "rank": 376,
+    "zipf": 2.1
+  },
+  "effete": {
+    "rank": 377,
+    "zipf": 2.1
+  },
+  "fetter": {
+    "rank": 378,
+    "zipf": 2.1
+  },
+  "insensible": {
+    "rank": 379,
+    "zipf": 2.1
+  },
+  "physiognomy": {
+    "rank": 380,
+    "zipf": 2.1
+  },
+  "soporific,": {
+    "rank": 381,
+    "zipf": 2.1
+  },
+  "aspic": {
+    "rank": 382,
+    "zipf": 2.09
+  },
+  "deportment": {
+    "rank": 383,
+    "zipf": 2.09
+  },
+  "paragons": {
+    "rank": 384,
+    "zipf": 2.09
+  },
+  "shambling": {
+    "rank": 385,
+    "zipf": 2.09
+  },
+  "coyly": {
+    "rank": 386,
+    "zipf": 2.08
+  },
+  "indolence": {
+    "rank": 387,
+    "zipf": 2.08
+  },
+  "harangue": {
+    "rank": 388,
+    "zipf": 2.07
+  },
+  "licentious": {
+    "rank": 389,
+    "zipf": 2.07
+  },
+  "unbidden": {
+    "rank": 390,
+    "zipf": 2.07
+  },
+  "vacillating": {
+    "rank": 391,
+    "zipf": 2.07
+  },
+  "canted": {
+    "rank": 392,
+    "zipf": 2.06
+  },
+  "extricated": {
+    "rank": 393,
+    "zipf": 2.06
+  },
+  "reveries": {
+    "rank": 394,
+    "zipf": 2.06
+  },
+  "suppositions": {
+    "rank": 395,
+    "zipf": 2.06
+  },
+  "adduced": {
+    "rank": 396,
+    "zipf": 2.05
+  },
+  "caprices": {
+    "rank": 397,
+    "zipf": 2.05
+  },
+  "charnel": {
+    "rank": 398,
+    "zipf": 2.05
+  },
+  "entrained,": {
+    "rank": 399,
+    "zipf": 2.05
+  },
+  "manfully": {
+    "rank": 400,
+    "zipf": 2.05
+  },
+  "bagatelle": {
+    "rank": 401,
+    "zipf": 2.04
+  },
+  "burnish": {
+    "rank": 402,
+    "zipf": 2.04
+  },
+  "saccharin": {
+    "rank": 403,
+    "zipf": 2.04
+  },
+  "intimations": {
+    "rank": 404,
+    "zipf": 2.03
+  },
+  "sagacity": {
+    "rank": 405,
+    "zipf": 2.03
+  },
+  "demotic": {
+    "rank": 406,
+    "zipf": 2.02
+  },
+  "friable": {
+    "rank": 407,
+    "zipf": 2.02
+  },
+  "lugubrious": {
+    "rank": 408,
+    "zipf": 2.02
+  },
+  "coiffure": {
+    "rank": 409,
+    "zipf": 2.01
+  },
+  "glowering": {
+    "rank": 410,
+    "zipf": 2.01
+  },
+  "obdurate": {
+    "rank": 411,
+    "zipf": 2.01
+  },
+  "stolid": {
+    "rank": 412,
+    "zipf": 2.01
+  },
+  "valise?": {
+    "rank": 413,
+    "zipf": 2.01
+  },
+  "basest": {
+    "rank": 414,
+    "zipf": 2.0
+  },
+  "panegyric": {
+    "rank": 415,
+    "zipf": 2.0
+  },
+  "purloined": {
+    "rank": 416,
+    "zipf": 2.0
+  },
+  "redoubts": {
+    "rank": 417,
+    "zipf": 2.0
+  },
+  "sluices": {
+    "rank": 418,
+    "zipf": 2.0
+  },
+  "carpetbagger": {
+    "rank": 419,
+    "zipf": 1.99
+  },
+  "cobby": {
+    "rank": 420,
+    "zipf": 1.99
+  },
+  "tarpaulins,": {
+    "rank": 421,
+    "zipf": 1.99
+  },
+  "parthia": {
+    "rank": 422,
+    "zipf": 1.98
+  },
+  "meting": {
+    "rank": 423,
+    "zipf": 1.98
+  },
+  "gibe": {
+    "rank": 424,
+    "zipf": 1.97
+  },
+  "glibly": {
+    "rank": 425,
+    "zipf": 1.97
+  },
+  "malingering": {
+    "rank": 426,
+    "zipf": 1.97
+  },
+  "flaxen": {
+    "rank": 427,
+    "zipf": 1.96
+  },
+  "chastening": {
+    "rank": 428,
+    "zipf": 1.95
+  },
+  "dotage": {
+    "rank": 429,
+    "zipf": 1.95
+  },
+  "quinces": {
+    "rank": 430,
+    "zipf": 1.94
+  },
+  "exultation": {
+    "rank": 431,
+    "zipf": 1.93
+  },
+  "browbeat": {
+    "rank": 432,
+    "zipf": 1.92
+  },
+  "languor": {
+    "rank": 433,
+    "zipf": 1.92
+  },
+  "transcendentalism": {
+    "rank": 434,
+    "zipf": 1.92
+  },
+  "enmities": {
+    "rank": 435,
+    "zipf": 1.91
+  },
+  "solicitude": {
+    "rank": 436,
+    "zipf": 1.91
+  },
+  "insuperable": {
+    "rank": 437,
+    "zipf": 1.9
+  },
+  "prig": {
+    "rank": 438,
+    "zipf": 1.9
+  },
+  "rutabaga": {
+    "rank": 439,
+    "zipf": 1.9
+  },
+  "furrier": {
+    "rank": 440,
+    "zipf": 1.89
+  },
+  "pestilent": {
+    "rank": 441,
+    "zipf": 1.89
+  },
+  "remonstrated": {
+    "rank": 442,
+    "zipf": 1.89
+  },
+  "fratricidal": {
+    "rank": 443,
+    "zipf": 1.87
+  },
+  "vérité": {
+    "rank": 444,
+    "zipf": 1.87
+  },
+  "stenographers": {
+    "rank": 445,
+    "zipf": 1.85
+  },
+  "doxology": {
+    "rank": 446,
+    "zipf": 1.84
+  },
+  "averred": {
+    "rank": 447,
+    "zipf": 1.84
+  },
+  "interminably": {
+    "rank": 448,
+    "zipf": 1.84
+  },
+  "mansard": {
+    "rank": 449,
+    "zipf": 1.84
+  },
+  "diffidence": {
+    "rank": 450,
+    "zipf": 1.83
+  },
+  "dilatory": {
+    "rank": 451,
+    "zipf": 1.83
+  },
+  "somnolence": {
+    "rank": 452,
+    "zipf": 1.83
+  },
+  "gabardine": {
+    "rank": 453,
+    "zipf": 1.82
+  },
+  "careering": {
+    "rank": 454,
+    "zipf": 1.81
+  },
+  "commingling": {
+    "rank": 455,
+    "zipf": 1.81
+  },
+  "remonstrate": {
+    "rank": 456,
+    "zipf": 1.81
+  },
+  "timorous": {
+    "rank": 457,
+    "zipf": 1.81
+  },
+  "effusively": {
+    "rank": 458,
+    "zipf": 1.8
+  },
+  "hectoring": {
+    "rank": 459,
+    "zipf": 1.8
+  },
+  "fettered": {
+    "rank": 460,
+    "zipf": 1.79
+  },
+  "preceptors": {
+    "rank": 461,
+    "zipf": 1.79
+  },
+  "countenanced": {
+    "rank": 462,
+    "zipf": 1.78
+  },
+  "slaked": {
+    "rank": 463,
+    "zipf": 1.78
+  },
+  "avidity": {
+    "rank": 464,
+    "zipf": 1.77
+  },
+  "grousing": {
+    "rank": 465,
+    "zipf": 1.76
+  },
+  "atia": {
+    "rank": 466,
+    "zipf": 1.75
+  },
+  "extempore": {
+    "rank": 467,
+    "zipf": 1.75
+  },
+  "paroxysm": {
+    "rank": 468,
+    "zipf": 1.75
+  },
+  "paroxysms": {
+    "rank": 469,
+    "zipf": 1.75
+  },
+  "tartary": {
+    "rank": 470,
+    "zipf": 1.74
+  },
+  "dyspeptic": {
+    "rank": 471,
+    "zipf": 1.74
+  },
+  "rankle": {
+    "rank": 472,
+    "zipf": 1.74
+  },
+  "recalcitrance": {
+    "rank": 473,
+    "zipf": 1.74
+  },
+  "bilking": {
+    "rank": 474,
+    "zipf": 1.73
+  },
+  "remanding": {
+    "rank": 475,
+    "zipf": 1.73
+  },
+  "souse": {
+    "rank": 476,
+    "zipf": 1.73
+  },
+  "torpid": {
+    "rank": 477,
+    "zipf": 1.73
+  },
+  "byronic": {
+    "rank": 478,
+    "zipf": 1.72
+  },
+  "occam’": {
+    "rank": 479,
+    "zipf": 1.72
+  },
+  "sanguinary": {
+    "rank": 480,
+    "zipf": 1.72
+  },
+  "chimerical": {
+    "rank": 481,
+    "zipf": 1.71
+  },
+  "effeminacy": {
+    "rank": 482,
+    "zipf": 1.71
+  },
+  "lassitude": {
+    "rank": 483,
+    "zipf": 1.71
+  },
+  "concupiscence": {
+    "rank": 484,
+    "zipf": 1.7
+  },
+  "disgorged": {
+    "rank": 485,
+    "zipf": 1.7
+  },
+  "lineaments": {
+    "rank": 486,
+    "zipf": 1.7
+  },
+  "sexpot": {
+    "rank": 487,
+    "zipf": 1.7
+  },
+  "harridan": {
+    "rank": 488,
+    "zipf": 1.69
+  },
+  "doyenne": {
+    "rank": 489,
+    "zipf": 1.68
+  },
+  "irreverently": {
+    "rank": 490,
+    "zipf": 1.64
+  },
+  "verdure": {
+    "rank": 491,
+    "zipf": 1.64
+  },
+  "disquisition": {
+    "rank": 492,
+    "zipf": 1.63
+  },
+  "insolently": {
+    "rank": 493,
+    "zipf": 1.63
+  },
+  "befitted": {
+    "rank": 494,
+    "zipf": 1.59
+  },
+  "execration": {
+    "rank": 495,
+    "zipf": 1.59
+  },
+  "tyros": {
+    "rank": 496,
+    "zipf": 1.59
+  },
+  "incautious": {
+    "rank": 497,
+    "zipf": 1.58
+  },
+  "protectress.": {
+    "rank": 498,
+    "zipf": 1.58
+  },
+  "whetting": {
+    "rank": 499,
+    "zipf": 1.57
+  },
+  "winos": {
+    "rank": 500,
+    "zipf": 1.57
+  },
+  "apparatchik": {
+    "rank": 501,
+    "zipf": 1.56
+  },
+  "meretricious": {
+    "rank": 502,
+    "zipf": 1.56
+  },
+  "loutish": {
+    "rank": 503,
+    "zipf": 1.55
+  },
+  "edenic": {
+    "rank": 504,
+    "zipf": 1.54
+  },
+  "reproachful": {
+    "rank": 505,
+    "zipf": 1.54
+  },
+  "disquieted": {
+    "rank": 506,
+    "zipf": 1.53
+  },
+  "idée fixe": {
+    "rank": 507,
+    "zipf": 1.53
+  },
+  "mirthful": {
+    "rank": 508,
+    "zipf": 1.53
+  },
+  "shiplap": {
+    "rank": 509,
+    "zipf": 1.53
+  },
+  "sidles": {
+    "rank": 510,
+    "zipf": 1.53
+  },
+  "bleated": {
+    "rank": 511,
+    "zipf": 1.52
+  },
+  "accosts": {
+    "rank": 512,
+    "zipf": 1.51
+  },
+  "reviling": {
+    "rank": 513,
+    "zipf": 1.5
+  },
+  "cloy": {
+    "rank": 514,
+    "zipf": 1.48
+  },
+  "vulpine": {
+    "rank": 515,
+    "zipf": 1.48
+  },
+  "dissembled": {
+    "rank": 516,
+    "zipf": 1.47
+  },
+  "complected": {
+    "rank": 517,
+    "zipf": 1.46
+  },
+  "garrets": {
+    "rank": 518,
+    "zipf": 1.46
+  },
+  "transalpine gaul": {
+    "rank": 519,
+    "zipf": 1.44
+  },
+  "doffed": {
+    "rank": 520,
+    "zipf": 1.44
+  },
+  "rheumy": {
+    "rank": 521,
+    "zipf": 1.44
+  },
+  "equivocated": {
+    "rank": 522,
+    "zipf": 1.43
+  },
+  "importune": {
+    "rank": 523,
+    "zipf": 1.43
+  },
+  "inveighed": {
+    "rank": 524,
+    "zipf": 1.43
+  },
+  "truculence": {
+    "rank": 525,
+    "zipf": 1.43
+  },
+  "palimony": {
+    "rank": 526,
+    "zipf": 1.42
+  },
+  "beguiles": {
+    "rank": 527,
+    "zipf": 1.41
+  },
+  "inquietude": {
+    "rank": 528,
+    "zipf": 1.4
+  },
+  "inauspiciously": {
+    "rank": 529,
+    "zipf": 1.37
+  },
+  "cavorted": {
+    "rank": 530,
+    "zipf": 1.36
+  },
+  "planisphere": {
+    "rank": 531,
+    "zipf": 1.36
+  },
+  "ptomaine": {
+    "rank": 532,
+    "zipf": 1.34
+  },
+  "slewed": {
+    "rank": 533,
+    "zipf": 1.33
+  },
+  "carpetbagging": {
+    "rank": 534,
+    "zipf": 1.32
+  },
+  "disquisitions": {
+    "rank": 535,
+    "zipf": 1.32
+  },
+  "glommed": {
+    "rank": 536,
+    "zipf": 1.32
+  },
+  "precipitately": {
+    "rank": 537,
+    "zipf": 1.31
+  },
+  "rankling": {
+    "rank": 538,
+    "zipf": 1.31
+  },
+  "doltish": {
+    "rank": 539,
+    "zipf": 1.3
+  },
+  "circumspectly": {
+    "rank": 540,
+    "zipf": 1.29
+  },
+  "dolefully": {
+    "rank": 541,
+    "zipf": 1.29
+  },
+  "fetlocks": {
+    "rank": 542,
+    "zipf": 1.29
+  },
+  "freshet": {
+    "rank": 543,
+    "zipf": 1.29
+  },
+  "spumoni": {
+    "rank": 544,
+    "zipf": 1.29
+  },
+  "betook": {
+    "rank": 545,
+    "zipf": 1.28
+  },
+  "galvanism": {
+    "rank": 546,
+    "zipf": 1.27
+  },
+  "encomiums": {
+    "rank": 547,
+    "zipf": 1.26
+  },
+  "supplicated": {
+    "rank": 548,
+    "zipf": 1.26
+  },
+  "deviltry": {
+    "rank": 549,
+    "zipf": 1.25
+  },
+  "schlemiel": {
+    "rank": 550,
+    "zipf": 1.25
+  },
+  "limeys": {
+    "rank": 551,
+    "zipf": 1.23
+  },
+  "sestertius": {
+    "rank": 552,
+    "zipf": 1.23
+  },
+  "concupiscent": {
+    "rank": 553,
+    "zipf": 1.22
+  },
+  "expostulate": {
+    "rank": 554,
+    "zipf": 1.22
+  },
+  "perambulations": {
+    "rank": 555,
+    "zipf": 1.16
+  },
+  "corporeally": {
+    "rank": 556,
+    "zipf": 1.15
+  },
+  "godling": {
+    "rank": 557,
+    "zipf": 1.15
+  },
+  "joggle": {
+    "rank": 558,
+    "zipf": 1.14
+  },
+  "aiguilles": {
+    "rank": 559,
+    "zipf": 1.12
+  },
+  "chantey": {
+    "rank": 560,
+    "zipf": 1.11
+  },
+  "spading": {
+    "rank": 561,
+    "zipf": 1.11
+  },
+  "tules": {
+    "rank": 562,
+    "zipf": 1.11
+  },
+  "solemnizing": {
+    "rank": 563,
+    "zipf": 1.1
+  },
+  "limned": {
+    "rank": 564,
+    "zipf": 1.08
+  },
+  "truculently": {
+    "rank": 565,
+    "zipf": 1.07
+  },
+  "clabbered,": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "methusaleh": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "beclouded": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "benignantly": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "bindlestiff": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "constitutionals": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "dilettantish": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "discompose": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "disported": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "disporting": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "doubletrees": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "embosomed": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "embowered": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "enounced": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "eructation": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "firmament’s": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "hucksterish": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "imprecate": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "inclemency": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "incommoded": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "lithely": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "offals": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "parataxic": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "privets": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "repined": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "reprobated": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "sedulous": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "shoats": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "sibilantly": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "sophisms": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "superciliously": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "swither": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "swithered.": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "torpidly": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "undulators": {
+    "rank": 100000,
+    "zipf": 0
+  },
+  "unpretending": {
+    "rank": 100000,
+    "zipf": 0
+  }
+}

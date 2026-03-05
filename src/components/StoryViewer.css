@@ -1,0 +1,152 @@
+.story-viewer-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.story-header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.story-header h2 {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-size: 2rem;
+}
+
+.story-header p {
+  margin: 0;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.story-content {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+  background: #fafafa;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Georgia', 'Times New Roman', serif;
+  text-align: justify;
+}
+
+.vocab-word {
+  background: linear-gradient(120deg, rgba(255, 235, 59, 0.3) 0%, rgba(255, 235, 59, 0.2) 100%);
+  padding: 2px 4px;
+  border-radius: 3px;
+  cursor: help;
+  transition: all 0.2s ease;
+  position: relative;
+  font-weight: 500;
+}
+
+.vocab-word:hover {
+  background: linear-gradient(120deg, rgba(255, 235, 59, 0.5) 0%, rgba(255, 235, 59, 0.4) 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(255, 235, 59, 0.3);
+}
+
+.definition-tooltip {
+  position: fixed;
+  background: white;
+  border: 2px solid #4a90e2;
+  border-radius: 8px;
+  padding: 15px;
+  max-width: 400px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  pointer-events: none;
+  animation: fadeIn 0.2s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.tooltip-word {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #4a90e2;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.tooltip-definition {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.meaning {
+  margin-bottom: 12px;
+}
+
+.meaning:last-child {
+  margin-bottom: 0;
+}
+
+.part-of-speech {
+  display: inline-block;
+  background: #e3f2fd;
+  color: #1976d2;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+.definitions-list {
+  margin: 6px 0 0 0;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.definitions-list li {
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+
+.definitions-list li:last-child {
+  margin-bottom: 0;
+}
+
+.loading,
+.error {
+  text-align: center;
+  padding: 40px;
+  font-size: 1.1rem;
+}
+
+.error {
+  color: #d32f2f;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .story-content {
+    font-size: 1rem;
+    padding: 20px;
+  }
+
+  .definition-tooltip {
+    max-width: 300px;
+    padding: 12px;
+  }
+
+  .tooltip-word {
+    font-size: 1rem;
+  }
+}
+
+

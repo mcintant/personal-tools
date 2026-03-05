@@ -1,0 +1,194 @@
+{
+  "id" : "e4UFpjsYytbwVbJXA2d1P-aI-cTPMx2AJxCM7azoZYXY3",
+  "category" : [
+    {
+      "text" : "Clinical Note",
+      "coding" : [
+        {
+          "system" : "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+          "display" : "Clinical Note",
+          "code" : "clinical-note"
+        }
+      ]
+    }
+  ],
+  "subject" : {
+    "display" : "Mcintosh, Anthony",
+    "reference" : "Patient/ehf5R1ABzcyANnzyE2yeCq0xDDl1edBXmRV1YNEZj8p83"
+  },
+  "resourceType" : "DocumentReference",
+  "author" : [
+    {
+      "type" : "Practitioner",
+      "reference" : "Practitioner/eMo.kI7HX0Cfxpe3C8x0neGY0gWbQlWOz4b18qXkP3MU3",
+      "display" : "Stefanie Ammiano, NP"
+    }
+  ],
+  "authenticator" : {
+    "reference" : "Practitioner/e-Uoj3yVvM9oOrOAYNny4bAsIFSWFUDIfiPb8w96WiG03",
+    "display" : "William Mandell, MD",
+    "type" : "Practitioner",
+    "extension" : [
+      {
+        "url" : "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant",
+        "valueDateTime" : "2022-08-22T19:30:01Z"
+      }
+    ]
+  },
+  "context" : {
+    "extension" : [
+      {
+        "valueCodeableConcept" : {
+          "text" : "Nurse Practitioner",
+          "coding" : [
+            {
+              "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.4.836982.1040",
+              "display" : "Nurse Practitioner",
+              "code" : "9"
+            }
+          ]
+        },
+        "url" : "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-author-provider-type"
+      }
+    ],
+    "period" : {
+      "start" : "2022-08-22T14:30:00Z"
+    },
+    "encounter" : [
+      {
+        "display" : "Office Visit",
+        "reference" : "Encounter/e0zjsEg7Fd4UG-tmfpb0XJQ3",
+        "identifier" : {
+          "use" : "usual",
+          "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.3.698084.8",
+          "value" : "884356437"
+        }
+      }
+    ]
+  },
+  "type" : {
+    "text" : "Progress Notes",
+    "coding" : [
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.4.737880.5010",
+        "display" : "Progress Notes",
+        "code" : "1"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.72.727879.69848980",
+        "display" : "Progress Notes",
+        "code" : "1"
+      },
+      {
+        "code" : "11506-3",
+        "system" : "http://loinc.org",
+        "display" : "Progress note",
+        "userSelected" : true
+      }
+    ]
+  },
+  "identifier" : [
+    {
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.2.727879",
+      "value" : "2088328469"
+    },
+    {
+      "system" : "urn:oid:1.2.840.114350.1.72.3.15",
+      "value" : "1.2.840.114350.1.13.232.2.7.2.727879_2088328469"
+    }
+  ],
+  "docStatus" : "final",
+  "date" : "2022-08-22T14:52:28Z",
+  "custodian" : {
+    "display" : "NYU Langone Health System",
+    "identifier" : {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:nyu:ce"
+    }
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester",
+      "extension" : [
+        {
+          "valueCodeableConcept" : {
+            "text" : "Signer",
+            "coding" : [
+              {
+                "system" : "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                "display" : "Signer",
+                "code" : "1"
+              }
+            ]
+          },
+          "url" : "mode"
+        },
+        {
+          "url" : "time",
+          "valueDateTime" : "2022-08-22T15:12:07Z"
+        },
+        {
+          "url" : "party",
+          "valueReference" : {
+            "display" : "Stefanie Ammiano, NP",
+            "reference" : "Practitioner/eMo.kI7HX0Cfxpe3C8x0neGY0gWbQlWOz4b18qXkP3MU3"
+          }
+        }
+      ]
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester",
+      "extension" : [
+        {
+          "valueCodeableConcept" : {
+            "text" : "Cosigner",
+            "coding" : [
+              {
+                "system" : "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                "display" : "Cosigner",
+                "code" : "2"
+              }
+            ]
+          },
+          "url" : "mode"
+        },
+        {
+          "url" : "time",
+          "valueDateTime" : "2022-08-22T19:30:01Z"
+        },
+        {
+          "url" : "party",
+          "valueReference" : {
+            "display" : "William Mandell, MD",
+            "reference" : "Practitioner/e-Uoj3yVvM9oOrOAYNny4bAsIFSWFUDIfiPb8w96WiG03"
+          }
+        }
+      ]
+    }
+  ],
+  "status" : "current",
+  "content" : [
+    {
+      "attachment" : {
+        "contentType" : "text/html",
+        "url" : "Binary/e92KalcKaIOP.ycI9T3dStios4dRvQwuBHSwk0YpA.wI3"
+      },
+      "format" : {
+        "system" : "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+        "display" : "mimeType Sufficient",
+        "code" : "urn:ihe:iti:xds:2017:mimeTypeSufficient"
+      }
+    },
+    {
+      "attachment" : {
+        "contentType" : "text/rtf",
+        "url" : "Binary/fIWz-U6Jm-d37mNvaR5RMGy1tb2powaktOnRvimFnjIo4"
+      },
+      "format" : {
+        "system" : "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+        "display" : "mimeType Sufficient",
+        "code" : "urn:ihe:iti:xds:2017:mimeTypeSufficient"
+      }
+    }
+  ]
+}

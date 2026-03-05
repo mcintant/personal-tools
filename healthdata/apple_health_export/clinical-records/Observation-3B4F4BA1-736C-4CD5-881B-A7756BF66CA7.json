@@ -1,0 +1,164 @@
+{
+  "id" : "eJKUxhV02wljpGTXtPGgsxPuMnlkN475IIbScfW6ogNcPx7QvLN8Qn16wiMB6eeEojbH45Ted.Zgrokr33.ZF1g3",
+  "category" : [
+    {
+      "text" : "Laboratory",
+      "coding" : [
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display" : "Laboratory",
+          "code" : "laboratory"
+        }
+      ]
+    },
+    {
+      "text" : "Lab",
+      "coding" : [
+        {
+          "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.10.798268.30",
+          "display" : "Lab",
+          "code" : "Lab"
+        }
+      ]
+    }
+  ],
+  "subject" : {
+    "display" : "Mcintosh, Anthony",
+    "reference" : "Patient/ehf5R1ABzcyANnzyE2yeCq0xDDl1edBXmRV1YNEZj8p83"
+  },
+  "encounter" : {
+    "display" : "Office Visit",
+    "reference" : "Encounter/e0zjsEg7Fd4UG-tmfpb0XJQ3",
+    "identifier" : {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.3.698084.8",
+      "value" : "884356437"
+    }
+  },
+  "effectiveDateTime" : "2022-08-25T11:57:00Z",
+  "resourceType" : "Observation",
+  "basedOn" : [
+    {
+      "display" : "CBC WITH DIFFERENTIAL",
+      "reference" : "ServiceRequest/e0eZhH9RN6F1flaXHtQQp4tPfQH0GnkuT1QntPm983.k3"
+    }
+  ],
+  "specimen" : {
+    "display" : "Specimen CZ678938J",
+    "reference" : "Specimen/eBetl6G90pXRZdwRQ9q4rKS-IVgNTMlg3JYzba2eImy03"
+  },
+  "code" : {
+    "text" : "RED BLOOD CELL COUNT",
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "display" : "Erythrocytes [#/volume] in Blood by Automated count",
+        "code" : "789-8"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.26",
+        "code" : "005033"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "RBC1"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "RBC9"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.24",
+        "code" : "7898"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.24",
+        "code" : "10807898"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "RBC7"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "RBC71"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "RBC72"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "RBC8"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.109",
+        "code" : "107"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "RBC16"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "RBCL8"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "RBC1C"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "RBC19"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "RBCS8"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.43",
+        "code" : "RBC"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.43",
+        "code" : "XQG6P2"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "RBCW6"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "RBC15"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.1124",
+        "code" : "30000100"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.2.768282",
+        "display" : "RED BLOOD CELL COUNT",
+        "code" : "1577212"
+      }
+    ]
+  },
+  "referenceRange" : [
+    {
+      "low" : {
+        "value" : 4.2,
+        "unit" : "Million/uL"
+      },
+      "high" : {
+        "value" : 5.8,
+        "unit" : "Million/uL"
+      },
+      "text" : "4.20 - 5.80 Million/uL"
+    }
+  ],
+  "valueQuantity" : {
+    "value" : 4.73,
+    "unit" : "Million/uL"
+  },
+  "status" : "final",
+  "issued" : "2022-08-26T01:36:41Z"
+}

@@ -1,0 +1,43 @@
+{
+  "id" : "eZPIpdEzufIDp4kVoGn6nPS-.uLP0yiBoMFVyTj2R78Y3",
+  "primarySource" : false,
+  "encounter" : {
+    "display" : "Office Visit",
+    "reference" : "Encounter/em.eQ0XUYFAwIi2YssQEyiA3",
+    "identifier" : {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.3.698084.8",
+      "value" : "944432166"
+    }
+  },
+  "resourceType" : "Immunization",
+  "occurrenceDateTime" : "2023-11-22",
+  "identifier" : [
+    {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.2.768076",
+      "value" : "100240369"
+    }
+  ],
+  "location" : {
+    "display" : "Rite Aid Store # 4935"
+  },
+  "lotNumber" : "W026150",
+  "manufacturer" : {
+    "display" : "Merck & Co. Inc"
+  },
+  "vaccineCode" : {
+    "text" : "HPV9-valent Vaccine, Recombinant",
+    "coding" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/cvx",
+        "code" : "165"
+      }
+    ]
+  },
+  "status" : "completed",
+  "patient" : {
+    "display" : "Mcintosh, Anthony",
+    "reference" : "Patient/ehf5R1ABzcyANnzyE2yeCq0xDDl1edBXmRV1YNEZj8p83"
+  }
+}

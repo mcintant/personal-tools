@@ -1,0 +1,264 @@
+{
+  "id" : "ehf5R1ABzcyANnzyE2yeCq0xDDl1edBXmRV1YNEZj8p83",
+  "generalPractitioner" : [
+    {
+      "type" : "Practitioner",
+      "reference" : "Practitioner/eME461MTrdtdczz3U3D4aSg3",
+      "display" : "Nathanael S Kim, MD"
+    }
+  ],
+  "birthDate" : "1995-06-28",
+  "resourceType" : "Patient",
+  "active" : true,
+  "telecom" : [
+    {
+      "system" : "phone",
+      "value" : "206-491-8988",
+      "use" : "home"
+    },
+    {
+      "system" : "phone",
+      "value" : "206-491-8988",
+      "use" : "mobile"
+    },
+    {
+      "system" : "email",
+      "value" : "mcintant@gmail.com",
+      "rank" : 1
+    }
+  ],
+  "contact" : [
+    {
+      "name" : {
+        "use" : "usual",
+        "text" : "Vestal,Majesta"
+      },
+      "telecom" : [
+        {
+          "system" : "phone",
+          "value" : "206-853-6672",
+          "use" : "mobile"
+        }
+      ],
+      "relationship" : [
+        {
+          "text" : "Domestic Partner",
+          "coding" : [
+            {
+              "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.4.827665.1000",
+              "display" : "Domestic Partner",
+              "code" : "35"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "deceasedBoolean" : false,
+  "identifier" : [
+    {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.3.688884.100",
+      "value" : "NYUV7CL8V6WHTDT",
+      "type" : {
+        "text" : "CEID"
+      }
+    },
+    {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.1010",
+      "value" : "15981917",
+      "type" : {
+        "text" : "EDR"
+      }
+    },
+    {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.0",
+      "value" : "E9604181",
+      "type" : {
+        "text" : "EPI"
+      }
+    },
+    {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.2.698084",
+      "value" : "Z9612424",
+      "type" : {
+        "text" : "EXTERNAL"
+      }
+    },
+    {
+      "use" : "usual",
+      "system" : "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+      "value" : "T5GmgYiueCtnJW4cF6oqLu8wAYZX7IHSnwhWEY6BFC7IB",
+      "type" : {
+        "text" : "FHIR"
+      }
+    },
+    {
+      "use" : "usual",
+      "system" : "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+      "value" : "ehf5R1ABzcyANnzyE2yeCq0xDDl1edBXmRV1YNEZj8p83",
+      "type" : {
+        "text" : "FHIR STU3"
+      }
+    },
+    {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.2.698084",
+      "value" : "  Z9612424",
+      "type" : {
+        "text" : "INTERNAL"
+      }
+    },
+    {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.3.7.5.737384.1000",
+      "value" : "15981917",
+      "type" : {
+        "text" : "NYU MRN"
+      }
+    },
+    {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.3.878082.110",
+      "value" : "MCINTANT",
+      "type" : {
+        "text" : "MYCHARTLOGIN"
+      }
+    },
+    {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.231",
+      "value" : "7980113",
+      "type" : {
+        "text" : "SID"
+      }
+    },
+    {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.2.878082",
+      "value" : "3635705",
+      "type" : {
+        "text" : "WPRINTERNAL"
+      }
+    },
+    {
+      "use" : "usual",
+      "system" : "https://open.epic.com/FHIR/StructureDefinition/PayerMemberId",
+      "value" : "W5E832735964"
+    },
+    {
+      "use" : "usual",
+      "system" : "https://open.epic.com/FHIR/StructureDefinition/PayerMemberId",
+      "value" : "WZA519W18564"
+    }
+  ],
+  "address" : [
+    {
+      "use" : "home",
+      "city" : "BROOKLYN",
+      "district" : "KINGS",
+      "postalCode" : "11215",
+      "country" : "US",
+      "line" : [
+        "343 12th street, apt 3"
+      ],
+      "state" : "NY"
+    },
+    {
+      "use" : "old",
+      "city" : "BROOKLYN",
+      "district" : "KINGS",
+      "postalCode" : "11215",
+      "country" : "US",
+      "line" : [
+        "343 12th street, apt 3"
+      ],
+      "state" : "NY"
+    }
+  ],
+  "communication" : [
+    {
+      "preferred" : true,
+      "language" : {
+        "text" : "English",
+        "coding" : [
+          {
+            "system" : "urn:ietf:bcp:47",
+            "display" : "English",
+            "code" : "en"
+          }
+        ]
+      }
+    }
+  ],
+  "extension" : [
+    {
+      "valueCodeableConcept" : {
+        "coding" : [
+          {
+            "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.10.698084.130.657370.983998258",
+            "display" : "male",
+            "code" : "male"
+          }
+        ]
+      },
+      "url" : "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+      "extension" : [
+        {
+          "valueCoding" : {
+            "system" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+            "display" : "Unknown",
+            "code" : "UNK"
+          },
+          "url" : "ombCategory"
+        },
+        {
+          "valueString" : "Unknown",
+          "url" : "text"
+        }
+      ]
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+      "extension" : [
+        {
+          "valueString" : "Unknown",
+          "url" : "text"
+        }
+      ]
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex",
+      "valueCode" : "184115007"
+    }
+  ],
+  "managingOrganization" : {
+    "display" : "Vol Village Park Medical",
+    "reference" : "Organization/e1Rup1YHCPpGNuuPVil2J4Q3"
+  },
+  "gender" : "male",
+  "name" : [
+    {
+      "use" : "official",
+      "text" : "Anthony Mcintosh",
+      "family" : "Mcintosh",
+      "given" : [
+        "Anthony"
+      ]
+    },
+    {
+      "use" : "usual",
+      "text" : "Anthony Mcintosh",
+      "family" : "Mcintosh",
+      "given" : [
+        "Anthony"
+      ]
+    }
+  ]
+}

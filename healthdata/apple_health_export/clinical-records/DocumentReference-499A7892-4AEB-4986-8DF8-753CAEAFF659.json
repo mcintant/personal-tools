@@ -1,0 +1,228 @@
+{
+  "id" : "ea0aDXTdKYNfLM0su146YLTg4KOFeNIMaHZQinge9rNY3",
+  "category" : [
+    {
+      "text" : "Clinical Note",
+      "coding" : [
+        {
+          "system" : "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+          "display" : "Clinical Note",
+          "code" : "clinical-note"
+        }
+      ]
+    }
+  ],
+  "subject" : {
+    "display" : "Mcintosh, Anthony",
+    "reference" : "Patient/ehf5R1ABzcyANnzyE2yeCq0xDDl1edBXmRV1YNEZj8p83"
+  },
+  "resourceType" : "DocumentReference",
+  "author" : [
+    {
+      "type" : "Practitioner",
+      "reference" : "Practitioner/eG4wt1Lb7KgnaOhYRWCvF7w3",
+      "display" : "Nathanael S Kim, MD"
+    }
+  ],
+  "authenticator" : {
+    "reference" : "Practitioner/e-Uoj3yVvM9oOrOAYNny4bAsIFSWFUDIfiPb8w96WiG03",
+    "display" : "William Mandell, MD",
+    "type" : "Practitioner",
+    "extension" : [
+      {
+        "url" : "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant",
+        "valueDateTime" : "2024-01-11T17:49:08Z"
+      }
+    ]
+  },
+  "context" : {
+    "extension" : [
+      {
+        "valueCodeableConcept" : {
+          "text" : "Physician",
+          "coding" : [
+            {
+              "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.4.836982.1040",
+              "display" : "Physician",
+              "code" : "1"
+            },
+            {
+              "system" : "urn:oid:2.16.840.1.113883.6.101",
+              "display" : "Internal Medicine Physician",
+              "code" : "207R00000X"
+            }
+          ]
+        },
+        "url" : "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-author-provider-type"
+      }
+    ],
+    "period" : {
+      "start" : "2024-01-11T14:15:00Z"
+    },
+    "encounter" : [
+      {
+        "display" : "Office Visit",
+        "reference" : "Encounter/esfyRhSVMLtF9UY.VowqjOg3",
+        "identifier" : {
+          "use" : "usual",
+          "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.3.698084.8",
+          "value" : "948141014"
+        }
+      }
+    ]
+  },
+  "type" : {
+    "text" : "H&P",
+    "coding" : [
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.4.737880.5010",
+        "display" : "H&P",
+        "code" : "4"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.72.727879.69848980",
+        "display" : "H&P",
+        "code" : "4"
+      },
+      {
+        "code" : "34117-2",
+        "system" : "http://loinc.org",
+        "display" : "History and physical note",
+        "userSelected" : true
+      }
+    ]
+  },
+  "identifier" : [
+    {
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.2.727879",
+      "value" : "2637153643"
+    },
+    {
+      "system" : "urn:oid:1.2.840.114350.1.72.3.15",
+      "value" : "1.2.840.114350.1.13.232.2.7.2.727879_2637153643"
+    }
+  ],
+  "docStatus" : "amended",
+  "date" : "2024-01-11T14:42:29Z",
+  "custodian" : {
+    "display" : "NYU Langone Health System",
+    "identifier" : {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:nyu:ce"
+    }
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester",
+      "extension" : [
+        {
+          "valueCodeableConcept" : {
+            "text" : "Signer",
+            "coding" : [
+              {
+                "system" : "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                "display" : "Signer",
+                "code" : "1"
+              }
+            ]
+          },
+          "url" : "mode"
+        },
+        {
+          "url" : "time",
+          "valueDateTime" : "2024-01-11T14:43:48Z"
+        },
+        {
+          "url" : "party",
+          "valueReference" : {
+            "display" : "Nathanael S Kim, MD",
+            "reference" : "Practitioner/eG4wt1Lb7KgnaOhYRWCvF7w3"
+          }
+        }
+      ]
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester",
+      "extension" : [
+        {
+          "valueCodeableConcept" : {
+            "text" : "Addendum/Transcription Authenticator",
+            "coding" : [
+              {
+                "system" : "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                "display" : "Addendum/Transcription Authenticator",
+                "code" : "4"
+              }
+            ]
+          },
+          "url" : "mode"
+        },
+        {
+          "url" : "time",
+          "valueDateTime" : "2024-01-11T14:44:11Z"
+        },
+        {
+          "url" : "party",
+          "valueReference" : {
+            "display" : "Nathanael S Kim, MD",
+            "reference" : "Practitioner/eG4wt1Lb7KgnaOhYRWCvF7w3"
+          }
+        }
+      ]
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester",
+      "extension" : [
+        {
+          "valueCodeableConcept" : {
+            "text" : "Cosigner",
+            "coding" : [
+              {
+                "system" : "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                "display" : "Cosigner",
+                "code" : "2"
+              }
+            ]
+          },
+          "url" : "mode"
+        },
+        {
+          "url" : "time",
+          "valueDateTime" : "2024-01-11T17:49:08Z"
+        },
+        {
+          "url" : "party",
+          "valueReference" : {
+            "display" : "William Mandell, MD",
+            "reference" : "Practitioner/e-Uoj3yVvM9oOrOAYNny4bAsIFSWFUDIfiPb8w96WiG03"
+          }
+        }
+      ]
+    }
+  ],
+  "status" : "current",
+  "content" : [
+    {
+      "attachment" : {
+        "contentType" : "text/html",
+        "url" : "Binary/eRqM4H-76Yw1SSgzwxwyLkD0DAfMrHmxpohoqqKP3oMk3"
+      },
+      "format" : {
+        "system" : "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+        "display" : "mimeType Sufficient",
+        "code" : "urn:ihe:iti:xds:2017:mimeTypeSufficient"
+      }
+    },
+    {
+      "attachment" : {
+        "contentType" : "text/rtf",
+        "url" : "Binary/f80AZIkLR5dCD5ebhJw-GWp6s8oGZuAWPxPQbxoAMUhg4"
+      },
+      "format" : {
+        "system" : "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+        "display" : "mimeType Sufficient",
+        "code" : "urn:ihe:iti:xds:2017:mimeTypeSufficient"
+      }
+    }
+  ]
+}

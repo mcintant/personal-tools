@@ -1,0 +1,73 @@
+{
+  "status" : "final",
+  "category" : [
+    {
+      "text" : "Vital Signs",
+      "coding" : [
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display" : "Vital Signs",
+          "code" : "vital-signs"
+        }
+      ]
+    }
+  ],
+  "issued" : "2022-08-22T14:59:08Z",
+  "id" : "ehJJ3ZMSjjE-zLqzjC48CvwLJBY22kyIfH5wa2wZxGB9Oty7nVfKIb.ga80p8nSWNIqtCZ1uqiOf6oGJ15pCdvg3",
+  "code" : {
+    "text" : "Pulse",
+    "coding" : [
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.2.707679",
+        "display" : "Pulse",
+        "code" : "8"
+      },
+      {
+        "system" : "http://open.epic.com/FHIR/StructureDefinition/observation-flowsheet-id",
+        "display" : "Pulse",
+        "code" : "t1Lf67-UGKXqD3njwHv4nxw0"
+      },
+      {
+        "system" : "urn:oid:1.2.246.537.6.96",
+        "code" : "8867-4"
+      },
+      {
+        "system" : "http://loinc.org",
+        "display" : "Vital signs",
+        "code" : "8716-3"
+      },
+      {
+        "system" : "http://loinc.org",
+        "display" : "Heart rate",
+        "code" : "8867-4"
+      }
+    ]
+  },
+  "encounter" : {
+    "display" : "Office Visit",
+    "reference" : "Encounter/e0zjsEg7Fd4UG-tmfpb0XJQ3",
+    "identifier" : {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.3.698084.8",
+      "value" : "884356437"
+    }
+  },
+  "subject" : {
+    "display" : "Mcintosh, Anthony",
+    "reference" : "Patient/ehf5R1ABzcyANnzyE2yeCq0xDDl1edBXmRV1YNEZj8p83"
+  },
+  "performer" : [
+    {
+      "display" : "Stefanie Ammiano, NP",
+      "reference" : "Practitioner/eMo.kI7HX0Cfxpe3C8x0neGY0gWbQlWOz4b18qXkP3MU3"
+    }
+  ],
+  "effectiveDateTime" : "2022-08-22T14:55:00Z",
+  "valueQuantity" : {
+    "code" : "/min",
+    "value" : 61,
+    "system" : "http://unitsofmeasure.org",
+    "unit" : "/min"
+  },
+  "resourceType" : "Observation"
+}

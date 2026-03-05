@@ -1,0 +1,96 @@
+{
+  "id" : "e9UZ5AnQ6D8MLRaSnKxsr6Y0AENE615ZBPVnI82uuILekID9wG7c0hAd6pI10gCy73",
+  "category" : [
+    {
+      "text" : "Laboratory",
+      "coding" : [
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display" : "Laboratory",
+          "code" : "laboratory"
+        }
+      ]
+    },
+    {
+      "text" : "Lab",
+      "coding" : [
+        {
+          "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.10.798268.30",
+          "display" : "Lab",
+          "code" : "Lab"
+        }
+      ]
+    }
+  ],
+  "subject" : {
+    "display" : "Mcintosh, Anthony",
+    "reference" : "Patient/ehf5R1ABzcyANnzyE2yeCq0xDDl1edBXmRV1YNEZj8p83"
+  },
+  "encounter" : {
+    "display" : "Office Visit",
+    "reference" : "Encounter/em.eQ0XUYFAwIi2YssQEyiA3",
+    "identifier" : {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.3.698084.8",
+      "value" : "944432166"
+    }
+  },
+  "effectiveDateTime" : "2024-01-05T15:49:00Z",
+  "resourceType" : "Observation",
+  "note" : [
+    {
+      "text" : "Reference range: <100\r\n\r\nDesirable range <100 mg/dL for primary prevention;\r\n<70 mg/dL for patients with CHD or diabetic patients\r\nwith > or = 2 CHD risk factors.\r\n\r\nLDL-C is now calculated using the Martin-Hopkins\r\ncalculation, which is a validated novel method providing\r\nbetter accuracy than the Friedewald equation in the\r\nestimation of LDL-C.\r\nMartin SS et al. JAMA. 2013;310(19): 2061-2068\r\n(http://education.QuestDiagnostics.com/faq/FAQ164)\r\n"
+    }
+  ],
+  "basedOn" : [
+    {
+      "display" : "LIPID PANEL",
+      "reference" : "ServiceRequest/ef39wrBhWiw-X-Drs.R6JUtFnZEPu2ih4YhEHHm1RW1I3"
+    }
+  ],
+  "specimen" : {
+    "display" : "Specimen CZ795306U",
+    "reference" : "Specimen/eoXlV7Dvp14BEm3HjsPNTEWMPViDecMWQZCFGBo77H-Q3"
+  },
+  "code" : {
+    "text" : "LDL CHOLESTEROL, CALCULATED",
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "display" : "Cholesterol in LDL [Mass/volume] in Serum or Plasma by calculation",
+        "code" : "13457-7"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.24",
+        "code" : "25016900"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.109",
+        "code" : "216"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.43",
+        "code" : "LDL"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.26",
+        "code" : "012059"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.1124",
+        "code" : "25016900"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.2.768282",
+        "display" : "LDL CHOLESTEROL, CALCULATED",
+        "code" : "3575"
+      }
+    ]
+  },
+  "valueQuantity" : {
+    "value" : 95,
+    "unit" : "mg/dL (calc)"
+  },
+  "status" : "final",
+  "issued" : "2024-01-06T04:08:45Z"
+}

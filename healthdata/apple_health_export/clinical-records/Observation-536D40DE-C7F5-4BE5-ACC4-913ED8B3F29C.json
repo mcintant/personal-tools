@@ -1,0 +1,89 @@
+{
+  "id" : "eJUAsJZMF8IXSSs1M5Hss1TxG9egqE8Xz4KPXNR4iU4nbhLq-CEFS75inNQ0FYmUbgJKpFKuGObK-aJ52MjnjtQ3",
+  "category" : [
+    {
+      "text" : "Laboratory",
+      "coding" : [
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display" : "Laboratory",
+          "code" : "laboratory"
+        }
+      ]
+    },
+    {
+      "text" : "Lab",
+      "coding" : [
+        {
+          "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.10.798268.30",
+          "display" : "Lab",
+          "code" : "Lab"
+        }
+      ]
+    }
+  ],
+  "subject" : {
+    "display" : "Mcintosh, Anthony",
+    "reference" : "Patient/ehf5R1ABzcyANnzyE2yeCq0xDDl1edBXmRV1YNEZj8p83"
+  },
+  "encounter" : {
+    "display" : "Orders Only",
+    "reference" : "Encounter/egpMcNzvGBbja7heLqVEjNw3",
+    "identifier" : {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.3.698084.8",
+      "value" : "948475170"
+    }
+  },
+  "effectiveDateTime" : "2024-01-05T15:49:00Z",
+  "resourceType" : "Observation",
+  "basedOn" : [
+    {
+      "display" : "URINALYSIS (NO CULTURE)",
+      "reference" : "ServiceRequest/e4IOmk6LQIMuAMJ-HvG0M5rdI.0oSp6eqfEWQXthJt8I3"
+    }
+  ],
+  "specimen" : {
+    "display" : "Specimen CZ795306U",
+    "reference" : "Specimen/e16-GAT58Wk9qiI5jorQeSQ93yh7-XsJUegaX-1Tj5oE3"
+  },
+  "code" : {
+    "text" : "COLOR, URINE",
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "display" : "Color of Urine",
+        "code" : "5778-6"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.26",
+        "code" : "013045"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.24",
+        "code" : "57786"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.1124",
+        "code" : "30005500"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.26",
+        "code" : "013130"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.2.768282",
+        "display" : "COLOR, URINE",
+        "code" : "1551419"
+      }
+    ]
+  },
+  "referenceRange" : [
+    {
+      "text" : "YELLOW"
+    }
+  ],
+  "valueString" : "YELLOW",
+  "status" : "final",
+  "issued" : "2024-01-06T04:08:45Z"
+}

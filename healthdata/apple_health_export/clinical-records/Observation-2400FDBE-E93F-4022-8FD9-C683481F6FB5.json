@@ -1,0 +1,171 @@
+{
+  "id" : "eiTOLomzFrBPK64Fng2n4AbLdjf-fFyXoprTyG6ES39vVrZkymVCz7YscPS5MQl6IlyGH250zMwnEc-75O0yGUw3",
+  "category" : [
+    {
+      "text" : "Laboratory",
+      "coding" : [
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display" : "Laboratory",
+          "code" : "laboratory"
+        }
+      ]
+    },
+    {
+      "text" : "Lab",
+      "coding" : [
+        {
+          "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.10.798268.30",
+          "display" : "Lab",
+          "code" : "Lab"
+        }
+      ]
+    }
+  ],
+  "subject" : {
+    "display" : "Mcintosh, Anthony",
+    "reference" : "Patient/ehf5R1ABzcyANnzyE2yeCq0xDDl1edBXmRV1YNEZj8p83"
+  },
+  "encounter" : {
+    "display" : "Office Visit",
+    "reference" : "Encounter/em.eQ0XUYFAwIi2YssQEyiA3",
+    "identifier" : {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.3.698084.8",
+      "value" : "944432166"
+    }
+  },
+  "effectiveDateTime" : "2024-01-05T15:49:00Z",
+  "resourceType" : "Observation",
+  "note" : [
+    {
+      "text" : "\r\nTHIS TEST WAS PERFORMED AT:\r\nQUEST DIAGNOSTICS CLIFTON\r\n1 INSIGHTS DRIVE\r\nCLIFTON  NJ  07012-2355\r\nPETER E. FISHER,MD\r\n"
+    }
+  ],
+  "basedOn" : [
+    {
+      "display" : "COMPREHENSIVE METABOLIC PANEL",
+      "reference" : "ServiceRequest/ef39wrBhWiw-X-Drs.R6JUlNCsctKUrFiKsg3FcBeoJ03"
+    }
+  ],
+  "specimen" : {
+    "display" : "Specimen CZ795306U",
+    "reference" : "Specimen/etw2nhj3D2Tw6wxkcf-nRXH76c2jKVb4rz2VveiZ3tds3"
+  },
+  "code" : {
+    "text" : "ALT",
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "display" : "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+        "code" : "1742-6"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.26",
+        "code" : "001545"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "ALT"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.24",
+        "code" : "17426"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "ALT9"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "ALT8"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.24",
+        "code" : "10817426"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "ALT7"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "ALT71"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "ALT72"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.24",
+        "code" : "86011823"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.109",
+        "code" : "1003"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "ALT6"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "ALTC"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "ALTA8"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.24",
+        "code" : "11017426"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "ALT5"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "ALTO9"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.1124",
+        "code" : "25002400"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.1124",
+        "code" : "86011823"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.2.768282",
+        "display" : "ALT",
+        "code" : "1525870"
+      }
+    ]
+  },
+  "referenceRange" : [
+    {
+      "low" : {
+        "code" : "U/L",
+        "value" : 9,
+        "system" : "http://unitsofmeasure.org",
+        "unit" : "U/L"
+      },
+      "high" : {
+        "code" : "U/L",
+        "value" : 46,
+        "system" : "http://unitsofmeasure.org",
+        "unit" : "U/L"
+      },
+      "text" : "9 - 46 U/L"
+    }
+  ],
+  "valueQuantity" : {
+    "code" : "U/L",
+    "value" : 36,
+    "system" : "http://unitsofmeasure.org",
+    "unit" : "U/L"
+  },
+  "status" : "final",
+  "issued" : "2024-01-06T04:08:45Z"
+}

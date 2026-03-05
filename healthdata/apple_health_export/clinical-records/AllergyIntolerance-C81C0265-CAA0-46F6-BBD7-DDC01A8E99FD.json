@@ -1,0 +1,44 @@
+{
+  "clinicalStatus" : {
+    "coding" : [
+      {
+        "code" : "active",
+        "system" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+        "display" : "Active",
+        "version" : "4.0.0"
+      }
+    ]
+  },
+  "id" : "eS27ZulJkVCNhTnNXT-f2HHOQNUp0mM-Gqq51MQ0bZipYXtd5D8lq0ZEOdANU8tP5Q7ogrQEvf2ImbrfF6xOA2g3",
+  "code" : {
+    "text" : "No Known Allergies",
+    "coding" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "display" : "No known allergy",
+        "code" : "716186003"
+      }
+    ]
+  },
+  "patient" : {
+    "display" : "Mcintosh, Anthony",
+    "reference" : "Patient/ehf5R1ABzcyANnzyE2yeCq0xDDl1edBXmRV1YNEZj8p83"
+  },
+  "verificationStatus" : {
+    "coding" : [
+      {
+        "code" : "confirmed",
+        "system" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+        "display" : "Confirmed",
+        "version" : "4.0.0"
+      }
+    ]
+  },
+  "recorder" : {
+    "type" : "Practitioner",
+    "reference" : "Practitioner/eMo.kI7HX0Cfxpe3C8x0neGY0gWbQlWOz4b18qXkP3MU3",
+    "display" : "Stefanie Ammiano, NP"
+  },
+  "recordedDate" : "2022-08-22T14:47:30Z",
+  "resourceType" : "AllergyIntolerance"
+}

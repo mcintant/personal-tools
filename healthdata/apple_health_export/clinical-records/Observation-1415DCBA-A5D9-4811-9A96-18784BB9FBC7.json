@@ -1,0 +1,166 @@
+{
+  "id" : "e1dQJexXwqfJnDUKUyYz-Fs7JIrqgNLrs6LMtEUJ5-cTx9bRfGxWVThQmQ9kKIRFuB86sVQT.QROr9Cwq4llnRg3",
+  "category" : [
+    {
+      "text" : "Laboratory",
+      "coding" : [
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display" : "Laboratory",
+          "code" : "laboratory"
+        }
+      ]
+    },
+    {
+      "text" : "Lab",
+      "coding" : [
+        {
+          "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.10.798268.30",
+          "display" : "Lab",
+          "code" : "Lab"
+        }
+      ]
+    }
+  ],
+  "subject" : {
+    "display" : "Mcintosh, Anthony",
+    "reference" : "Patient/ehf5R1ABzcyANnzyE2yeCq0xDDl1edBXmRV1YNEZj8p83"
+  },
+  "encounter" : {
+    "display" : "Office Visit",
+    "reference" : "Encounter/e0zjsEg7Fd4UG-tmfpb0XJQ3",
+    "identifier" : {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.3.698084.8",
+      "value" : "884356437"
+    }
+  },
+  "effectiveDateTime" : "2022-08-25T11:57:00Z",
+  "resourceType" : "Observation",
+  "basedOn" : [
+    {
+      "display" : "LIPID PANEL",
+      "reference" : "ServiceRequest/e0eZhH9RN6F1flaXHtQQp4vgJHJGFlPQG03M0otpyn-k3"
+    }
+  ],
+  "specimen" : {
+    "display" : "Specimen CZ678938J",
+    "reference" : "Specimen/ebNJm2VThmkAPHALjEAgr2zA77K9n3cVh6mS-PD8Pp0U3"
+  },
+  "code" : {
+    "text" : "CHOLESTEROL, TOTAL",
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "display" : "Cholesterol [Mass/volume] in Serum or Plasma",
+        "code" : "2093-3"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "CHOL"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "CHOLE"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.26",
+        "code" : "001067"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.26",
+        "code" : "884253"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.26",
+        "code" : "001065"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.24",
+        "code" : "75001429"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.24",
+        "code" : "25003000"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.24",
+        "code" : "20933"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "CHOL7"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "CHOL8"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "NCHOL"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.109",
+        "code" : "1012"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.109",
+        "code" : "8247"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.109",
+        "code" : "85928"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "CHOL6"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "LIPCT"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.109",
+        "code" : "22730"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "CHOLC"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.43",
+        "code" : "CHOL"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "CHOL5"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.1124",
+        "code" : "25003000"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "CHOLP8"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.2.768282",
+        "display" : "CHOLESTEROL, TOTAL",
+        "code" : "1557760"
+      }
+    ]
+  },
+  "referenceRange" : [
+    {
+      "text" : "<200"
+    }
+  ],
+  "valueQuantity" : {
+    "code" : "mg/dL",
+    "value" : 157,
+    "system" : "http://unitsofmeasure.org",
+    "unit" : "mg/dL"
+  },
+  "status" : "final",
+  "issued" : "2022-08-26T01:36:41Z"
+}

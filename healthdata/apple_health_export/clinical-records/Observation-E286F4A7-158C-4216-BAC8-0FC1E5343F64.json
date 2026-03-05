@@ -1,0 +1,116 @@
+{
+  "id" : "eiTOLomzFrBPK64Fng2n4AbLdjf-fFyXoprTyG6ES39vM-HVV-kcyO00zYphZZEhRrfAd33LWkSQbL2dnTbVu1w3",
+  "category" : [
+    {
+      "text" : "Laboratory",
+      "coding" : [
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display" : "Laboratory",
+          "code" : "laboratory"
+        }
+      ]
+    },
+    {
+      "text" : "Lab",
+      "coding" : [
+        {
+          "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.10.798268.30",
+          "display" : "Lab",
+          "code" : "Lab"
+        }
+      ]
+    }
+  ],
+  "subject" : {
+    "display" : "Mcintosh, Anthony",
+    "reference" : "Patient/ehf5R1ABzcyANnzyE2yeCq0xDDl1edBXmRV1YNEZj8p83"
+  },
+  "encounter" : {
+    "display" : "Office Visit",
+    "reference" : "Encounter/em.eQ0XUYFAwIi2YssQEyiA3",
+    "identifier" : {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.3.698084.8",
+      "value" : "944432166"
+    }
+  },
+  "effectiveDateTime" : "2024-01-05T15:49:00Z",
+  "resourceType" : "Observation",
+  "basedOn" : [
+    {
+      "display" : "COMPREHENSIVE METABOLIC PANEL",
+      "reference" : "ServiceRequest/ef39wrBhWiw-X-Drs.R6JUlNCsctKUrFiKsg3FcBeoJ03"
+    }
+  ],
+  "specimen" : {
+    "display" : "Specimen CZ795306U",
+    "reference" : "Specimen/etw2nhj3D2Tw6wxkcf-nRXH76c2jKVb4rz2VveiZ3tds3"
+  },
+  "code" : {
+    "text" : "A/G RATIO",
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "display" : "Albumin/Globulin [Mass Ratio] in Serum or Plasma",
+        "code" : "1759-0"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.26",
+        "code" : "012047"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.24",
+        "code" : "17590"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.26",
+        "code" : "149531"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.26",
+        "code" : "011149"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "AGR7"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.109",
+        "code" : "860"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.1124",
+        "code" : "25001600"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.1124",
+        "code" : "86008211"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.2.768282",
+        "display" : "A/G RATIO",
+        "code" : "1510051"
+      }
+    ]
+  },
+  "referenceRange" : [
+    {
+      "low" : {
+        "value" : 1,
+        "unit" : "(calc)"
+      },
+      "high" : {
+        "value" : 2.5,
+        "unit" : "(calc)"
+      },
+      "text" : "1.0 - 2.5 (calc)"
+    }
+  ],
+  "valueQuantity" : {
+    "value" : 2.1,
+    "unit" : "(calc)"
+  },
+  "status" : "final",
+  "issued" : "2024-01-06T04:08:45Z"
+}

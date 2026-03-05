@@ -1,0 +1,117 @@
+{
+  "id" : "ejCkdM9mfmvg5WG89iWBGIfOWhe-15HUn7tWRvqa46I9x1E6ef.LLgupwDnAmtN5U3",
+  "category" : [
+    {
+      "text" : "Laboratory",
+      "coding" : [
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display" : "Laboratory",
+          "code" : "laboratory"
+        }
+      ]
+    },
+    {
+      "text" : "Lab",
+      "coding" : [
+        {
+          "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.10.798268.30",
+          "display" : "Lab",
+          "code" : "Lab"
+        }
+      ]
+    }
+  ],
+  "subject" : {
+    "display" : "Mcintosh, Anthony",
+    "reference" : "Patient/ehf5R1ABzcyANnzyE2yeCq0xDDl1edBXmRV1YNEZj8p83"
+  },
+  "encounter" : {
+    "display" : "Office Visit",
+    "reference" : "Encounter/e0zjsEg7Fd4UG-tmfpb0XJQ3",
+    "identifier" : {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.3.698084.8",
+      "value" : "884356437"
+    }
+  },
+  "effectiveDateTime" : "2022-08-25T11:57:00Z",
+  "resourceType" : "Observation",
+  "note" : [
+    {
+      "text" : "The eGFR is based on the CKD-EPI 2021 equation. To calculate\r\nthe new eGFR from a previous Creatinine or Cystatin C\r\nresult, go to https://www.kidney.org/professionals/\r\nkdoqi/gfr%5Fcalculator\r\n"
+    }
+  ],
+  "basedOn" : [
+    {
+      "display" : "COMPREHENSIVE METABOLIC PANEL",
+      "reference" : "ServiceRequest/e0eZhH9RN6F1flaXHtQQp4t.qFgR0wAJIMPAxK7V6LLQ3"
+    }
+  ],
+  "specimen" : {
+    "display" : "Specimen CZ678938J",
+    "reference" : "Specimen/eANIG3uJDVDA0rcZmGgvWxEQaTbYQbIWtLmVZD7ZaU1k3"
+  },
+  "code" : {
+    "text" : "eGFR (CKD-EPI 2021)",
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "display" : "Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (CKD-EPI 2021)",
+        "code" : "98979-8"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "GFR21C"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "GFR216"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "GFR215"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "GFR271"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "GFR218"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "GFR219"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.26",
+        "code" : "100779"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "GFR217"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.1124",
+        "code" : "86031867"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.2.768282",
+        "display" : "eGFR (CKD-EPI 2021)",
+        "code" : "15890"
+      }
+    ]
+  },
+  "referenceRange" : [
+    {
+      "text" : "> OR = 60"
+    }
+  ],
+  "valueQuantity" : {
+    "value" : 124,
+    "unit" : "mL/min/1.73m2"
+  },
+  "status" : "final",
+  "issued" : "2022-08-26T01:36:41Z"
+}

@@ -1,0 +1,105 @@
+{
+  "id" : "eJUAsJZMF8IXSSs1M5Hss1TxG9egqE8Xz4KPXNR4iU4k6NthAxujFRIEIrVlU7hkfkFZudbk.RYv9KfKPuDbvFw3",
+  "category" : [
+    {
+      "text" : "Laboratory",
+      "coding" : [
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display" : "Laboratory",
+          "code" : "laboratory"
+        }
+      ]
+    },
+    {
+      "text" : "Lab",
+      "coding" : [
+        {
+          "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.10.798268.30",
+          "display" : "Lab",
+          "code" : "Lab"
+        }
+      ]
+    }
+  ],
+  "subject" : {
+    "display" : "Mcintosh, Anthony",
+    "reference" : "Patient/ehf5R1ABzcyANnzyE2yeCq0xDDl1edBXmRV1YNEZj8p83"
+  },
+  "encounter" : {
+    "display" : "Orders Only",
+    "reference" : "Encounter/egpMcNzvGBbja7heLqVEjNw3",
+    "identifier" : {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.3.698084.8",
+      "value" : "948475170"
+    }
+  },
+  "effectiveDateTime" : "2024-01-05T15:49:00Z",
+  "resourceType" : "Observation",
+  "basedOn" : [
+    {
+      "display" : "URINALYSIS (NO CULTURE)",
+      "reference" : "ServiceRequest/e4IOmk6LQIMuAMJ-HvG0M5rdI.0oSp6eqfEWQXthJt8I3"
+    }
+  ],
+  "specimen" : {
+    "display" : "Specimen CZ795306U",
+    "reference" : "Specimen/e16-GAT58Wk9qiI5jorQeSQ93yh7-XsJUegaX-1Tj5oE3"
+  },
+  "code" : {
+    "text" : "SPECIFIC GRAVITY, URINE",
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "display" : "Specific gravity of Urine by Test strip",
+        "code" : "5811-5"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.26",
+        "code" : "013060"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.26",
+        "code" : "788923"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.109",
+        "code" : "84613"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.24",
+        "code" : "82000362"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.1124",
+        "code" : "30006000"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.1124",
+        "code" : "82000362"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.2.768282",
+        "display" : "SPECIFIC GRAVITY, URINE",
+        "code" : "1551416"
+      }
+    ]
+  },
+  "referenceRange" : [
+    {
+      "low" : {
+        "value" : 1.001
+      },
+      "high" : {
+        "value" : 1.035
+      },
+      "text" : "1.001 - 1.035"
+    }
+  ],
+  "valueQuantity" : {
+    "value" : 1.005
+  },
+  "status" : "final",
+  "issued" : "2024-01-06T04:08:45Z"
+}

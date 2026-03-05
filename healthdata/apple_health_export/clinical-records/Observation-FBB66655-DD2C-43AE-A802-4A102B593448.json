@@ -1,0 +1,130 @@
+{
+  "id" : "eK3OBLZnkDY4Ys.4RbCPcYSOF-fq78m1IbpKTxzetZHDfCGIjIIAOAHsZpG3Pp3bR3",
+  "category" : [
+    {
+      "text" : "Laboratory",
+      "coding" : [
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display" : "Laboratory",
+          "code" : "laboratory"
+        }
+      ]
+    },
+    {
+      "text" : "Lab",
+      "coding" : [
+        {
+          "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.10.798268.30",
+          "display" : "Lab",
+          "code" : "Lab"
+        }
+      ]
+    }
+  ],
+  "subject" : {
+    "display" : "Mcintosh, Anthony",
+    "reference" : "Patient/ehf5R1ABzcyANnzyE2yeCq0xDDl1edBXmRV1YNEZj8p83"
+  },
+  "encounter" : {
+    "display" : "Office Visit",
+    "reference" : "Encounter/em.eQ0XUYFAwIi2YssQEyiA3",
+    "identifier" : {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.3.698084.8",
+      "value" : "944432166"
+    }
+  },
+  "effectiveDateTime" : "2024-01-05T15:49:00Z",
+  "resourceType" : "Observation",
+  "note" : [
+    {
+      "text" : "HIV-1 antigen and HIV-1/HIV-2 antibodies were not\r\ndetected. There is no laboratory evidence of HIV\r\ninfection.\r\n\r\nPLEASE NOTE: This information has been disclosed to\r\nyou from records whose confidentiality may be\r\nprotected by state law.  If your state requires such\r\nprotection, then the state law prohibits you from\r\nmaking any further disclosure of the information\r\nwithout the specific written consent of the person\r\nto whom it pertains, or as otherwise permitted by law.\r\nA general authorization for the release of medical or\r\nother information is NOT sufficient for this purpose.\r\n\r\nFor additional information please refer to\r\nhttp://education.questdiagnostics.com/faq/FAQ106\r\n(This link is being provided for informational/\r\neducational purposes only.)\r\n\r\n\r\nThe performance of this assay has not been clinically\r\nvalidated in patients less than 2 years old.\r\n\r\n\r\nTHIS TEST WAS PERFORMED AT:\r\nQUEST DIAGNOSTICS CLIFTON\r\n1 INSIGHTS DRIVE\r\nCLIFTON  NJ  07012-2355\r\nPETER E. FISHER,MD\r\n"
+    }
+  ],
+  "basedOn" : [
+    {
+      "display" : "HIV 1 AND 2 ANTIGEN/ANTIBODY, 4TH GEN REFLEX, ROUTINE",
+      "reference" : "ServiceRequest/e4IOmk6LQIMuAMJ-HvG0M5gQtjdQi0O1Xew8KzXGnaKI3"
+    }
+  ],
+  "specimen" : {
+    "display" : "Specimen CZ795306U",
+    "reference" : "Specimen/etXBFV-VR6e320ryoZXHXFEY7OavMmuvDqytgv-eZBwk3"
+  },
+  "code" : {
+    "text" : "HIV 1 AND 2 AG/AB, 4TH GEN",
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "display" : "HIV 1+2 Ab+HIV1 p24 Ag [Presence] in Serum or Plasma by Immunoassay",
+        "code" : "56888-1"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.24",
+        "code" : "86009052"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "HIVA"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "HIVAS"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.24",
+        "code" : "86109052"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "HIVS71"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.26",
+        "code" : "083936"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.109",
+        "code" : "710"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "HIVAC"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "HIVAC6"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "HIV4C"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.1124",
+        "code" : "86009052"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "HIVA5"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "HIVA7"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.2.768282",
+        "display" : "HIV 1 AND 2 AG/AB, 4TH GEN",
+        "code" : "3657"
+      }
+    ]
+  },
+  "referenceRange" : [
+    {
+      "text" : "NON-REACTIVE"
+    }
+  ],
+  "valueString" : "NON-REACTIVE",
+  "status" : "final",
+  "issued" : "2024-01-06T04:08:45Z"
+}

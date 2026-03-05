@@ -1,0 +1,100 @@
+{
+  "id" : "eeYEABedskO9uxSbL0fba.nQioZCUheHzesunFxLXZzaWvu4dt7a3IglvH6kcYPSf3",
+  "category" : [
+    {
+      "text" : "Laboratory",
+      "coding" : [
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display" : "Laboratory",
+          "code" : "laboratory"
+        }
+      ]
+    },
+    {
+      "text" : "Lab",
+      "coding" : [
+        {
+          "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.10.798268.30",
+          "display" : "Lab",
+          "code" : "Lab"
+        }
+      ]
+    }
+  ],
+  "subject" : {
+    "display" : "Mcintosh, Anthony",
+    "reference" : "Patient/ehf5R1ABzcyANnzyE2yeCq0xDDl1edBXmRV1YNEZj8p83"
+  },
+  "encounter" : {
+    "display" : "Office Visit",
+    "reference" : "Encounter/em.eQ0XUYFAwIi2YssQEyiA3",
+    "identifier" : {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.3.698084.8",
+      "value" : "944432166"
+    }
+  },
+  "effectiveDateTime" : "2024-01-05T15:49:00Z",
+  "resourceType" : "Observation",
+  "basedOn" : [
+    {
+      "display" : "CBC WITH DIFFERENTIAL",
+      "reference" : "ServiceRequest/ef39wrBhWiw-X-Drs.R6JUsfbDzRz.sZ.QyH180-Nako3"
+    }
+  ],
+  "specimen" : {
+    "display" : "Specimen CZ795306U",
+    "reference" : "Specimen/eABbqUt.WLu9gnyY116byNboBl-D4bqNCu5QB00S.YVM3"
+  },
+  "code" : {
+    "text" : "NEUTROPHILS  ABSOLUTE",
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "display" : "Neutrophils [#/volume] in Blood by Automated count",
+        "code" : "751-8"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.26",
+        "code" : "015909"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.24",
+        "code" : "7518"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.24",
+        "code" : "11407708"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.1124",
+        "code" : "30001700"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.2.768282",
+        "display" : "NEUTROPHILS  ABSOLUTE",
+        "code" : "76"
+      }
+    ]
+  },
+  "referenceRange" : [
+    {
+      "low" : {
+        "value" : 1500,
+        "unit" : "cells/uL"
+      },
+      "high" : {
+        "value" : 7800,
+        "unit" : "cells/uL"
+      },
+      "text" : "1500 - 7800 cells/uL"
+    }
+  ],
+  "valueQuantity" : {
+    "value" : 2438,
+    "unit" : "cells/uL"
+  },
+  "status" : "final",
+  "issued" : "2024-01-06T04:08:45Z"
+}

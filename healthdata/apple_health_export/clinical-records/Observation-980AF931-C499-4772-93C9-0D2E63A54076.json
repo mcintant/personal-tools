@@ -1,0 +1,105 @@
+{
+  "id" : "ejCkdM9mfmvg5WG89iWBGIfOWhe-15HUn7tWRvqa46I8XQ5ofcBvuyXKo-TCo4nMxqiArHdFo7CCNgSJsKQzkaw3",
+  "category" : [
+    {
+      "text" : "Laboratory",
+      "coding" : [
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display" : "Laboratory",
+          "code" : "laboratory"
+        }
+      ]
+    },
+    {
+      "text" : "Lab",
+      "coding" : [
+        {
+          "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.10.798268.30",
+          "display" : "Lab",
+          "code" : "Lab"
+        }
+      ]
+    }
+  ],
+  "subject" : {
+    "display" : "Mcintosh, Anthony",
+    "reference" : "Patient/ehf5R1ABzcyANnzyE2yeCq0xDDl1edBXmRV1YNEZj8p83"
+  },
+  "encounter" : {
+    "display" : "Office Visit",
+    "reference" : "Encounter/e0zjsEg7Fd4UG-tmfpb0XJQ3",
+    "identifier" : {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.3.698084.8",
+      "value" : "884356437"
+    }
+  },
+  "effectiveDateTime" : "2022-08-25T11:57:00Z",
+  "resourceType" : "Observation",
+  "basedOn" : [
+    {
+      "display" : "COMPREHENSIVE METABOLIC PANEL",
+      "reference" : "ServiceRequest/e0eZhH9RN6F1flaXHtQQp4t.qFgR0wAJIMPAxK7V6LLQ3"
+    }
+  ],
+  "specimen" : {
+    "display" : "Specimen CZ678938J",
+    "reference" : "Specimen/eANIG3uJDVDA0rcZmGgvWxEQaTbYQbIWtLmVZD7ZaU1k3"
+  },
+  "code" : {
+    "text" : "BUN / CREATININE RATIO",
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "display" : "Urea nitrogen/Creatinine [Mass Ratio] in Serum or Plasma",
+        "code" : "3097-3"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.26",
+        "code" : "011577"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.24",
+        "code" : "30973"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "BUCR7"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.109",
+        "code" : "859"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.24",
+        "code" : "11030973"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.1124",
+        "code" : "25000300"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.2.768282",
+        "display" : "BUN / CREATININE RATIO",
+        "code" : "1510194"
+      }
+    ]
+  },
+  "referenceRange" : [
+    {
+      "low" : {
+        "value" : 6,
+        "unit" : "(calc)"
+      },
+      "high" : {
+        "value" : 22,
+        "unit" : "(calc)"
+      },
+      "text" : "6 - 22 (calc)"
+    }
+  ],
+  "valueString" : "NOT APPLICABLE",
+  "status" : "final",
+  "issued" : "2022-08-26T01:36:41Z"
+}

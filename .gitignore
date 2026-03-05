@@ -33,3 +33,7 @@ openapiapikey
 *.tmp
 *.temp
 
+# Large Apple Health export files (keep local only)
+healthdata/apple_health_export/export.xml
+healthdata/apple_health_export/export_cda.xml
+

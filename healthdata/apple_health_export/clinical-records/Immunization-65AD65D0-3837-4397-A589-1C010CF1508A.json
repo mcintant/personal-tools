@@ -1,0 +1,43 @@
+{
+  "id" : "ehe2opxM4bcPat4TOXVuElyszYzu3015PDJN4E4cLDa83",
+  "primarySource" : false,
+  "encounter" : {
+    "display" : "Office Visit",
+    "reference" : "Encounter/em.eQ0XUYFAwIi2YssQEyiA3",
+    "identifier" : {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.3.698084.8",
+      "value" : "944432166"
+    }
+  },
+  "resourceType" : "Immunization",
+  "occurrenceDateTime" : "2021-11-26",
+  "identifier" : [
+    {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.2.768076",
+      "value" : "100240374"
+    }
+  ],
+  "location" : {
+    "display" : "*Walgreens #17772"
+  },
+  "lotNumber" : "ZG474",
+  "manufacturer" : {
+    "display" : "GlaxoSmithKline"
+  },
+  "vaccineCode" : {
+    "text" : "Influenza Vaccine Quadrivalent, Preservative Free, Im",
+    "coding" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/cvx",
+        "code" : "150"
+      }
+    ]
+  },
+  "status" : "completed",
+  "patient" : {
+    "display" : "Mcintosh, Anthony",
+    "reference" : "Patient/ehf5R1ABzcyANnzyE2yeCq0xDDl1edBXmRV1YNEZj8p83"
+  }
+}

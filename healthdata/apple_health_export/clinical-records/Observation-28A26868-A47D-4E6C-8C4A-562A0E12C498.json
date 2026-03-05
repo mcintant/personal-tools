@@ -1,0 +1,113 @@
+{
+  "id" : "e9UZ5AnQ6D8MLRaSnKxsr6Y0AENE615ZBPVnI82uuILcUlohT5pF89L.jeZ6q8L-DB5jHBKdexOOXjhP0e8461g3",
+  "category" : [
+    {
+      "text" : "Laboratory",
+      "coding" : [
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display" : "Laboratory",
+          "code" : "laboratory"
+        }
+      ]
+    },
+    {
+      "text" : "Lab",
+      "coding" : [
+        {
+          "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.10.798268.30",
+          "display" : "Lab",
+          "code" : "Lab"
+        }
+      ]
+    }
+  ],
+  "subject" : {
+    "display" : "Mcintosh, Anthony",
+    "reference" : "Patient/ehf5R1ABzcyANnzyE2yeCq0xDDl1edBXmRV1YNEZj8p83"
+  },
+  "encounter" : {
+    "display" : "Office Visit",
+    "reference" : "Encounter/em.eQ0XUYFAwIi2YssQEyiA3",
+    "identifier" : {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.3.698084.8",
+      "value" : "944432166"
+    }
+  },
+  "effectiveDateTime" : "2024-01-05T15:49:00Z",
+  "resourceType" : "Observation",
+  "note" : [
+    {
+      "text" : "For patients with diabetes plus 1 major ASCVD risk\r\nfactor, treating to a non-HDL-C goal of <100 mg/dL\r\n(LDL-C of <70 mg/dL) is considered a therapeutic\r\noption.\r\n\r\nTHIS TEST WAS PERFORMED AT:\r\nQUEST DIAGNOSTICS CLIFTON\r\n1 INSIGHTS DRIVE\r\nCLIFTON  NJ  07012-2355\r\nPETER E. FISHER,MD\r\n"
+    }
+  ],
+  "basedOn" : [
+    {
+      "display" : "LIPID PANEL",
+      "reference" : "ServiceRequest/ef39wrBhWiw-X-Drs.R6JUtFnZEPu2ih4YhEHHm1RW1I3"
+    }
+  ],
+  "specimen" : {
+    "display" : "Specimen CZ795306U",
+    "reference" : "Specimen/eoXlV7Dvp14BEm3HjsPNTEWMPViDecMWQZCFGBo77H-Q3"
+  },
+  "code" : {
+    "text" : "NON HDL CHOLESTEROL (LDL+VLDL)",
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "display" : "Cholesterol non HDL [Mass/volume] in Serum or Plasma",
+        "code" : "43396-1"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.26",
+        "code" : "804568"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.24",
+        "code" : "70020867"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "NHC3"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.26",
+        "code" : "011976"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.24",
+        "code" : "25017210"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.109",
+        "code" : "22735"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.1124",
+        "code" : "25017210"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.5.737384.3012",
+        "code" : "NHDLP8"
+      },
+      {
+        "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.2.768282",
+        "display" : "NON HDL CHOLESTEROL (LDL+VLDL)",
+        "code" : "1811467"
+      }
+    ]
+  },
+  "referenceRange" : [
+    {
+      "text" : "<130"
+    }
+  ],
+  "valueQuantity" : {
+    "value" : 106,
+    "unit" : "mg/dL (calc)"
+  },
+  "status" : "final",
+  "issued" : "2024-01-06T04:08:45Z"
+}

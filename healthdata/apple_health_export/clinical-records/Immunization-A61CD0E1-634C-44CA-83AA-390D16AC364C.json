@@ -1,0 +1,43 @@
+{
+  "id" : "e-JR7vjUMc4onmECd3Jk4Ku3wSeCwa9DNfPhyKRdflTA3",
+  "primarySource" : false,
+  "encounter" : {
+    "display" : "Office Visit",
+    "reference" : "Encounter/em.eQ0XUYFAwIi2YssQEyiA3",
+    "identifier" : {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.3.698084.8",
+      "value" : "944432166"
+    }
+  },
+  "resourceType" : "Immunization",
+  "occurrenceDateTime" : "2023-11-28",
+  "identifier" : [
+    {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.2.768076",
+      "value" : "100240372"
+    }
+  ],
+  "location" : {
+    "display" : "Rite Aid Store # 4935"
+  },
+  "lotNumber" : "370656",
+  "manufacturer" : {
+    "display" : "Seqirus"
+  },
+  "vaccineCode" : {
+    "text" : "INFLUENZA VACCINE >/=6 MONTHS, QUADRIVALENT, PRESERVATIVE FREE",
+    "coding" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/cvx",
+        "code" : "171"
+      }
+    ]
+  },
+  "status" : "completed",
+  "patient" : {
+    "display" : "Mcintosh, Anthony",
+    "reference" : "Patient/ehf5R1ABzcyANnzyE2yeCq0xDDl1edBXmRV1YNEZj8p83"
+  }
+}

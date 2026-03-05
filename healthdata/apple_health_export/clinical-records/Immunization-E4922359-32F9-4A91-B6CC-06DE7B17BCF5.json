@@ -1,0 +1,43 @@
+{
+  "id" : "eIdbb1L9gsAE24PY1E.CcDMXwv0KiPDmfr4jCBRrwReI3",
+  "primarySource" : false,
+  "encounter" : {
+    "display" : "Office Visit",
+    "reference" : "Encounter/em.eQ0XUYFAwIi2YssQEyiA3",
+    "identifier" : {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.3.698084.8",
+      "value" : "944432166"
+    }
+  },
+  "resourceType" : "Immunization",
+  "occurrenceDateTime" : "2022-10-04",
+  "identifier" : [
+    {
+      "use" : "usual",
+      "system" : "urn:oid:1.2.840.114350.1.13.232.2.7.2.768076",
+      "value" : "100240368"
+    }
+  ],
+  "location" : {
+    "display" : "*Walgreens #17772"
+  },
+  "lotNumber" : "GJ3277",
+  "manufacturer" : {
+    "display" : "Pfizer"
+  },
+  "vaccineCode" : {
+    "text" : "Covid-19 Vaccine, Pfizer Bivalent (Gray Cap)",
+    "coding" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/cvx",
+        "code" : "300"
+      }
+    ]
+  },
+  "status" : "completed",
+  "patient" : {
+    "display" : "Mcintosh, Anthony",
+    "reference" : "Patient/ehf5R1ABzcyANnzyE2yeCq0xDDl1edBXmRV1YNEZj8p83"
+  }
+}
