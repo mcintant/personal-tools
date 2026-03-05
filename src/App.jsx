@@ -50,13 +50,17 @@ function App() {
     try {
       setLoading(true)
       setError(null)
-      
-      // Load the SQLite file
-      const response = await fetch('/KoboReader.sqlite')
+
+      // Load the default SQLite file (put KoboReader.sqlite in public/ to ship a default)
+      const base = import.meta.env.BASE_URL
+      const dbPath = `${base}KoboReader.sqlite`
+      const response = await fetch(dbPath)
       if (!response.ok) {
-        throw new Error('Failed to load database file')
+        setError('No database loaded. Upload your KoboReader.sqlite file below.')
+        setLoading(false)
+        return
       }
-      
+
       const buffer = await response.arrayBuffer()
       const db = new SQL.Database(new Uint8Array(buffer))
       setDb(db)
