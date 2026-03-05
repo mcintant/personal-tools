@@ -83,7 +83,8 @@ export async function parseJazzStandardsPDF() {
 
     // Load the PDF file (use BASE_URL so it works when deployed under a subpath)
     const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '')
-    const response = await fetch(`${base}/Jazz standards list.pdf`)
+    const pdfPath = `${base}/${encodeURIComponent('Jazz standards list.pdf')}`
+    const response = await fetch(pdfPath)
     if (!response.ok) {
       throw new Error('Failed to load PDF file')
     }
