@@ -81,8 +81,9 @@ export async function parseJazzStandardsPDF() {
       throw new Error('PDF.js worker not configured. Please set GlobalWorkerOptions.workerSrc')
     }
 
-    // Load the PDF file
-    const response = await fetch('/Jazz standards list.pdf')
+    // Load the PDF file (use BASE_URL so it works when deployed under a subpath)
+    const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '')
+    const response = await fetch(`${base}/Jazz standards list.pdf`)
     if (!response.ok) {
       throw new Error('Failed to load PDF file')
     }

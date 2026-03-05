@@ -15,8 +15,9 @@ function StoryViewer() {
   useEffect(() => {
     const loadData = async () => {
       try {
-        // Load story
-        const storyResponse = await fetch('/story.txt')
+        // Load story (use BASE_URL so it works when deployed under a subpath, e.g. /personal-tools/)
+        const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '')
+        const storyResponse = await fetch(`${base}/story.txt`)
         if (!storyResponse.ok) {
           throw new Error('Failed to load story.txt')
         }
