@@ -34,10 +34,25 @@ export async function fetchPriceDirectory() {
 
   if (json.data && Array.isArray(json.data) && json.data.length > 0) {
     headers = json.data[0].map(String)
-    rows = json.data.slice(1).map((row) => row.map((cell) => (cell != null ? String(cell) : '')))
+    rows = json.data
+      .slice(1)
+      .map((row) => row.map((cell) => (cell != null ? String(cell) : '')))
+      .filter((row) => {
+        const trimmed = row.map((c) => c.trim())
+        const allEmpty = trimmed.every((c) => !c)
+        const noDataAfterFirst = trimmed.slice(1).every((c) => !c)
+        return !allEmpty && !noDataAfterFirst
+      })
   } else if (json.headers && json.rows) {
     headers = json.headers.map(String)
-    rows = json.rows.map((row) => row.map((cell) => (cell != null ? String(cell) : '')))
+    rows = json.rows
+      .map((row) => row.map((cell) => (cell != null ? String(cell) : '')))
+      .filter((row) => {
+        const trimmed = row.map((c) => c.trim())
+        const allEmpty = trimmed.every((c) => !c)
+        const noDataAfterFirst = trimmed.slice(1).every((c) => !c)
+        return !allEmpty && !noDataAfterFirst
+      })
   } else {
     throw new Error('Invalid price directory format: expected { data: [...] } or { headers, rows }')
   }

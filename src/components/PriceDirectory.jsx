@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import { fetchPriceDirectory } from '../utils/sheetsPriceDirectory'
+import { getStoreImageUrl, getItemImageUrl } from '../data/priceDirectoryMetadata'
 import './PriceDirectory.css'
+
+const baseUrl = (import.meta.env.BASE_URL || '/').replace(/\/$/, '')
 
 function PriceDirectory() {
   const [data, setData] = useState(null)
@@ -85,19 +88,61 @@ function PriceDirectory() {
         <table className="price-directory-table">
           <thead>
             <tr>
-              {headers.map((h, i) => (
-                <th key={i}>{h}</th>
-              ))}
+              {headers.map((h, i) => {
+                const storeImgUrl = getStoreImageUrl(h, baseUrl)
+                return (
+                  <th key={i} className={storeImgUrl ? 'price-directory-th-with-icon' : ''}>
+                    {storeImgUrl ? (
+                      <span className="price-directory-th-content">
+                        <img
+                          src={storeImgUrl}
+                          alt=""
+                          className="price-directory-store-icon"
+                          title={h}
+                          onError={(e) => { e.target.style.display = 'none' }}
+                        />
+                        <span className="price-directory-th-label">{h}</span>
+                      </span>
+                    ) : (
+                      h
+                    )}
+                  </th>
+                )
+              })}
             </tr>
           </thead>
           <tbody>
-            {filteredRows.map((row, i) => (
-              <tr key={i}>
-                {row.map((cell, j) => (
-                  <td key={j}>{cell}</td>
-                ))}
-              </tr>
-            ))}
+            {filteredRows.map((row, i) => {
+              const itemName = row[0]
+              const itemImgUrl = getItemImageUrl(itemName, baseUrl)
+              return (
+                <tr key={i}>
+                  {row.map((cell, j) => (
+                    <td key={j}>
+                      {j === 0 ? (
+                        <span className="price-directory-item-cell">
+                          {itemImgUrl ? (
+                            <img
+                              src={itemImgUrl}
+                              alt=""
+                              className="price-directory-item-icon"
+                              onError={(e) => { e.target.style.display = 'none' }}
+                            />
+                          ) : (
+                            <span className="price-directory-item-fallback">
+                              {(cell || '').trim().charAt(0).toUpperCase() || '?'}
+                            </span>
+                          )}
+                          <span className="price-directory-item-label">{cell}</span>
+                        </span>
+                      ) : (
+                        cell
+                      )}
+                    </td>
+                  ))}
+                </tr>
+              )
+            })}
           </tbody>
         </table>
       </div>

@@ -168,6 +168,12 @@ function App() {
         {/* Tab Navigation */}
         <div className="tabs">
           <button
+            className={`tab-button ${activeTab === 'prices' ? 'active' : ''}`}
+            onClick={() => setActiveTab('prices')}
+          >
+            💰 Price directory
+          </button>
+          <button
             className={`tab-button ${activeTab === 'overview' ? 'active' : ''}`}
             onClick={() => setActiveTab('overview')}
           >
@@ -214,12 +220,6 @@ function App() {
             onClick={() => setActiveTab('story')}
           >
             📖 Story
-          </button>
-          <button
-            className={`tab-button ${activeTab === 'prices' ? 'active' : ''}`}
-            onClick={() => setActiveTab('prices')}
-          >
-            💰 Price directory
           </button>
         </div>
 
