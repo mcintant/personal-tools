@@ -38,3 +38,7 @@ openapiapikey
 healthdata/apple_health_export/export.xml
 healthdata/apple_health_export/export_cda.xml
 
+# Food-101 dataset (downloaded for price directory images)
+food-101.tar.gz
+food-101/
+
