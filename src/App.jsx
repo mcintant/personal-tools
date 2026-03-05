@@ -11,6 +11,7 @@ import HealthData from './components/HealthData'
 import Highlights from './components/Highlights'
 import JazzStandards from './components/JazzStandards'
 import StoryViewer from './components/StoryViewer'
+import PriceDirectory from './components/PriceDirectory'
 import './App.css'
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
   const [activeTab, setActiveTab] = useState(() => {
     // Load saved tab from localStorage
     const savedTab = localStorage.getItem('koboActiveTab')
-    return savedTab || 'overview'
+    return savedTab || 'prices'
   })
 
   // Save active tab to localStorage whenever it changes
@@ -214,6 +215,12 @@ function App() {
           >
             📖 Story
           </button>
+          <button
+            className={`tab-button ${activeTab === 'prices' ? 'active' : ''}`}
+            onClick={() => setActiveTab('prices')}
+          >
+            💰 Price directory
+          </button>
         </div>
 
         {/* Tab Content */}
@@ -304,6 +311,10 @@ function App() {
 
           {activeTab === 'story' && (
             <StoryViewer />
+          )}
+
+          {activeTab === 'prices' && (
+            <PriceDirectory />
           )}
         </div>
       </div>

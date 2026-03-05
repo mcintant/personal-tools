@@ -12,6 +12,7 @@ dist/
 *.zip
 
 # Environment and secrets
+.env
 openapiapikey
 *.plist
 
