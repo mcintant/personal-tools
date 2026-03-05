@@ -1,6 +1,6 @@
 /**
  * Given parsed recipe lines + directory data: infer unit from row name,
- * compute estimated cost per line (avg + per-store), best store per line, totals.
+ * compute  estimated cost per line (avg + per-store), best store per line, totals.
  */
 
 import { matchIngredientToDirectory } from './recipeMatcher'
