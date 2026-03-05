@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Database files
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# Build outputs
+dist/
+*.zip
+
+# Environment and secrets
+openapiapikey
+*.plist
+
+# OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Large Apple Health export files (keep local only)
+healthdata/apple_health_export/export.xml
+healthdata/apple_health_export/export_cda.xml
+

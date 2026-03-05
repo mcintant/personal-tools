@@ -1,0 +1,2403 @@
+{
+  "workouts": [
+    {
+      "startDate": "2023-03-26T15:36:17.000Z",
+      "endDate": "2023-03-26T15:39:53.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 3.6,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2023-03-26T15:37:56.000Z",
+      "endDate": "2023-03-26T15:57:34.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 19.63333333333333,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2023-12-28T16:41:25.000Z",
+      "endDate": "2023-12-28T17:02:38.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 21.21365000009537,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2023-12-28T17:25:21.000Z",
+      "endDate": "2023-12-28T17:25:55.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 0.5695666670799255,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-01-06T19:17:05.000Z",
+      "endDate": "2024-01-06T19:27:12.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 10.12081666787465,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-01-12T16:17:59.000Z",
+      "endDate": "2024-01-12T17:02:50.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 44.84394463499387,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-01-15T16:02:26.000Z",
+      "endDate": "2024-01-15T16:46:34.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 44.12763035098712,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-01-17T16:38:24.000Z",
+      "endDate": "2024-01-17T16:38:45.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 0.3484794835249583,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-01-20T18:31:24.000Z",
+      "endDate": "2024-01-20T19:13:33.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 42.1605446656545,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-01-24T16:28:41.000Z",
+      "endDate": "2024-01-24T16:28:52.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 0.1767781992753347,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-01-27T19:11:46.000Z",
+      "endDate": "2024-01-27T19:36:32.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 24.76896910071373,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-01-30T21:57:31.000Z",
+      "endDate": "2024-01-30T22:32:48.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 35.2838168501854,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-02-11T19:05:49.000Z",
+      "endDate": "2024-02-11T19:22:59.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 17.17561386624972,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-02-13T20:31:11.000Z",
+      "endDate": "2024-02-13T20:35:40.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 4.480533365408579,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-02-17T18:13:37.000Z",
+      "endDate": "2024-02-17T18:35:24.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 21.78366953333219,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-02-20T17:49:38.000Z",
+      "endDate": "2024-02-24T17:49:38.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 300,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-02-25T18:44:47.000Z",
+      "endDate": "2024-02-25T18:49:55.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 5.145863783359528,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-03-02T19:58:13.000Z",
+      "endDate": "2024-03-02T19:58:32.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 0.310623582204183,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-03-05T16:22:38.000Z",
+      "endDate": "2024-03-05T17:00:30.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 37.85886356631915,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-03-09T18:45:59.000Z",
+      "endDate": "2024-03-09T19:31:01.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 45.031349949042,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-03-26T19:35:31.000Z",
+      "endDate": "2024-03-26T19:36:20.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 0.8253608167171478,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-03-27T17:43:35.000Z",
+      "endDate": "2024-03-27T17:43:50.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 0.2570797820885976,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-03-29T17:53:19.000Z",
+      "endDate": "2024-03-29T17:53:27.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 0.1399566173553467,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-04-04T12:12:24.000Z",
+      "endDate": "2024-04-04T12:12:28.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 0.06775530179341634,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-04-05T20:39:26.000Z",
+      "endDate": "2024-04-05T20:39:35.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 0.1629020512104034,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-04-11T16:41:13.000Z",
+      "endDate": "2024-04-11T16:41:22.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 0.1537771662076314,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-04-13T15:49:39.000Z",
+      "endDate": "2024-04-13T15:49:51.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 0.2011811157067617,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-04-17T11:45:33.000Z",
+      "endDate": "2024-04-17T11:52:03.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 6.513492266337077,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-04-26T12:30:28.000Z",
+      "endDate": "2024-04-26T13:17:34.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 47.09721009929975,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-05-05T13:23:57.000Z",
+      "endDate": "2024-05-05T13:26:45.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 2.8,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-05-05T13:38:46.000Z",
+      "endDate": "2024-05-05T13:41:35.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 2.816666666666667,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-05-09T13:06:52.000Z",
+      "endDate": "2024-05-09T13:24:01.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 17.15,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-05-14T14:04:04.000Z",
+      "endDate": "2024-05-14T14:29:41.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 25.61666666666667,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-05-16T13:24:19.000Z",
+      "endDate": "2024-05-16T13:44:49.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 20.5,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-05-17T13:09:42.000Z",
+      "endDate": "2024-05-17T17:21:45.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 252.05,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-06-06T14:29:53.000Z",
+      "endDate": "2024-06-06T14:59:34.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 29.67566860119502,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-07-17T14:02:51.000Z",
+      "endDate": "2024-07-17T14:41:39.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 38.79985751708349,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-07-20T15:10:50.000Z",
+      "endDate": "2024-07-21T10:34:11.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 300,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-07-29T12:32:52.000Z",
+      "endDate": "2024-07-29T13:28:59.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 56.11522771716118,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-08-01T14:50:09.000Z",
+      "endDate": "2024-08-01T16:46:31.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 116.3773100336393,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-08-02T15:23:19.000Z",
+      "endDate": "2024-08-02T15:38:57.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 15.63541858394941,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-08-03T16:14:17.000Z",
+      "endDate": "2024-08-03T16:14:28.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 0.1843789835770925,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-08-06T13:12:22.000Z",
+      "endDate": "2024-08-06T13:40:04.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 27.6892939488093,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-08-08T12:23:58.000Z",
+      "endDate": "2024-08-12T12:23:58.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 300,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-08-14T12:22:22.000Z",
+      "endDate": "2024-08-14T13:14:42.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 52.32883244951566,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-08-18T16:01:39.000Z",
+      "endDate": "2024-08-22T16:01:39.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 300,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-09-29T15:58:05.000Z",
+      "endDate": "2024-10-03T15:58:05.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 583162.183433334,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-12-01T16:34:20.000Z",
+      "endDate": "2024-12-01T16:35:00.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 0.6666666666666666,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2024-12-06T20:14:55.000Z",
+      "endDate": "2024-12-06T20:26:20.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 11.41666666666667,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-05-21T12:25:31.000Z",
+      "endDate": "2025-05-21T12:54:00.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 28.48333333333333,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-05-26T14:28:28.000Z",
+      "endDate": "2025-05-26T14:37:46.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 9.3,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-05-26T14:38:29.000Z",
+      "endDate": "2025-05-26T14:48:36.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 10.11666666666667,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-05-26T15:57:34.000Z",
+      "endDate": "2025-05-26T16:12:00.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 14.43333333333333,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-05-29T11:36:10.000Z",
+      "endDate": "2025-05-29T11:56:12.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 20.03333333333333,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-05-31T13:50:05.000Z",
+      "endDate": "2025-05-31T14:06:40.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 16.58333333333333,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-05-31T14:33:54.000Z",
+      "endDate": "2025-05-31T14:47:51.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 13.95,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-06-05T12:52:31.000Z",
+      "endDate": "2025-06-05T13:05:58.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 13.45,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-06-09T13:27:48.000Z",
+      "endDate": "2025-06-09T13:30:56.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 3.133333333333333,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-06-12T12:34:19.000Z",
+      "endDate": "2025-06-12T12:50:11.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 15.86666666666667,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-06-16T12:52:48.000Z",
+      "endDate": "2025-06-16T13:21:00.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 28.2,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-07-28T13:37:00.000Z",
+      "endDate": "2025-07-28T14:07:00.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 30,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-09-25T13:49:10.000Z",
+      "endDate": "2025-09-25T14:16:30.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 27.33333333333333,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-09-26T15:53:04.000Z",
+      "endDate": "2025-09-26T16:22:06.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 29.03333333333333,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-10-02T12:52:00.000Z",
+      "endDate": "2025-10-02T13:22:00.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 30,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-10-02T13:01:38.000Z",
+      "endDate": "2025-10-02T13:23:02.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 21.4,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-10-18T14:04:48.000Z",
+      "endDate": "2025-10-18T14:27:09.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 22.35,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-10-18T13:59:00.000Z",
+      "endDate": "2025-10-18T14:29:00.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 30,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-10-22T14:11:32.000Z",
+      "endDate": "2025-10-22T14:24:18.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 12.76666666666667,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-11-02T15:45:36.000Z",
+      "endDate": "2025-11-02T16:14:17.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 28.68333333333333,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-11-07T14:29:25.000Z",
+      "endDate": "2025-11-07T14:59:13.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 29.8,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-11-08T14:35:10.000Z",
+      "endDate": "2025-11-08T14:36:30.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 1.322850650548935,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-11-08T15:03:25.000Z",
+      "endDate": "2025-11-08T15:05:59.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 2.561595350503922,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-11-08T15:09:30.000Z",
+      "endDate": "2025-11-08T15:19:36.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 10.0912287513415,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-11-11T12:58:16.000Z",
+      "endDate": "2025-11-11T13:16:02.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 17.75970714886983,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-11-14T15:06:54.000Z",
+      "endDate": "2025-11-14T15:33:00.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 25.63787304957708,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-11-17T14:23:28.000Z",
+      "endDate": "2025-11-17T14:29:50.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 6.36732360124588,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-11-17T14:43:51.000Z",
+      "endDate": "2025-11-17T15:29:15.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 45.41085574825605,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-11-19T15:06:46.000Z",
+      "endDate": "2025-11-19T15:24:28.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 15.17565123240153,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-11-22T15:20:56.000Z",
+      "endDate": "2025-11-22T15:31:22.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 10.43165974815687,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-11-22T15:31:23.000Z",
+      "endDate": "2025-11-22T15:51:49.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 20.4326576769352,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-11-22T15:20:56.000Z",
+      "endDate": "2025-11-22T15:51:49.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 30.86431742509206,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-11-24T17:20:37.000Z",
+      "endDate": "2025-11-24T17:58:01.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 37.39183416763942,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-11-26T16:42:22.000Z",
+      "endDate": "2025-11-26T16:59:58.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 17.3996933499972,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-11-27T16:27:02.000Z",
+      "endDate": "2025-11-27T16:57:13.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 30.09465529918671,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-11-30T16:19:01.000Z",
+      "endDate": "2025-11-30T16:33:30.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 14.48240330020587,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-11-30T16:34:47.000Z",
+      "endDate": "2025-11-30T17:18:35.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 41.34332785010338,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-12-01T14:33:33.000Z",
+      "endDate": "2025-12-01T15:29:27.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 55.901731133461,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-12-04T15:45:17.000Z",
+      "endDate": "2025-12-04T15:56:56.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 11.65,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-12-05T19:15:35.000Z",
+      "endDate": "2025-12-05T19:44:59.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 28.59283701380094,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-12-08T14:44:26.000Z",
+      "endDate": "2025-12-08T16:02:15.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 77.81757683356604,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-12-11T13:51:27.000Z",
+      "endDate": "2025-12-11T13:56:03.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 4.589986199140549,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-12-13T15:08:49.000Z",
+      "endDate": "2025-12-13T15:27:04.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 18.25039956569672,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-12-13T15:28:07.000Z",
+      "endDate": "2025-12-13T15:58:46.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 29.09943824807803,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-12-17T16:49:48.000Z",
+      "endDate": "2025-12-17T17:32:48.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 43.00887206792832,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-12-17T17:37:20.000Z",
+      "endDate": "2025-12-17T18:00:10.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 22.65850092371305,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-12-18T20:13:51.000Z",
+      "endDate": "2025-12-18T20:28:13.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 14.36768356561661,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-12-18T20:36:25.000Z",
+      "endDate": "2025-12-18T20:51:22.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 14.94747151732445,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-12-20T20:01:34.000Z",
+      "endDate": "2025-12-20T20:10:36.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 9.04512533346812,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-12-21T17:18:17.000Z",
+      "endDate": "2025-12-21T17:54:45.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 36.46181798179944,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-12-22T18:39:21.000Z",
+      "endDate": "2025-12-22T19:02:21.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 22.92568297584852,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-12-23T18:34:01.000Z",
+      "endDate": "2025-12-23T18:47:40.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 13.6505966981252,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-12-28T17:07:38.000Z",
+      "endDate": "2025-12-28T17:37:43.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 30.08546440005302,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-12-31T16:48:00.000Z",
+      "endDate": "2025-12-31T17:08:47.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 16.21664594610532,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-12-31T17:09:24.000Z",
+      "endDate": "2025-12-31T17:18:43.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 9.329598516225815,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2025-12-31T17:23:26.000Z",
+      "endDate": "2025-12-31T17:52:26.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 28.80764601429303,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2026-01-01T18:19:27.000Z",
+      "endDate": "2026-01-01T18:38:18.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 18.84888713359833,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2026-01-03T16:44:23.000Z",
+      "endDate": "2026-01-03T17:19:29.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 35.09887133439382,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2026-01-03T17:21:05.000Z",
+      "endDate": "2026-01-03T17:30:52.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 9.789678899447123,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2026-01-05T14:26:14.000Z",
+      "endDate": "2026-01-05T15:21:24.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 55.16382323304812,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2026-01-07T19:13:49.000Z",
+      "endDate": "2026-01-07T19:56:47.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 42.96141481796901,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2026-01-07T19:59:21.000Z",
+      "endDate": "2026-01-07T20:08:39.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 9.309127273162206,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2026-01-08T14:20:45.000Z",
+      "endDate": "2026-01-08T14:41:26.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 19.01959683895111,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2026-01-09T01:18:47.000Z",
+      "endDate": "2026-01-09T04:17:25.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 178.6246275007725,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2026-01-10T16:13:55.000Z",
+      "endDate": "2026-01-10T16:52:24.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 38.48371745149294,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2026-01-11T15:32:02.000Z",
+      "endDate": "2026-01-11T16:01:27.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 29.34897280136744,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2026-01-12T14:02:00.000Z",
+      "endDate": "2026-01-12T15:04:29.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 62.48075788418452,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2026-01-14T17:41:22.000Z",
+      "endDate": "2026-01-14T18:00:42.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 14.99157902995745,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2026-01-15T17:27:27.000Z",
+      "endDate": "2026-01-15T18:02:37.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 35.15708734989166,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2026-01-19T16:34:04.000Z",
+      "endDate": "2026-01-19T17:19:09.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 45.08698496818543,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2026-01-20T16:55:07.000Z",
+      "endDate": "2026-01-20T17:09:58.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 14.83429506421089,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2026-01-25T14:46:04.000Z",
+      "endDate": "2026-01-25T15:26:44.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 40.6612823843956,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2026-01-25T15:29:18.000Z",
+      "endDate": "2026-01-25T15:50:27.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 20.80605832139651,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2026-01-26T14:17:04.000Z",
+      "endDate": "2026-01-26T15:08:44.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 51.66450451811155,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2026-01-26T15:10:57.000Z",
+      "endDate": "2026-01-26T15:21:11.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 10.20381019910177,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2026-01-28T14:14:02.000Z",
+      "endDate": "2026-01-28T14:33:28.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 18.71751964092255,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2026-01-29T20:10:55.000Z",
+      "endDate": "2026-01-29T21:02:51.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 51.93241554896037,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2026-01-31T13:15:15.000Z",
+      "endDate": "2026-01-31T14:14:16.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 59.02344551682472,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2026-02-02T14:13:52.000Z",
+      "endDate": "2026-02-02T15:09:54.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 56.02712423205376,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2026-02-05T14:07:44.000Z",
+      "endDate": "2026-02-05T14:22:49.000Z",
+      "activityType": "HKWorkoutActivityTypeRunning",
+      "type": "running",
+      "duration": 14.88862106601397,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    },
+    {
+      "startDate": "2026-02-06T18:00:48.000Z",
+      "endDate": "2026-02-06T18:34:48.000Z",
+      "activityType": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+      "type": "strength",
+      "duration": 33.99302376707395,
+      "totalEnergyBurned": null,
+      "totalDistance": null
+    }
+  ],
+  "matchedData": [
+    {
+      "sleepDate": "2021-01-09T05:00:00.000Z",
+      "fallAsleepTime": "2021-01-10T09:10:59.000Z",
+      "wakeTime": "2021-01-10T15:22:58.000Z",
+      "durationHours": 6.199722222222222,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2021-01-10T05:00:00.000Z",
+      "fallAsleepTime": "2021-01-11T08:21:42.000Z",
+      "wakeTime": "2021-01-11T15:37:29.000Z",
+      "durationHours": 7.263055555555556,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2021-01-11T05:00:00.000Z",
+      "fallAsleepTime": "2021-01-12T08:05:49.000Z",
+      "wakeTime": "2021-01-12T15:00:11.000Z",
+      "durationHours": 6.9061111111111115,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2021-01-12T05:00:00.000Z",
+      "fallAsleepTime": "2021-01-13T08:26:33.000Z",
+      "wakeTime": "2021-01-13T15:02:10.000Z",
+      "durationHours": 6.5936111111111115,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2021-01-13T05:00:00.000Z",
+      "fallAsleepTime": "2021-01-14T08:19:15.000Z",
+      "wakeTime": "2021-01-14T14:24:21.000Z",
+      "durationHours": 6.085,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2021-01-14T05:00:00.000Z",
+      "fallAsleepTime": "2021-01-15T07:37:57.000Z",
+      "wakeTime": "2021-01-15T14:48:04.000Z",
+      "durationHours": 7.168611111111111,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2021-01-15T05:00:00.000Z",
+      "fallAsleepTime": "2021-01-16T07:44:24.000Z",
+      "wakeTime": "2021-01-16T14:38:17.000Z",
+      "durationHours": 6.898055555555556,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2021-01-16T05:00:00.000Z",
+      "fallAsleepTime": "2021-01-17T07:33:31.000Z",
+      "wakeTime": "2021-01-17T15:58:14.000Z",
+      "durationHours": 8.411944444444444,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2021-01-18T05:00:00.000Z",
+      "fallAsleepTime": "2021-01-19T08:54:06.000Z",
+      "wakeTime": "2021-01-19T15:00:53.000Z",
+      "durationHours": 6.113055555555556,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2021-01-19T05:00:00.000Z",
+      "fallAsleepTime": "2021-01-20T09:26:17.000Z",
+      "wakeTime": "2021-01-20T14:39:08.000Z",
+      "durationHours": 5.214166666666667,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2024-05-01T04:00:00.000Z",
+      "fallAsleepTime": "2024-05-02T02:46:30.000Z",
+      "wakeTime": "2024-05-02T10:30:30.000Z",
+      "durationHours": 6.566666666666666,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2024-05-03T04:00:00.000Z",
+      "fallAsleepTime": "2024-05-04T02:49:30.000Z",
+      "wakeTime": "2024-05-04T09:36:00.000Z",
+      "durationHours": 5.708333333333333,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2024-05-04T04:00:00.000Z",
+      "fallAsleepTime": "2024-05-05T02:48:00.000Z",
+      "wakeTime": "2024-05-05T09:34:30.000Z",
+      "durationHours": 5.633333333333334,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-11-08T05:00:00.000Z",
+      "fallAsleepTime": "2025-11-09T05:01:19.000Z",
+      "wakeTime": "2025-11-09T11:50:10.000Z",
+      "durationHours": 6.706111111111112,
+      "hasRunningToday": true,
+      "hasStrengthToday": true,
+      "hasRunningYesterday": true,
+      "hasStrengthYesterday": false,
+      "runningCountToday": 2,
+      "strengthCountToday": 1,
+      "runningCountYesterday": 1,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-11-10T05:00:00.000Z",
+      "fallAsleepTime": "2025-11-11T04:47:01.000Z",
+      "wakeTime": "2025-11-11T11:15:55.000Z",
+      "durationHours": 6.4816666666666665,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-11-11T05:00:00.000Z",
+      "fallAsleepTime": "2025-11-12T04:42:56.000Z",
+      "wakeTime": "2025-11-12T11:20:19.000Z",
+      "durationHours": 6.623055555555555,
+      "hasRunningToday": true,
+      "hasStrengthToday": false,
+      "runningCountToday": 1,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-11-12T05:00:00.000Z",
+      "fallAsleepTime": "2025-11-13T05:16:31.000Z",
+      "wakeTime": "2025-11-13T11:27:29.000Z",
+      "durationHours": 6.1661111111111095,
+      "hasRunningYesterday": true,
+      "hasStrengthYesterday": false,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 1,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-11-13T05:00:00.000Z",
+      "fallAsleepTime": "2025-11-14T04:02:18.000Z",
+      "wakeTime": "2025-11-14T12:44:20.000Z",
+      "durationHours": 8.476111111111111,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-11-14T05:00:00.000Z",
+      "fallAsleepTime": "2025-11-15T08:13:03.000Z",
+      "wakeTime": "2025-11-15T12:53:45.000Z",
+      "durationHours": 4.437222222222222,
+      "hasRunningToday": true,
+      "hasStrengthToday": false,
+      "runningCountToday": 1,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-11-15T05:00:00.000Z",
+      "fallAsleepTime": "2025-11-16T04:19:01.000Z",
+      "wakeTime": "2025-11-16T12:01:43.000Z",
+      "durationHours": 7.612222222222221,
+      "hasRunningYesterday": true,
+      "hasStrengthYesterday": false,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 1,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-11-16T05:00:00.000Z",
+      "fallAsleepTime": "2025-11-17T04:18:27.000Z",
+      "wakeTime": "2025-11-17T11:33:44.000Z",
+      "durationHours": 6.847777777777776,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-11-17T05:00:00.000Z",
+      "fallAsleepTime": "2025-11-18T04:25:42.000Z",
+      "wakeTime": "2025-11-18T11:37:58.000Z",
+      "durationHours": 7.013333333333334,
+      "hasRunningToday": true,
+      "hasStrengthToday": true,
+      "runningCountToday": 1,
+      "strengthCountToday": 1,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-11-18T05:00:00.000Z",
+      "fallAsleepTime": "2025-11-19T04:35:40.000Z",
+      "wakeTime": "2025-11-19T12:00:25.000Z",
+      "durationHours": 7.296388888888888,
+      "hasRunningYesterday": true,
+      "hasStrengthYesterday": true,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 1,
+      "strengthCountYesterday": 1
+    },
+    {
+      "sleepDate": "2025-11-19T05:00:00.000Z",
+      "fallAsleepTime": "2025-11-20T04:58:26.000Z",
+      "wakeTime": "2025-11-20T11:15:52.000Z",
+      "durationHours": 5.958333333333332,
+      "hasRunningToday": true,
+      "hasStrengthToday": false,
+      "runningCountToday": 1,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-11-20T05:00:00.000Z",
+      "fallAsleepTime": "2025-11-21T04:29:12.000Z",
+      "wakeTime": "2025-11-21T12:00:26.000Z",
+      "durationHours": 7.403888888888889,
+      "hasRunningYesterday": true,
+      "hasStrengthYesterday": false,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 1,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-11-21T05:00:00.000Z",
+      "fallAsleepTime": "2025-11-22T03:54:56.000Z",
+      "wakeTime": "2025-11-22T11:41:07.000Z",
+      "durationHours": 7.678333333333333,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-11-22T05:00:00.000Z",
+      "fallAsleepTime": "2025-11-23T05:40:58.000Z",
+      "wakeTime": "2025-11-23T11:48:26.000Z",
+      "durationHours": 6.082777777777777,
+      "hasRunningToday": true,
+      "hasStrengthToday": false,
+      "runningCountToday": 3,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-11-23T05:00:00.000Z",
+      "fallAsleepTime": "2025-11-24T04:46:08.000Z",
+      "wakeTime": "2025-11-24T11:37:29.000Z",
+      "durationHours": 6.805833333333335,
+      "hasRunningYesterday": true,
+      "hasStrengthYesterday": false,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 3,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-11-24T05:00:00.000Z",
+      "fallAsleepTime": "2025-11-25T04:46:29.000Z",
+      "wakeTime": "2025-11-25T10:42:29.000Z",
+      "durationHours": 5.908611111111111,
+      "hasRunningToday": false,
+      "hasStrengthToday": true,
+      "runningCountToday": 0,
+      "strengthCountToday": 1,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-11-25T05:00:00.000Z",
+      "fallAsleepTime": "2025-11-26T04:50:15.000Z",
+      "wakeTime": "2025-11-26T12:31:27.000Z",
+      "durationHours": 7.520555555555554,
+      "hasRunningYesterday": false,
+      "hasStrengthYesterday": true,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 1
+    },
+    {
+      "sleepDate": "2025-11-26T05:00:00.000Z",
+      "fallAsleepTime": "2025-11-27T05:30:57.000Z",
+      "wakeTime": "2025-11-27T11:40:55.000Z",
+      "durationHours": 6.132777777777777,
+      "hasRunningToday": true,
+      "hasStrengthToday": false,
+      "runningCountToday": 1,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-11-27T05:00:00.000Z",
+      "fallAsleepTime": "2025-11-28T05:24:21.000Z",
+      "wakeTime": "2025-11-28T11:04:53.000Z",
+      "durationHours": 5.634166666666667,
+      "hasRunningToday": true,
+      "hasStrengthToday": false,
+      "hasRunningYesterday": true,
+      "hasStrengthYesterday": false,
+      "runningCountToday": 1,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 1,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-11-28T05:00:00.000Z",
+      "fallAsleepTime": "2025-11-29T04:46:24.000Z",
+      "wakeTime": "2025-11-29T10:59:21.000Z",
+      "durationHours": 6.140833333333333,
+      "hasRunningYesterday": true,
+      "hasStrengthYesterday": false,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 1,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-11-29T05:00:00.000Z",
+      "fallAsleepTime": "2025-11-30T06:22:41.000Z",
+      "wakeTime": "2025-11-30T13:08:32.000Z",
+      "durationHours": 6.589722222222223,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-11-30T05:00:00.000Z",
+      "fallAsleepTime": "2025-12-01T04:00:10.000Z",
+      "wakeTime": "2025-12-01T12:23:46.000Z",
+      "durationHours": 8.301944444444445,
+      "hasRunningToday": true,
+      "hasStrengthToday": true,
+      "runningCountToday": 1,
+      "strengthCountToday": 1,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-12-01T05:00:00.000Z",
+      "fallAsleepTime": "2025-12-02T04:06:39.000Z",
+      "wakeTime": "2025-12-02T11:01:28.000Z",
+      "durationHours": 6.847222222222222,
+      "hasRunningToday": false,
+      "hasStrengthToday": true,
+      "hasRunningYesterday": true,
+      "hasStrengthYesterday": true,
+      "runningCountToday": 0,
+      "strengthCountToday": 1,
+      "runningCountYesterday": 1,
+      "strengthCountYesterday": 1
+    },
+    {
+      "sleepDate": "2025-12-02T05:00:00.000Z",
+      "fallAsleepTime": "2025-12-03T04:14:04.000Z",
+      "wakeTime": "2025-12-03T11:20:52.000Z",
+      "durationHours": 6.8469444444444445,
+      "hasRunningYesterday": false,
+      "hasStrengthYesterday": true,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 1
+    },
+    {
+      "sleepDate": "2025-12-03T05:00:00.000Z",
+      "fallAsleepTime": "2025-12-04T04:07:52.000Z",
+      "wakeTime": "2025-12-04T12:29:28.000Z",
+      "durationHours": 8.343333333333334,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-12-04T05:00:00.000Z",
+      "fallAsleepTime": "2025-12-05T04:25:51.000Z",
+      "wakeTime": "2025-12-05T11:31:09.000Z",
+      "durationHours": 6.980277777777778,
+      "hasRunningToday": true,
+      "hasStrengthToday": false,
+      "runningCountToday": 1,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-12-06T05:00:00.000Z",
+      "fallAsleepTime": "2025-12-07T04:41:52.000Z",
+      "wakeTime": "2025-12-07T13:28:23.000Z",
+      "durationHours": 8.700833333333332,
+      "hasRunningYesterday": true,
+      "hasStrengthYesterday": false,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 1,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-12-07T05:00:00.000Z",
+      "fallAsleepTime": "2025-12-08T04:26:46.000Z",
+      "wakeTime": "2025-12-08T12:34:54.000Z",
+      "durationHours": 7.886111111111112,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-12-08T05:00:00.000Z",
+      "fallAsleepTime": "2025-12-09T04:22:18.000Z",
+      "wakeTime": "2025-12-09T09:44:54.000Z",
+      "durationHours": 5.36,
+      "hasRunningToday": false,
+      "hasStrengthToday": true,
+      "runningCountToday": 0,
+      "strengthCountToday": 1,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-12-09T05:00:00.000Z",
+      "fallAsleepTime": "2025-12-09T11:06:10.000Z",
+      "wakeTime": "2025-12-09T12:22:27.000Z",
+      "durationHours": 1.271388888888889,
+      "hasRunningYesterday": false,
+      "hasStrengthYesterday": true,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 1
+    },
+    {
+      "sleepDate": "2025-12-10T05:00:00.000Z",
+      "fallAsleepTime": "2025-12-11T04:32:47.000Z",
+      "wakeTime": "2025-12-11T12:06:30.000Z",
+      "durationHours": 7.487222222222223,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-12-11T05:00:00.000Z",
+      "fallAsleepTime": "2025-12-12T05:06:15.000Z",
+      "wakeTime": "2025-12-12T12:19:32.000Z",
+      "durationHours": 7.171666666666666,
+      "hasRunningToday": true,
+      "hasStrengthToday": false,
+      "runningCountToday": 1,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-12-12T05:00:00.000Z",
+      "fallAsleepTime": "2025-12-13T04:35:47.000Z",
+      "wakeTime": "2025-12-13T11:20:39.000Z",
+      "durationHours": 6.722777777777777,
+      "hasRunningYesterday": true,
+      "hasStrengthYesterday": false,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 1,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-12-14T05:00:00.000Z",
+      "fallAsleepTime": "2025-12-15T04:27:07.000Z",
+      "wakeTime": "2025-12-15T11:51:22.000Z",
+      "durationHours": 7.387499999999999,
+      "hasRunningYesterday": true,
+      "hasStrengthYesterday": true,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 1,
+      "strengthCountYesterday": 1
+    },
+    {
+      "sleepDate": "2025-12-15T05:00:00.000Z",
+      "fallAsleepTime": "2025-12-16T04:53:28.000Z",
+      "wakeTime": "2025-12-16T12:18:43.000Z",
+      "durationHours": 7.171388888888888,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-12-16T05:00:00.000Z",
+      "fallAsleepTime": "2025-12-17T05:05:29.000Z",
+      "wakeTime": "2025-12-17T12:58:39.000Z",
+      "durationHours": 7.7780555555555555,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-12-17T05:00:00.000Z",
+      "fallAsleepTime": "2025-12-18T08:51:19.000Z",
+      "wakeTime": "2025-12-18T16:12:05.000Z",
+      "durationHours": 7.121944444444443,
+      "hasRunningToday": true,
+      "hasStrengthToday": true,
+      "runningCountToday": 1,
+      "strengthCountToday": 1,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-12-18T05:00:00.000Z",
+      "fallAsleepTime": "2025-12-19T08:18:03.000Z",
+      "wakeTime": "2025-12-19T15:57:46.000Z",
+      "durationHours": 7.595277777777777,
+      "hasRunningToday": true,
+      "hasStrengthToday": true,
+      "hasRunningYesterday": true,
+      "hasStrengthYesterday": true,
+      "runningCountToday": 1,
+      "strengthCountToday": 1,
+      "runningCountYesterday": 1,
+      "strengthCountYesterday": 1
+    },
+    {
+      "sleepDate": "2025-12-19T05:00:00.000Z",
+      "fallAsleepTime": "2025-12-20T09:58:25.000Z",
+      "wakeTime": "2025-12-20T16:40:47.000Z",
+      "durationHours": 6.481666666666666,
+      "hasRunningYesterday": true,
+      "hasStrengthYesterday": true,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 1,
+      "strengthCountYesterday": 1
+    },
+    {
+      "sleepDate": "2025-12-20T05:00:00.000Z",
+      "fallAsleepTime": "2025-12-21T06:12:31.000Z",
+      "wakeTime": "2025-12-21T13:24:48.000Z",
+      "durationHours": 7.121666666666666,
+      "hasRunningToday": true,
+      "hasStrengthToday": false,
+      "runningCountToday": 1,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-12-21T05:00:00.000Z",
+      "fallAsleepTime": "2025-12-22T06:34:14.000Z",
+      "wakeTime": "2025-12-22T14:29:24.000Z",
+      "durationHours": 7.836388888888889,
+      "hasRunningToday": false,
+      "hasStrengthToday": true,
+      "hasRunningYesterday": true,
+      "hasStrengthYesterday": false,
+      "runningCountToday": 0,
+      "strengthCountToday": 1,
+      "runningCountYesterday": 1,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-12-22T05:00:00.000Z",
+      "fallAsleepTime": "2025-12-23T07:11:41.000Z",
+      "wakeTime": "2025-12-23T14:15:29.000Z",
+      "durationHours": 7.03,
+      "hasRunningToday": true,
+      "hasStrengthToday": false,
+      "hasRunningYesterday": false,
+      "hasStrengthYesterday": true,
+      "runningCountToday": 1,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 1
+    },
+    {
+      "sleepDate": "2025-12-23T05:00:00.000Z",
+      "fallAsleepTime": "2025-12-24T07:16:23.000Z",
+      "wakeTime": "2025-12-24T14:18:42.000Z",
+      "durationHours": 6.905277777777778,
+      "hasRunningToday": false,
+      "hasStrengthToday": true,
+      "hasRunningYesterday": true,
+      "hasStrengthYesterday": false,
+      "runningCountToday": 0,
+      "strengthCountToday": 1,
+      "runningCountYesterday": 1,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-12-24T05:00:00.000Z",
+      "fallAsleepTime": "2025-12-25T08:01:17.000Z",
+      "wakeTime": "2025-12-25T13:51:47.000Z",
+      "durationHours": 5.659166666666667,
+      "hasRunningYesterday": false,
+      "hasStrengthYesterday": true,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 1
+    },
+    {
+      "sleepDate": "2025-12-25T05:00:00.000Z",
+      "fallAsleepTime": "2025-12-26T08:57:45.000Z",
+      "wakeTime": "2025-12-26T10:48:27.000Z",
+      "durationHours": 1.4461111111111111,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-12-26T05:00:00.000Z",
+      "fallAsleepTime": "2025-12-26T14:49:22.000Z",
+      "wakeTime": "2025-12-26T19:17:37.000Z",
+      "durationHours": 4.304722222222222,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-12-26T05:00:00.000Z",
+      "fallAsleepTime": "2025-12-26T23:42:23.000Z",
+      "wakeTime": "2025-12-27T00:47:42.000Z",
+      "durationHours": 1.0719444444444444,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-12-26T05:00:00.000Z",
+      "fallAsleepTime": "2025-12-27T07:17:21.000Z",
+      "wakeTime": "2025-12-27T14:15:11.000Z",
+      "durationHours": 6.955555555555555,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-12-27T05:00:00.000Z",
+      "fallAsleepTime": "2025-12-28T06:47:00.000Z",
+      "wakeTime": "2025-12-28T14:11:15.000Z",
+      "durationHours": 7.345833333333332,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-12-28T05:00:00.000Z",
+      "fallAsleepTime": "2025-12-29T06:56:18.000Z",
+      "wakeTime": "2025-12-29T14:48:58.000Z",
+      "durationHours": 7.578333333333333,
+      "hasRunningToday": false,
+      "hasStrengthToday": true,
+      "runningCountToday": 0,
+      "strengthCountToday": 1,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2025-12-29T05:00:00.000Z",
+      "fallAsleepTime": "2025-12-30T05:09:33.000Z",
+      "wakeTime": "2025-12-30T12:58:14.000Z",
+      "durationHours": 7.803333333333333,
+      "hasRunningYesterday": false,
+      "hasStrengthYesterday": true,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 1
+    },
+    {
+      "sleepDate": "2025-12-31T05:00:00.000Z",
+      "fallAsleepTime": "2026-01-01T06:54:53.000Z",
+      "wakeTime": "2026-01-01T13:20:48.000Z",
+      "durationHours": 6.415277777777777,
+      "hasRunningToday": true,
+      "hasStrengthToday": true,
+      "runningCountToday": 2,
+      "strengthCountToday": 1,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2026-01-01T05:00:00.000Z",
+      "fallAsleepTime": "2026-01-02T05:13:54.000Z",
+      "wakeTime": "2026-01-02T13:00:06.000Z",
+      "durationHours": 7.703611111111111,
+      "hasRunningToday": true,
+      "hasStrengthToday": false,
+      "hasRunningYesterday": true,
+      "hasStrengthYesterday": true,
+      "runningCountToday": 1,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 2,
+      "strengthCountYesterday": 1
+    },
+    {
+      "sleepDate": "2026-01-02T05:00:00.000Z",
+      "fallAsleepTime": "2026-01-03T06:06:18.000Z",
+      "wakeTime": "2026-01-03T12:40:41.000Z",
+      "durationHours": 6.548055555555555,
+      "hasRunningYesterday": true,
+      "hasStrengthYesterday": false,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 1,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2026-01-03T05:00:00.000Z",
+      "fallAsleepTime": "2026-01-04T05:14:36.000Z",
+      "wakeTime": "2026-01-04T13:15:45.000Z",
+      "durationHours": 7.985833333333334,
+      "hasRunningToday": true,
+      "hasStrengthToday": true,
+      "runningCountToday": 1,
+      "strengthCountToday": 1,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2026-01-04T05:00:00.000Z",
+      "fallAsleepTime": "2026-01-05T04:53:02.000Z",
+      "wakeTime": "2026-01-05T12:02:24.000Z",
+      "durationHours": 7.147777777777776,
+      "hasRunningYesterday": true,
+      "hasStrengthYesterday": true,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 1,
+      "strengthCountYesterday": 1
+    },
+    {
+      "sleepDate": "2026-01-05T05:00:00.000Z",
+      "fallAsleepTime": "2026-01-06T04:52:56.000Z",
+      "wakeTime": "2026-01-06T12:42:07.000Z",
+      "durationHours": 7.70361111111111,
+      "hasRunningToday": false,
+      "hasStrengthToday": true,
+      "runningCountToday": 0,
+      "strengthCountToday": 1,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2026-01-07T05:00:00.000Z",
+      "fallAsleepTime": "2026-01-08T04:31:49.000Z",
+      "wakeTime": "2026-01-08T11:43:36.000Z",
+      "durationHours": 7.138055555555555,
+      "hasRunningToday": true,
+      "hasStrengthToday": true,
+      "runningCountToday": 1,
+      "strengthCountToday": 1,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2026-01-08T05:00:00.000Z",
+      "fallAsleepTime": "2026-01-09T04:32:57.000Z",
+      "wakeTime": "2026-01-09T11:17:19.000Z",
+      "durationHours": 6.539722222222222,
+      "hasRunningToday": true,
+      "hasStrengthToday": false,
+      "hasRunningYesterday": true,
+      "hasStrengthYesterday": true,
+      "runningCountToday": 1,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 1,
+      "strengthCountYesterday": 1
+    },
+    {
+      "sleepDate": "2026-01-09T05:00:00.000Z",
+      "fallAsleepTime": "2026-01-10T05:21:57.000Z",
+      "wakeTime": "2026-01-10T12:32:14.000Z",
+      "durationHours": 7.154722222222221,
+      "hasRunningToday": true,
+      "hasStrengthToday": false,
+      "hasRunningYesterday": true,
+      "hasStrengthYesterday": false,
+      "runningCountToday": 1,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 1,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2026-01-10T05:00:00.000Z",
+      "fallAsleepTime": "2026-01-11T04:59:52.000Z",
+      "wakeTime": "2026-01-11T11:45:13.000Z",
+      "durationHours": 6.664722222222223,
+      "hasRunningToday": false,
+      "hasStrengthToday": true,
+      "hasRunningYesterday": true,
+      "hasStrengthYesterday": false,
+      "runningCountToday": 0,
+      "strengthCountToday": 1,
+      "runningCountYesterday": 1,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2026-01-11T05:00:00.000Z",
+      "fallAsleepTime": "2026-01-12T04:54:18.000Z",
+      "wakeTime": "2026-01-12T11:51:37.000Z",
+      "durationHours": 6.91361111111111,
+      "hasRunningToday": true,
+      "hasStrengthToday": false,
+      "hasRunningYesterday": false,
+      "hasStrengthYesterday": true,
+      "runningCountToday": 1,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 1
+    },
+    {
+      "sleepDate": "2026-01-12T05:00:00.000Z",
+      "fallAsleepTime": "2026-01-13T04:55:17.000Z",
+      "wakeTime": "2026-01-13T12:31:00.000Z",
+      "durationHours": 7.462222222222222,
+      "hasRunningToday": false,
+      "hasStrengthToday": true,
+      "hasRunningYesterday": true,
+      "hasStrengthYesterday": false,
+      "runningCountToday": 0,
+      "strengthCountToday": 1,
+      "runningCountYesterday": 1,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2026-01-13T05:00:00.000Z",
+      "fallAsleepTime": "2026-01-14T04:59:52.000Z",
+      "wakeTime": "2026-01-14T11:52:12.000Z",
+      "durationHours": 6.872222222222223,
+      "hasRunningYesterday": false,
+      "hasStrengthYesterday": true,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 1
+    },
+    {
+      "sleepDate": "2026-01-14T05:00:00.000Z",
+      "fallAsleepTime": "2026-01-15T04:10:00.000Z",
+      "wakeTime": "2026-01-15T12:29:36.000Z",
+      "durationHours": 8.119166666666667,
+      "hasRunningToday": true,
+      "hasStrengthToday": false,
+      "runningCountToday": 1,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2026-01-15T05:00:00.000Z",
+      "fallAsleepTime": "2026-01-16T04:18:02.000Z",
+      "wakeTime": "2026-01-16T09:10:13.000Z",
+      "durationHours": 4.828333333333333,
+      "hasRunningToday": false,
+      "hasStrengthToday": true,
+      "hasRunningYesterday": true,
+      "hasStrengthYesterday": false,
+      "runningCountToday": 0,
+      "strengthCountToday": 1,
+      "runningCountYesterday": 1,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2026-01-15T05:00:00.000Z",
+      "fallAsleepTime": "2026-01-16T10:23:30.000Z",
+      "wakeTime": "2026-01-16T12:47:36.000Z",
+      "durationHours": 2.4016666666666664,
+      "hasRunningToday": false,
+      "hasStrengthToday": true,
+      "hasRunningYesterday": true,
+      "hasStrengthYesterday": false,
+      "runningCountToday": 0,
+      "strengthCountToday": 1,
+      "runningCountYesterday": 1,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2026-01-16T05:00:00.000Z",
+      "fallAsleepTime": "2026-01-17T04:45:00.000Z",
+      "wakeTime": "2026-01-17T12:21:43.000Z",
+      "durationHours": 7.479166666666667,
+      "hasRunningYesterday": false,
+      "hasStrengthYesterday": true,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 1
+    },
+    {
+      "sleepDate": "2026-01-17T05:00:00.000Z",
+      "fallAsleepTime": "2026-01-18T05:48:52.000Z",
+      "wakeTime": "2026-01-18T12:23:15.000Z",
+      "durationHours": 6.331944444444444,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2026-01-18T05:00:00.000Z",
+      "fallAsleepTime": "2026-01-19T05:22:32.000Z",
+      "wakeTime": "2026-01-19T12:14:22.000Z",
+      "durationHours": 6.6975,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2026-01-19T05:00:00.000Z",
+      "fallAsleepTime": "2026-01-20T05:03:32.000Z",
+      "wakeTime": "2026-01-20T12:02:21.000Z",
+      "durationHours": 6.96361111111111,
+      "hasRunningToday": false,
+      "hasStrengthToday": true,
+      "runningCountToday": 0,
+      "strengthCountToday": 1,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2026-01-20T05:00:00.000Z",
+      "fallAsleepTime": "2026-01-21T05:02:48.000Z",
+      "wakeTime": "2026-01-21T12:04:07.000Z",
+      "durationHours": 6.781388888888888,
+      "hasRunningToday": true,
+      "hasStrengthToday": false,
+      "hasRunningYesterday": false,
+      "hasStrengthYesterday": true,
+      "runningCountToday": 1,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 1
+    },
+    {
+      "sleepDate": "2026-01-21T05:00:00.000Z",
+      "fallAsleepTime": "2026-01-22T05:24:55.000Z",
+      "wakeTime": "2026-01-22T11:50:20.000Z",
+      "durationHours": 6.390277777777778,
+      "hasRunningYesterday": true,
+      "hasStrengthYesterday": false,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 1,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2026-01-22T05:00:00.000Z",
+      "fallAsleepTime": "2026-01-23T05:04:42.000Z",
+      "wakeTime": "2026-01-23T11:59:01.000Z",
+      "durationHours": 6.905277777777777,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2026-01-23T05:00:00.000Z",
+      "fallAsleepTime": "2026-01-24T03:47:25.000Z",
+      "wakeTime": "2026-01-24T11:26:07.000Z",
+      "durationHours": 7.645,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2026-01-24T05:00:00.000Z",
+      "fallAsleepTime": "2026-01-25T04:46:10.000Z",
+      "wakeTime": "2026-01-25T12:09:55.000Z",
+      "durationHours": 7.2875000000000005,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2026-01-25T05:00:00.000Z",
+      "fallAsleepTime": "2026-01-26T04:58:20.000Z",
+      "wakeTime": "2026-01-26T11:46:12.000Z",
+      "durationHours": 6.765,
+      "hasRunningToday": true,
+      "hasStrengthToday": true,
+      "runningCountToday": 1,
+      "strengthCountToday": 1,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2026-01-26T05:00:00.000Z",
+      "fallAsleepTime": "2026-01-27T04:24:46.000Z",
+      "wakeTime": "2026-01-27T11:16:37.000Z",
+      "durationHours": 6.839166666666666,
+      "hasRunningToday": true,
+      "hasStrengthToday": true,
+      "hasRunningYesterday": true,
+      "hasStrengthYesterday": true,
+      "runningCountToday": 1,
+      "strengthCountToday": 1,
+      "runningCountYesterday": 1,
+      "strengthCountYesterday": 1
+    },
+    {
+      "sleepDate": "2026-01-27T05:00:00.000Z",
+      "fallAsleepTime": "2026-01-28T04:34:46.000Z",
+      "wakeTime": "2026-01-28T12:00:31.000Z",
+      "durationHours": 7.171666666666666,
+      "hasRunningYesterday": true,
+      "hasStrengthYesterday": true,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 1,
+      "strengthCountYesterday": 1
+    },
+    {
+      "sleepDate": "2026-01-28T05:00:00.000Z",
+      "fallAsleepTime": "2026-01-29T04:38:25.000Z",
+      "wakeTime": "2026-01-29T11:46:43.000Z",
+      "durationHours": 7.121666666666667,
+      "hasRunningToday": true,
+      "hasStrengthToday": false,
+      "runningCountToday": 1,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2026-01-29T05:00:00.000Z",
+      "fallAsleepTime": "2026-01-30T04:53:55.000Z",
+      "wakeTime": "2026-01-30T11:31:48.000Z",
+      "durationHours": 6.631388888888888,
+      "hasRunningToday": false,
+      "hasStrengthToday": true,
+      "hasRunningYesterday": true,
+      "hasStrengthYesterday": false,
+      "runningCountToday": 0,
+      "strengthCountToday": 1,
+      "runningCountYesterday": 1,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2026-01-30T05:00:00.000Z",
+      "fallAsleepTime": "2026-01-31T03:43:09.000Z",
+      "wakeTime": "2026-01-31T10:46:57.000Z",
+      "durationHours": 7.055000000000001,
+      "hasRunningYesterday": false,
+      "hasStrengthYesterday": true,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 1
+    },
+    {
+      "sleepDate": "2026-01-31T05:00:00.000Z",
+      "fallAsleepTime": "2026-02-01T04:49:26.000Z",
+      "wakeTime": "2026-02-01T10:50:25.000Z",
+      "durationHours": 5.999722222222222,
+      "hasRunningToday": false,
+      "hasStrengthToday": true,
+      "runningCountToday": 0,
+      "strengthCountToday": 1,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2026-02-01T05:00:00.000Z",
+      "fallAsleepTime": "2026-02-01T21:53:23.000Z",
+      "wakeTime": "2026-02-01T23:00:41.000Z",
+      "durationHours": 1.0222222222222221,
+      "hasRunningYesterday": false,
+      "hasStrengthYesterday": true,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 1
+    },
+    {
+      "sleepDate": "2026-02-01T05:00:00.000Z",
+      "fallAsleepTime": "2026-02-02T04:39:22.000Z",
+      "wakeTime": "2026-02-02T11:36:12.000Z",
+      "durationHours": 6.789444444444444,
+      "hasRunningYesterday": false,
+      "hasStrengthYesterday": true,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 1
+    },
+    {
+      "sleepDate": "2026-02-02T05:00:00.000Z",
+      "fallAsleepTime": "2026-02-03T04:10:36.000Z",
+      "wakeTime": "2026-02-03T10:06:35.000Z",
+      "durationHours": 5.933055555555555,
+      "hasRunningToday": false,
+      "hasStrengthToday": true,
+      "runningCountToday": 0,
+      "strengthCountToday": 1,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2026-02-03T05:00:00.000Z",
+      "fallAsleepTime": "2026-02-04T04:54:11.000Z",
+      "wakeTime": "2026-02-04T11:16:07.000Z",
+      "durationHours": 6.265833333333333,
+      "hasRunningYesterday": false,
+      "hasStrengthYesterday": true,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 1
+    },
+    {
+      "sleepDate": "2026-02-04T05:00:00.000Z",
+      "fallAsleepTime": "2026-02-05T04:10:08.000Z",
+      "wakeTime": "2026-02-05T11:53:50.000Z",
+      "durationHours": 7.5619444444444435,
+      "runningCountToday": 0,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2026-02-05T05:00:00.000Z",
+      "fallAsleepTime": "2026-02-06T04:55:34.000Z",
+      "wakeTime": "2026-02-06T11:37:26.000Z",
+      "durationHours": 6.589722222222222,
+      "hasRunningToday": true,
+      "hasStrengthToday": false,
+      "runningCountToday": 1,
+      "strengthCountToday": 0,
+      "runningCountYesterday": 0,
+      "strengthCountYesterday": 0
+    },
+    {
+      "sleepDate": "2026-02-06T05:00:00.000Z",
+      "fallAsleepTime": "2026-02-07T04:29:33.000Z",
+      "wakeTime": "2026-02-07T11:05:26.000Z",
+      "durationHours": 6.556388888888889,
+      "hasRunningToday": false,
+      "hasStrengthToday": true,
+      "hasRunningYesterday": true,
+      "hasStrengthYesterday": false,
+      "runningCountToday": 0,
+      "strengthCountToday": 1,
+      "runningCountYesterday": 1,
+      "strengthCountYesterday": 0
+    }
+  ],
+  "correlations": {
+    "runningToday_vs_duration": 0.11360229448448012,
+    "runningYesterday_vs_duration": 0.06759336204532329,
+    "strengthToday_vs_duration": 0.03199499609174555,
+    "strengthYesterday_vs_duration": -0.031466227201646546,
+    "runningToday_vs_fallAsleepTime": -0.1301060794566082,
+    "runningYesterday_vs_fallAsleepTime": 0.05862432361885228,
+    "strengthToday_vs_fallAsleepTime": 0.07807748479706147,
+    "strengthYesterday_vs_fallAsleepTime": 0.12475885287494795
+  },
+  "metadata": {
+    "extractedAt": "2026-02-07T12:57:07.832Z",
+    "totalWorkouts": 130,
+    "runningWorkouts": 65,
+    "strengthWorkouts": 65,
+    "matchedSleepSessions": 103,
+    "dateRange": {
+      "earliest": "2023-03-26T15:36:17.000Z",
+      "latest": "2026-02-06T18:00:48.000Z"
+    }
+  }
+}
