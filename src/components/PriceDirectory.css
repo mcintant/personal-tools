@@ -1,5 +1,7 @@
 .price-directory {
   padding: 0 0 20px;
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
 }
 
 .price-directory-message,
@@ -183,6 +185,21 @@
   border-radius: 8px;
   border: 1px solid #e0e0e0;
   background: #fff;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Scroll cue: gradient on right so users know they can scroll horizontally */
+.price-directory-table-wrap::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 20px;
+  pointer-events: none;
+  background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.06));
+  border-radius: 0 8px 8px 0;
 }
 
 .price-directory-table {
@@ -203,6 +220,40 @@
   font-weight: 600;
   color: #333;
   white-space: nowrap;
+}
+
+/* Sticky header row */
+.price-directory-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: #f8f9fa;
+  box-shadow: 0 1px 0 0 #eee;
+}
+
+/* Sticky first column (item name): header corner */
+.price-directory-table thead th:first-child {
+  left: 0;
+  z-index: 3;
+  box-shadow: 2px 0 6px -2px rgba(0, 0, 0, 0.08);
+}
+
+/* Sticky first column: body cells */
+.price-directory-table tbody td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  background: #fff;
+  box-shadow: 2px 0 6px -2px rgba(0, 0, 0, 0.06);
+}
+
+/* Sticky first column: footer */
+.price-directory-table tfoot td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  background: #f0f4f8;
+  box-shadow: 2px 0 6px -2px rgba(0, 0, 0, 0.06);
 }
 
 .price-directory-table th.price-directory-th-sortable {
@@ -396,8 +447,29 @@
 
   .price-directory-table th,
   .price-directory-table td {
-    padding: 10px 12px;
+    padding: 12px 14px;
     font-size: 0.9rem;
+  }
+
+  .price-directory-table th {
+    padding: 12px 14px;
+  }
+
+  .price-directory-filter-chip {
+    min-height: 44px;
+    padding: 10px 16px;
+    box-sizing: border-box;
+  }
+
+  .price-directory-view-tab {
+    min-height: 44px;
+    padding: 10px 16px;
+    box-sizing: border-box;
+  }
+
+  .price-directory-rank-toggle {
+    min-height: 44px;
+    align-items: center;
   }
 
   .price-directory-store-icon {

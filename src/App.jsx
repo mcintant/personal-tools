@@ -12,6 +12,7 @@ import Highlights from './components/Highlights'
 import JazzStandards from './components/JazzStandards'
 import StoryViewer from './components/StoryViewer'
 import PriceDirectory from './components/PriceDirectory'
+import Workouts from './components/Workouts'
 import './App.css'
 
 function App() {
@@ -174,6 +175,12 @@ function App() {
             💰 Price directory
           </button>
           <button
+            className={`tab-button ${activeTab === 'workouts' ? 'active' : ''}`}
+            onClick={() => setActiveTab('workouts')}
+          >
+            🏋️ Workouts
+          </button>
+          <button
             className={`tab-button ${activeTab === 'overview' ? 'active' : ''}`}
             onClick={() => setActiveTab('overview')}
           >
@@ -315,6 +322,10 @@ function App() {
 
           {activeTab === 'prices' && (
             <PriceDirectory />
+          )}
+
+          {activeTab === 'workouts' && (
+            <Workouts />
           )}
         </div>
       </div>
