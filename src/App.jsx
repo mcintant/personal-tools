@@ -52,10 +52,18 @@ function App() {
       setError(null)
 
       // Load the default SQLite file (put KoboReader.sqlite in public/ to ship a default)
-      const base = import.meta.env.BASE_URL
-      const dbPath = `${base}KoboReader.sqlite`
-      const response = await fetch(dbPath)
-      if (!response.ok) {
+      const base = import.meta.env.BASE_URL.replace(/\/$/, '') // no trailing slash
+      const pathsToTry = [
+        `${base}/KoboReader.sqlite`,
+        '/KoboReader.sqlite',
+        'KoboReader.sqlite'
+      ]
+      let response = null
+      for (const dbPath of pathsToTry) {
+        response = await fetch(dbPath)
+        if (response.ok) break
+      }
+      if (!response?.ok) {
         setError('No database loaded. Upload your KoboReader.sqlite file below.')
         setLoading(false)
         return

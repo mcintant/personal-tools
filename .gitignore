@@ -1,8 +1,9 @@
 # Dependencies
 node_modules/
 
-# Database files
+# Database files (except default reader DB in public/)
 *.sqlite
+!public/KoboReader.sqlite
 *.sqlite-shm
 *.sqlite-wal
 
