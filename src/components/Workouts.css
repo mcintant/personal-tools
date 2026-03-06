@@ -63,6 +63,37 @@
   background: #e0e0e0;
 }
 
+.workouts-cloud {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+}
+.workouts-cloud-title {
+  margin: 0 0 0.5rem;
+  font-size: 0.95rem;
+}
+.workouts-cloud-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+.workouts-cloud-select {
+  min-width: 200px;
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+.workouts-cloud-name-input {
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  min-width: 180px;
+}
+
 .workouts-section {
   margin-top: 2rem;
 }

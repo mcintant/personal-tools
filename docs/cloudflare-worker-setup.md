@@ -52,13 +52,79 @@ npx wrangler d1 execute kobo-db --remote --file=./schema.sql
 
 You’ll be prompted to log in to Cloudflare in the browser if you haven’t already. After this, the `csv_uploads` table exists in D1.
 
+### (Optional) Custom songs DB for Jazz Standards
+
+To enable "Add custom song" in the Jazz Standards tab:
+
+```bash
+npx wrangler d1 create custom-songs
+```
+
+Copy the **database_id** and in **`worker/wrangler.toml`** set the second D1 database: replace `REPLACE_WITH_CUSTOM_SONGS_DATABASE_ID` with that id. Then run:
+
+```bash
+npx wrangler d1 execute custom-songs --remote --file=./schema-custom-songs.sql
+```
+
+Redeploy the Worker. If you skip this, the Worker still works; custom songs will just be empty.
+
+---
+
+## Local development (Worker + D1 on your machine)
+
+Yes, this all works locally. D1 has two modes:
+
+| Target | Flag | When to use |
+|--------|------|-------------|
+| **Remote** (Cloudflare) | `--remote` | Production; what the deployed Worker uses. |
+| **Local** (SQLite on disk) | `--local` | When you run `wrangler dev`; no Cloudflare needed. |
+
+**Run the Worker locally**
+
+1. In `worker/`, install and run migrations **for local** (creates tables in a local SQLite DB):
+
+   ```bash
+   cd worker
+   npm install
+   npm run db:migrate:local
+   # If you use custom songs:
+   npm run db:migrate:songs:local
+   ```
+
+   Or without npm scripts:
+
+   ```bash
+   npx wrangler d1 execute kobo-db --local --file=./schema.sql
+   npx wrangler d1 execute custom-songs --local --file=./schema-custom-songs.sql   # optional
+   ```
+
+2. Start the Worker: `npm run dev`. It listens at **http://localhost:8787** by default.
+
+3. Point the frontend at the local Worker. In `.env` or `.env.local` set:
+
+   `VITE_CLOUDFLARE_WORKER_URL=http://localhost:8787`
+
+4. Start the app (`npm run dev` in the repo root). Workouts and Jazz Standards will call the local Worker; data is stored in the local D1 SQLite file (under `worker/.wrangler/` or similar).
+
+**Summary:** Use `--local` when running `wrangler dev`; use `--remote` for the real Cloudflare DB and for CI/deploy. Run the same schema files for both; the only difference is the flag.
+
 ---
 
 ## 5. Create a Cloudflare API token
 
+The **“Edit Cloudflare Workers”** template does **not** include permission to run D1 migrations. You need a **custom** token with both Workers and D1:
+
 1. In [Cloudflare Dashboard](https://dash.cloudflare.com): **My Profile** (top right) → **API Tokens** → **Create Token**.
-2. Use the **“Edit Cloudflare Workers”** template (or custom with **Workers Scripts: Edit** and **D1: Edit**).
-3. Create the token and copy it. You won’t see it again.
+2. Click **“Create Custom Token”**.
+3. Token name: e.g. `GitHub Actions kobo-worker`.
+4. Permissions: set **Account** scope and add:
+   - **Workers Scripts** → Edit  
+   - **D1** → Edit  
+   (Both are required: Workers for deploy, D1 for `wrangler d1 execute` in the workflow.)
+5. Account resources: **Include** → **Your account**.
+6. Create the token and copy it. You won’t see it again.
+
+If the token only has Workers permissions, the “Run D1 migration” step will fail with `Authentication error [code: 10000]` on the D1 import/execute API.
 
 ---
 
@@ -120,6 +186,7 @@ If you want, you can put the Worker URL in `.env` as e.g. `VITE_CLOUDFLARE_WORKE
 - [ ] `cd worker && npm install && npx wrangler d1 create kobo-db` → copy `database_id`
 - [ ] Replace `REPLACE_WITH_YOUR_D1_DATABASE_ID` in `worker/wrangler.toml`
 - [ ] `npx wrangler d1 execute kobo-db --remote --file=./schema.sql`
-- [ ] Create API token (Workers + D1 edit)
+- [ ] Create API token (**custom**: Workers Scripts Edit + **D1 Edit**)
 - [ ] Add `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` to GitHub Actions secrets
 - [ ] Push to `main` or run **Deploy Worker (Cloudflare)** workflow
+- [ ] (Optional) For Jazz custom songs: create custom-songs D1, add id to wrangler.toml, run schema-custom-songs.sql

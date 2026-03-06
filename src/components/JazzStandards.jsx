@@ -1,20 +1,43 @@
 import React, { useState, useEffect, useMemo } from 'react'
 import { parseJazzStandardsPDF } from '../utils/parseJazzStandards'
+import { hasWorkerApi, listCustomSongs, addCustomSong } from '../utils/workerApi'
 import './JazzStandards.css'
+
+const FREQUENCY_SCORE = { 'must-know': 5, 'important-bass': 4, 'everyone-plays': 3, 'called-often': 2, 'obscure': 1 }
 
 function JazzStandards() {
   const [standards, setStandards] = useState([])
+  const [customSongs, setCustomSongs] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
   const [selectedFrequency, setSelectedFrequency] = useState('all')
-  const [sortBy, setSortBy] = useState('frequency') // 'frequency', 'alphabetical'
+  const [sortBy, setSortBy] = useState('frequency')
   const [searchQuery, setSearchQuery] = useState('')
   const [randomTune, setRandomTune] = useState(null)
   const [randomFrequencyFilter, setRandomFrequencyFilter] = useState('all')
+  const [addSongName, setAddSongName] = useState('')
+  const [addSongFrequency, setAddSongFrequency] = useState('called-often')
+  const [addingSong, setAddingSong] = useState(false)
+  const [addSongError, setAddSongError] = useState(null)
 
   useEffect(() => {
     loadStandards()
   }, [])
+
+  useEffect(() => {
+    if (!hasWorkerApi()) return
+    listCustomSongs().then((data) => setCustomSongs(data.songs || [])).catch(() => {})
+  }, [])
+
+  const mergedStandards = useMemo(() => {
+    const customMapped = (customSongs || []).map((s) => ({
+      name: s.name,
+      frequency: s.frequency,
+      frequencyScore: FREQUENCY_SCORE[s.frequency] ?? 2,
+      originalText: s.name,
+    }))
+    return [...standards, ...customMapped]
+  }, [standards, customSongs])
 
   const loadStandards = async () => {
     try {
@@ -31,7 +54,7 @@ function JazzStandards() {
 
   // Filter and sort standards
   const processedStandards = useMemo(() => {
-    let filtered = standards
+    let filtered = mergedStandards
 
     // Filter by frequency
     if (selectedFrequency !== 'all') {
@@ -60,7 +83,7 @@ function JazzStandards() {
     }
 
     return filtered
-  }, [standards, selectedFrequency, sortBy, searchQuery])
+  }, [mergedStandards, selectedFrequency, sortBy, searchQuery])
 
   const getFrequencyLabel = (frequency) => {
     const labels = {
@@ -92,17 +115,16 @@ function JazzStandards() {
       'called-often': 0,
       'obscure': 0
     }
-    standards.forEach(standard => {
+    mergedStandards.forEach(standard => {
       counts[standard.frequency] = (counts[standard.frequency] || 0) + 1
     })
     return counts
-  }, [standards])
+  }, [mergedStandards])
 
   const pickRandomTune = () => {
-    // Filter by frequency if specified
-    let pool = standards
+    let pool = mergedStandards
     if (randomFrequencyFilter !== 'all') {
-      pool = standards.filter(s => s.frequency === randomFrequencyFilter)
+      pool = mergedStandards.filter(s => s.frequency === randomFrequencyFilter)
     }
     
     if (pool.length === 0) {
@@ -158,7 +180,7 @@ function JazzStandards() {
         <h2>🎷 Jazz Standards</h2>
         <p className="standards-count">
           {processedStandards.length} {selectedFrequency !== 'all' || searchQuery ? 'filtered' : ''} standard{processedStandards.length !== 1 ? 's' : ''}
-          {standards.length > 0 && ` of ${standards.length} total`}
+          {mergedStandards.length > 0 && ` of ${mergedStandards.length} total`}
         </p>
       </div>
 
@@ -205,6 +227,41 @@ function JazzStandards() {
           </div>
         )}
       </div>
+
+      {hasWorkerApi() && (
+        <div className="jazz-add-custom">
+          <h3>Add custom song</h3>
+          {addSongError && <p className="jazz-add-error">{addSongError}</p>}
+          <div className="jazz-add-form">
+            <input type="text" value={addSongName} onChange={(e) => setAddSongName(e.target.value)} placeholder="Song name" className="search-input jazz-add-name" />
+            <select value={addSongFrequency} onChange={(e) => setAddSongFrequency(e.target.value)} className="filter-select jazz-add-frequency">
+              <option value="must-know">- Must Know NOW!</option>
+              <option value="important-bass">- Important Bass Line</option>
+              <option value="everyone-plays">Bold - everyone plays!</option>
+              <option value="called-often">Regular - Have been called often</option>
+              <option value="obscure">Italic - relatively obscure</option>
+            </select>
+            <button type="button" className="pick-random-button" onClick={async () => {
+              const name = addSongName.trim()
+              if (!name) return
+              setAddingSong(true)
+              setAddSongError(null)
+              try {
+                await addCustomSong(name, addSongFrequency)
+                setAddSongName('')
+                const data = await listCustomSongs()
+                setCustomSongs(data.songs || [])
+              } catch (err) {
+                setAddSongError(err.message)
+              } finally {
+                setAddingSong(false)
+              }
+            }} disabled={addingSong || !addSongName.trim()}>
+              {addingSong ? 'Adding…' : 'Add song'}
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* Filters */}
       <div className="jazz-standards-filters">

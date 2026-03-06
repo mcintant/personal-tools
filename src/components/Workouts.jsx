@@ -43,6 +43,7 @@ import {
   DEFAULT_REP_RANGES,
   CUTOFF_DATE,
 } from '../utils/workoutData'
+import { hasWorkerApi, listCsvUploads, getCsvUpload, uploadCsv } from '../utils/workerApi'
 import './Workouts.css'
 
 const STORAGE_KEY = 'koboWorkoutsCSV'
@@ -408,6 +409,13 @@ function Workouts() {
   /** When set, bar chart shows subcategories for this group only; when null, shows all groups. Click a group bar to drill down. */
   const [muscleSelectedGroup, setMuscleSelectedGroup] = useState(null)
 
+  const [cloudUploads, setCloudUploads] = useState([])
+  const [cloudLoading, setCloudLoading] = useState(false)
+  const [cloudError, setCloudError] = useState(null)
+  const [selectedCloudId, setSelectedCloudId] = useState('')
+  const [uploadToCloudName, setUploadToCloudName] = useState('')
+  const [uploadingToCloud, setUploadingToCloud] = useState(false)
+
   const processed = useMemo(() => {
     if (!csvText) return null
     try {
@@ -532,6 +540,11 @@ function Workouts() {
     load()
   }, [])
 
+  useEffect(() => {
+    if (!hasWorkerApi()) return
+    listCsvUploads().then((data) => setCloudUploads(data.uploads || [])).catch(() => {})
+  }, [])
+
   const handleFileChange = (e) => {
     const file = e.target.files?.[0]
     if (!file) return
@@ -563,6 +576,46 @@ function Workouts() {
     }
   }
 
+  const handleLoadFromCloud = async () => {
+    if (!selectedCloudId) return
+    setCloudError(null)
+    try {
+      const text = await getCsvUpload(selectedCloudId)
+      setCsvText(text)
+      localStorage.setItem(STORAGE_KEY, text)
+      setError(null)
+    } catch (err) {
+      setCloudError(err.message)
+    }
+  }
+
+  const handleUploadToCloud = async () => {
+    if (!csvText) return
+    const name = (uploadToCloudName || `workouts-${new Date().toISOString().slice(0, 10)}.csv`).trim()
+    setUploadingToCloud(true)
+    setCloudError(null)
+    try {
+      await uploadCsv(csvText, name)
+      setUploadToCloudName('')
+      const data = await listCsvUploads()
+      setCloudUploads(data.uploads || [])
+    } catch (err) {
+      setCloudError(err.message)
+    } finally {
+      setUploadingToCloud(false)
+    }
+  }
+
+  const loadCloudUploads = () => {
+    if (!hasWorkerApi()) return
+    setCloudLoading(true)
+    setCloudError(null)
+    listCsvUploads()
+      .then((data) => setCloudUploads(data.uploads || []))
+      .catch((err) => setCloudError(err.message))
+      .finally(() => setCloudLoading(false))
+  }
+
   if (loading) {
     return (
       <div className="workouts-container">
@@ -591,6 +644,20 @@ function Workouts() {
             Reset to default
           </button>
         </div>
+        {hasWorkerApi() && (
+          <div className="workouts-cloud">
+            <h4 className="workouts-cloud-title">Or load from cloud</h4>
+            {cloudError && <p className="workouts-error">{cloudError}</p>}
+            <div className="workouts-cloud-row">
+              <select value={selectedCloudId} onChange={(e) => setSelectedCloudId(e.target.value)} className="workouts-cloud-select" disabled={cloudLoading}>
+                <option value="">Select an upload…</option>
+                {cloudUploads.map((u) => <option key={u.id} value={u.id}>{u.name} ({u.created_at?.slice(0, 10)})</option>)}
+              </select>
+              <button type="button" className="workouts-file-label" onClick={loadCloudUploads} disabled={cloudLoading}>{cloudLoading ? 'Loading…' : 'Refresh'}</button>
+              <button type="button" className="workouts-file-label" onClick={handleLoadFromCloud} disabled={!selectedCloudId}>Load</button>
+            </div>
+          </div>
+        )}
       </div>
     )
   }
@@ -614,6 +681,45 @@ function Workouts() {
           Reset to default
         </button>
       </div>
+      {hasWorkerApi() && (
+        <div className="workouts-cloud">
+          <h4 className="workouts-cloud-title">Cloud CSV</h4>
+          {cloudError && <p className="workouts-error">{cloudError}</p>}
+          <div className="workouts-cloud-row">
+            <select
+              value={selectedCloudId}
+              onChange={(e) => setSelectedCloudId(e.target.value)}
+              className="workouts-cloud-select"
+              disabled={cloudLoading}
+            >
+              <option value="">Select an upload…</option>
+              {cloudUploads.map((u) => (
+                <option key={u.id} value={u.id}>{u.name} ({u.created_at?.slice(0, 10)})</option>
+              ))}
+            </select>
+            <button type="button" className="workouts-file-label" onClick={loadCloudUploads} disabled={cloudLoading}>
+              {cloudLoading ? 'Loading…' : 'Refresh list'}
+            </button>
+            <button type="button" className="workouts-file-label" onClick={handleLoadFromCloud} disabled={!selectedCloudId}>
+              Load from cloud
+            </button>
+          </div>
+          {csvText && (
+            <div className="workouts-cloud-row">
+              <input
+                type="text"
+                placeholder="Name for upload (optional)"
+                value={uploadToCloudName}
+                onChange={(e) => setUploadToCloudName(e.target.value)}
+                className="workouts-cloud-name-input"
+              />
+              <button type="button" className="workouts-file-label" onClick={handleUploadToCloud} disabled={uploadingToCloud}>
+                {uploadingToCloud ? 'Uploading…' : 'Upload current to cloud'}
+              </button>
+            </div>
+          )}
+        </div>
+      )}
 
       {processed && exercisesByRank.length > 0 && (
         <>

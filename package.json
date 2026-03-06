@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:worker": "npm run dev --prefix worker",
     "build": "vite build",
     "preview": "vite preview",
     "serve": "vite preview --host 0.0.0.0 --port 3000",

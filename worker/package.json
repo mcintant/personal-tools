@@ -6,9 +6,12 @@
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
     "db:create": "wrangler d1 create kobo-db",
-    "db:migrate": "wrangler d1 execute kobo-db --remote --file=./schema.sql"
+    "db:migrate": "wrangler d1 execute kobo-db --remote --file=./schema.sql",
+    "db:migrate:local": "wrangler d1 execute kobo-db --local --file=./schema.sql",
+    "db:migrate:songs": "wrangler d1 execute custom-songs --remote --file=./schema-custom-songs.sql",
+    "db:migrate:songs:local": "wrangler d1 execute custom-songs --local --file=./schema-custom-songs.sql"
   },
   "devDependencies": {
-    "wrangler": "^3.91.0"
+    "wrangler": "^4.71.0"
   }
 }

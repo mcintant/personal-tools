@@ -29,6 +29,19 @@
   border-radius: 8px;
 }
 
+.jazz-add-custom {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #e8f5e9;
+  border-radius: 8px;
+  border: 1px solid #c8e6c9;
+}
+.jazz-add-custom h3 { margin: 0 0 10px 0; font-size: 1rem; }
+.jazz-add-error { color: #c62828; font-size: 0.9rem; margin: 0 0 8px 0; }
+.jazz-add-form { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.jazz-add-name { min-width: 180px; }
+.jazz-add-frequency { min-width: 200px; }
+
 .filter-group {
   display: flex;
   flex-direction: column;

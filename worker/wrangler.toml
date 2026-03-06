@@ -9,3 +9,9 @@ compatibility_date = "2024-12-01"
 binding = "DB"
 database_name = "kobo-db"
 database_id = "3951c97b-b2aa-4c43-9c9a-606c30cc7ba5"
+
+# Custom songs for Jazz Standards. Create with: wrangler d1 create custom-songs
+[[d1_databases]]
+binding = "CUSTOM_SONGS"
+database_name = "custom-songs"
+database_id = "4731aa5e-69a5-4706-817e-b0dbd238cbd3"

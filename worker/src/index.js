@@ -3,11 +3,14 @@
  * - GET /api/uploads → list uploads (id, name, created_at)
  * - GET /api/uploads/:id → get one upload's content (CSV text)
  * - POST /api/uploads → body = CSV text, optional header X-Upload-Name or ?name=… → returns { id }
+ * - GET /api/custom-songs → list custom songs (id, name, frequency, created_at)
+ * - POST /api/custom-songs → body JSON { name, frequency } → returns { id }
  */
+const CUSTOM_SONG_FREQUENCIES = ['must-know', 'important-bass', 'everyone-plays', 'called-often', 'obscure'];
 
 const CORS = {
   'Access-Control-Allow-Origin': '*',
-  'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
+  'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS',
   'Access-Control-Allow-Headers': 'Content-Type, X-Upload-Name',
   'Access-Control-Max-Age': '86400',
 };
@@ -77,9 +80,55 @@ export default {
         return json({ id, name }, 201);
       }
 
+      // GET /api/custom-songs → list
+      if (path === '/api/custom-songs' && request.method === 'GET') {
+        if (!env.CUSTOM_SONGS) return json({ songs: [] });
+        try {
+          const { results } = await env.CUSTOM_SONGS.prepare(
+            'SELECT id, name, frequency, created_at FROM custom_songs ORDER BY name ASC'
+          ).all();
+          return json({ songs: results || [] });
+        } catch (e) {
+          return json({ error: 'D1 list failed: ' + (e && e.message) }, 500);
+        }
+      }
+
+      // POST /api/custom-songs → create
+      if (path === '/api/custom-songs' && request.method === 'POST') {
+        if (!env.CUSTOM_SONGS) return json({ error: 'Custom songs DB not configured' }, 503);
+        let body;
+        try {
+          body = await request.json();
+        } catch (e) {
+          console.error('POST /api/custom-songs json parse:', e);
+          return json({ error: 'Invalid JSON' }, 400);
+        }
+        if (body == null || typeof body !== 'object') {
+          return json({ error: 'Body must be a JSON object' }, 400);
+        }
+        const name = typeof body.name === 'string' ? body.name.trim() : '';
+        const frequency = body.frequency && CUSTOM_SONG_FREQUENCIES.includes(body.frequency) ? body.frequency : 'called-often';
+        if (!name) return json({ error: 'name is required' }, 400);
+        try {
+          const result = await env.CUSTOM_SONGS.prepare(
+            'INSERT INTO custom_songs (name, frequency) VALUES (?, ?)'
+          )
+            .bind(name, frequency)
+            .run();
+          const id = result.meta.last_row_id;
+          return json({ id, name, frequency }, 201);
+        } catch (e) {
+          const msg = e && (e.message || String(e));
+          console.error('POST /api/custom-songs D1 insert:', e);
+          return json({ error: 'D1 insert failed: ' + msg }, 500);
+        }
+      }
+
       return json({ error: 'Not found' }, 404);
     } catch (err) {
-      return json({ error: err.message || 'Internal error' }, 500);
+      const msg = err && (err.message || String(err));
+      console.error('Worker error:', err);
+      return json({ error: msg || 'Internal error' }, 500);
     }
   },
 };
