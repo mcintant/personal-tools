@@ -1,0 +1,14 @@
+{
+  "name": "kobo-worker",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:create": "wrangler d1 create kobo-db",
+    "db:migrate": "wrangler d1 execute kobo-db --remote --file=./schema.sql"
+  },
+  "devDependencies": {
+    "wrangler": "^3.91.0"
+  }
+}

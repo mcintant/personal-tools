@@ -1,0 +1,11 @@
+# Cloudflare Worker + D1 for kobo app
+name = "kobo-api"
+main = "src/index.js"
+compatibility_date = "2024-12-01"
+
+# Replace this database_id with the one from: wrangler d1 create kobo-db
+# (or from Cloudflare dashboard → D1 → kobo-db)
+[[d1_databases]]
+binding = "DB"
+database_name = "kobo-db"
+database_id = "3951c97b-b2aa-4c43-9c9a-606c30cc7ba5"
